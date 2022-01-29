@@ -645,6 +645,11 @@
                 "key": "jumpingSupa"
             },
             {
+                "url": "assets/environment/level0.png",
+                "type": "image",
+                "key": "level0"
+            },
+            {
                 "url": "assets/images/lifeBar.png",
                 "type": "image",
                 "key": "lifeBar"
@@ -1279,6 +1284,7 @@
         "app": "Phaser Editor 2D - Asset Pack Editor",
         "contentType": "phasereditor2d.pack.core.AssetContentType",
         "url": "https://phasereditor2d.com",
-        "version": 2
+        "version": 2,
+        "showAllFilesInBlocks": false
     }
 }

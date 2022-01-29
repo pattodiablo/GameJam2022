@@ -13,82 +13,28 @@
     },
     "displayList": [
         {
-            "prefabId": "98617903-7395-4e97-bcd4-2600c23cbefd",
-            "id": "c7cc0a40-b38f-43d9-ac11-ddff3710e347",
-            "unlock": [
-                "scaleX",
-                "scaleY",
-                "gotoLevelName",
-                "x",
-                "y",
-                "showScore"
-            ],
-            "label": "gotoLevelWall",
-            "gotoLevelName": "NewLevel0A",
-            "showScore": false,
-            "components": [],
-            "x": 1627,
-            "y": 462,
-            "scaleY": 10
-        },
-        {
             "type": "TilemapLayer",
-            "id": "67a0d4c1-6645-4d40-b01b-09a1ec632ce0",
-            "label": "nocollide2_1",
-            "components": [],
-            "tilemapId": "a7f712c9-c796-4cba-b0e3-9ec7f8f27155",
-            "layerName": "nocollide2",
-            "tilesets": [
-                "new_ciudad_tiles"
-            ]
-        },
-        {
-            "type": "TilemapLayer",
-            "id": "7ead72f9-e3e8-4d0e-acd6-8b0e29f24fd8",
-            "label": "nocollide",
-            "components": [],
-            "tilemapId": "a7f712c9-c796-4cba-b0e3-9ec7f8f27155",
-            "layerName": "nocollide",
-            "tilesets": [
-                "new_ciudad_tiles"
-            ]
-        },
-        {
-            "type": "TilemapLayer",
-            "id": "a4c6ee38-f3e9-4ad7-9404-49ea7c8528df",
+            "id": "8c251bfb-8bf8-4cff-adc2-508215b27d9a",
             "label": "layer",
             "scope": "CLASS",
             "components": [],
-            "tilemapId": "a7f712c9-c796-4cba-b0e3-9ec7f8f27155",
+            "tilemapId": "615ce41e-ce87-4c3e-843d-b208159ce5a4",
             "layerName": "collide",
             "tilesets": [
-                "new_ciudad_tiles"
+                "level0"
             ]
-        },
-        {
-            "prefabId": "2bdd30b0-e379-4943-9d6b-ed6cb2ba5b0a",
-            "id": "d2800736-9db9-492e-85d2-5b568e6c820d",
-            "unlock": [
-                "x",
-                "y"
-            ],
-            "label": "player",
-            "scope": "CLASS",
-            "components": [],
-            "x": 87,
-            "y": 459
         }
     ],
     "plainObjects": [
         {
-            "id": "a7f712c9-c796-4cba-b0e3-9ec7f8f27155",
+            "id": "615ce41e-ce87-4c3e-843d-b208159ce5a4",
             "type": "Tilemap",
             "label": "mapa",
             "key": "new_level0",
             "tilesets": [
                 {
-                    "name": "new_ciudad_tiles",
-                    "imageKey": "new_ciudad_tiles"
+                    "name": "level0",
+                    "imageKey": "level0"
                 }
             ]
         }
@@ -97,7 +43,7 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 2
+        "version": 3
     },
     "lists": [
         {

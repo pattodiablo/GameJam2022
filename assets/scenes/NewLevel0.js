@@ -18,46 +18,22 @@ class NewLevel0 extends BaseScene {
 
 		// mapa
 		const mapa = this.add.tilemap("new_level0");
-		mapa.addTilesetImage("new_ciudad_tiles", "new_ciudad_tiles");
-
-		// gotoLevelWall
-		const gotoLevelWall = new GotoLevelWall(this, 1627, 462);
-		this.add.existing(gotoLevelWall);
-		gotoLevelWall.scaleY = 10;
-		gotoLevelWall.tintTopLeft = 16535632;
-		gotoLevelWall.tintTopRight = 16479605;
-		gotoLevelWall.tintBottomLeft = 10683396;
-		gotoLevelWall.tintBottomRight = 16257554;
-
-		// nocollide2_1
-		mapa.createLayer("nocollide2", ["new_ciudad_tiles"], 0, 0);
-
-		// nocollide
-		mapa.createLayer("nocollide", ["new_ciudad_tiles"], 0, 0);
+		mapa.addTilesetImage("level0", "level0");
 
 		// layer
-		const layer = mapa.createLayer("collide", ["new_ciudad_tiles"], 0, 0);
-
-		// player
-		const player = new Player(this, 87, 459);
-		this.add.existing(player);
+		const layer = mapa.createLayer("collide", ["level0"], 0, 0);
 
 		// lists
-		const doors = []
-		const switches = []
-		const enemies = []
-		const platforms = []
-		const coins = []
-		const catapultas = []
-		const revivingPods = []
-		const tutorials = []
-
-		// gotoLevelWall (prefab fields)
-		gotoLevelWall.gotoLevelName = "NewLevel0A";
-		gotoLevelWall.showScore = false;
+		const doors = [];
+		const switches = [];
+		const enemies = [];
+		const platforms = [];
+		const coins = [];
+		const catapultas = [];
+		const revivingPods = [];
+		const tutorials = [];
 
 		this.layer = layer;
-		this.player = player;
 		this.mapa = mapa;
 		this.doors = doors;
 		this.switches = switches;
@@ -73,8 +49,6 @@ class NewLevel0 extends BaseScene {
 
 	/** @type {Phaser.Tilemaps.TilemapLayer} */
 	layer;
-	/** @type {Player} */
-	player;
 	/** @type {Array<any>} */
 	doors;
 	/** @type {Array<any>} */
