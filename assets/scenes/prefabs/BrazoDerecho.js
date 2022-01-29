@@ -34,7 +34,7 @@ class BrazoDerecho extends Phaser.GameObjects.Sprite {
 
 		update(){
 
-			console.log(this.scene.input.x)
+		
 
 			if(this.scene.player.flipX){
 				this.visible=false;
