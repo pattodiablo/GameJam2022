@@ -22,20 +22,19 @@
             "PhysicsBody.bodyX": 6,
             "PhysicsBody.bodyY": 5,
             "PhysicsBody.bodyWidth": 25,
-            "PhysicsBody.bodyHeight": 25,
-            "StartAnimation.animationKey": "supa/idle",
+            "PhysicsBody.bodyHeight": 100,
+            "StartAnimation.animationKey": "idlePlayer",
             "texture": {
-                "key": "newSupaAnimations",
-                "frame": "camina_animation instance 10006"
-            },
-            "x": 78,
-            "y": 37
+                "key": "playerAnimations",
+                "frame": "idle instancia 10000"
+            }
         }
     ],
     "plainObjects": [],
     "meta": {
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
-        "contentType": "phasereditor2d.core.scene.SceneContentType"
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
     }
 }

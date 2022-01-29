@@ -28,6 +28,11 @@
                 "key": "Arrow"
             },
             {
+                "url": "assets/images/background.png",
+                "type": "image",
+                "key": "background"
+            },
+            {
                 "url": "assets/images/black.png",
                 "type": "image",
                 "key": "black"
@@ -645,6 +650,11 @@
                 "key": "jumpingSupa"
             },
             {
+                "url": "assets/environment/level0.png",
+                "type": "image",
+                "key": "level0"
+            },
+            {
                 "url": "assets/images/lifeBar.png",
                 "type": "image",
                 "key": "lifeBar"
@@ -830,6 +840,17 @@
                 "url": "assets/scenes/prefabs/Player.js",
                 "type": "script",
                 "key": "Player"
+            },
+            {
+                "url": "assets/PlayerAnimation.json",
+                "type": "animation",
+                "key": "PlayerAnimation"
+            },
+            {
+                "atlasURL": "assets/atlas/playerAnimations.json",
+                "textureURL": "assets/atlas/playerAnimations.png",
+                "type": "atlas",
+                "key": "playerAnimations"
             },
             {
                 "url": [
@@ -1279,6 +1300,7 @@
         "app": "Phaser Editor 2D - Asset Pack Editor",
         "contentType": "phasereditor2d.pack.core.AssetContentType",
         "url": "https://phasereditor2d.com",
-        "version": 2
+        "version": 2,
+        "showAllFilesInBlocks": false
     }
 }

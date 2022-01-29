@@ -81,6 +81,23 @@ class BaseScene extends Phaser.Scene {
 			this.bgLevel1.setScale(this.bgratio);
 		}
 
+
+		if(this.tilespriteBG !== undefined){
+		
+			this.tilespriteBG.width= this.layer.width;
+			this.tilespriteBG.height=471;
+
+			if(this.scene.key=="NewLevel0"){
+		
+				this.tilespriteBG.x=0
+				this.tilespriteBG.y=this.layer.height-743;
+			}else{
+				this.tilespriteBG.y=this.player.y+100;
+			}
+		
+			
+		}
+		
 		
 		//MUSIC
 		this.superbravo_gameplay_chip01 = this.sound.add('superbravo_gameplay_chip01');
@@ -504,11 +521,6 @@ class BaseScene extends Phaser.Scene {
 
 	
 
-		const energyPanel = new EnergyPanel(this, 160, this.layer.height);
-		this.add.existing(energyPanel);
-		new FixedToCamera(energyPanel);
-		energyPanel.emit("components-awake");
-		this.energyPanel = energyPanel;
 
 		// coinDisplay
 		const coinDisplay = this.add.sprite(40, 32, "coinDisplay");
@@ -823,7 +835,7 @@ class BaseScene extends Phaser.Scene {
 			onComplete: function () {
 
 			
-				this.player.entryAnimation();
+	
 
 				
 				}

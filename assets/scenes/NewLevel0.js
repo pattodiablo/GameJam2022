@@ -18,44 +18,36 @@ class NewLevel0 extends BaseScene {
 
 		// mapa
 		const mapa = this.add.tilemap("new_level0");
-		mapa.addTilesetImage("new_ciudad_tiles", "new_ciudad_tiles");
+		mapa.addTilesetImage("level0", "level0");
 
-		// gotoLevelWall
-		const gotoLevelWall = new GotoLevelWall(this, 1627, 462);
-		this.add.existing(gotoLevelWall);
-		gotoLevelWall.scaleY = 10;
-		gotoLevelWall.tintTopLeft = 16535632;
-		gotoLevelWall.tintTopRight = 16479605;
-		gotoLevelWall.tintBottomLeft = 10683396;
-		gotoLevelWall.tintBottomRight = 16257554;
-
-		// nocollide2_1
-		mapa.createLayer("nocollide2", ["new_ciudad_tiles"], 0, 0);
+		// tilespriteBG
+		const tilespriteBG = this.add.tileSprite(0, 0, 64, 64, "background");
+		tilespriteBG.setOrigin(0, 0);
 
 		// nocollide
-		mapa.createLayer("nocollide", ["new_ciudad_tiles"], 0, 0);
+		mapa.createLayer("nocollide", [], 0, 0);
+
+		// nocollide2
+		mapa.createLayer("nocollide2", ["level0"], 0, 0);
 
 		// layer
-		const layer = mapa.createLayer("collide", ["new_ciudad_tiles"], 0, 0);
+		const layer = mapa.createLayer("collide", ["level0"], 0, 0);
 
 		// player
-		const player = new Player(this, 87, 459);
+		const player = new Player(this, 231, 1406);
 		this.add.existing(player);
 
 		// lists
-		const doors = []
-		const switches = []
-		const enemies = []
-		const platforms = []
-		const coins = []
-		const catapultas = []
-		const revivingPods = []
-		const tutorials = []
+		const doors = [];
+		const switches = [];
+		const enemies = [];
+		const platforms = [];
+		const coins = [];
+		const catapultas = [];
+		const revivingPods = [];
+		const tutorials = [];
 
-		// gotoLevelWall (prefab fields)
-		gotoLevelWall.gotoLevelName = "NewLevel0A";
-		gotoLevelWall.showScore = false;
-
+		this.tilespriteBG = tilespriteBG;
 		this.layer = layer;
 		this.player = player;
 		this.mapa = mapa;
@@ -71,6 +63,8 @@ class NewLevel0 extends BaseScene {
 		this.events.emit("scene-awake");
 	}
 
+	/** @type {Phaser.GameObjects.TileSprite} */
+	tilespriteBG;
 	/** @type {Phaser.Tilemaps.TilemapLayer} */
 	layer;
 	/** @type {Player} */
