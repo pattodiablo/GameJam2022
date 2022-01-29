@@ -81,6 +81,23 @@ class BaseScene extends Phaser.Scene {
 			this.bgLevel1.setScale(this.bgratio);
 		}
 
+
+		if(this.tilespriteBG !== undefined){
+		
+			this.tilespriteBG.width= this.layer.width;
+			this.tilespriteBG.height=this.layer.height;
+
+			if(this.scene.key=="NewLevel0" ){
+		
+				this.tilespriteBG.x=0
+				this.tilespriteBG.y=20;
+			}else{
+				this.tilespriteBG.y=this.player.y+100;
+			}
+		
+			
+		}
+		
 		
 		//MUSIC
 		this.superbravo_gameplay_chip01 = this.sound.add('superbravo_gameplay_chip01');

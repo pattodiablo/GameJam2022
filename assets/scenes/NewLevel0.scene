@@ -13,18 +13,18 @@
     },
     "displayList": [
         {
-            "type": "Image",
-            "id": "9885f178-add7-447e-a420-fd7f399c30da",
-            "label": "background",
+            "type": "TileSprite",
+            "id": "30c9a26e-0483-48de-a45c-9e1d9ea19e39",
+            "label": "tilespriteBG",
             "scope": "CLASS",
-            "components": [
-                "FixedToCamera"
-            ],
+            "components": [],
             "texture": {
                 "key": "background"
             },
             "originX": 0,
-            "originY": 0
+            "originY": 0,
+            "width": 64,
+            "height": 64
         },
         {
             "type": "TilemapLayer",
@@ -70,8 +70,8 @@
             "label": "player",
             "scope": "CLASS",
             "components": [],
-            "x": 87,
-            "y": 459
+            "x": 231,
+            "y": 1406
         }
     ],
     "plainObjects": [
