@@ -84,6 +84,18 @@
             "components": [],
             "x": 198,
             "y": 1370
+        },
+        {
+            "prefabId": "cdd007db-866d-4fbd-bd97-b69248587a1d",
+            "id": "cb14b75e-c3c7-4a52-8d87-157c7171172a",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemyStar",
+            "components": [],
+            "x": 636,
+            "y": 1344
         }
     ],
     "plainObjects": [

@@ -34,7 +34,7 @@ class Player extends Phaser.GameObjects.Sprite {
 			down:Phaser.Input.Keyboard.KeyCodes.S,
 			left:Phaser.Input.Keyboard.KeyCodes.A,
 			right:Phaser.Input.Keyboard.KeyCodes.D});
-		
+
 	}
 
 	updatePlayer(){

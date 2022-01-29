@@ -41,6 +41,10 @@ class NewLevel0 extends BaseScene {
 		const brazoderecho = new BrazoDerecho(this, 198, 1370);
 		this.add.existing(brazoderecho);
 
+		// enemyStar
+		const enemyStar = new EnemyStar(this, 636, 1344);
+		this.add.existing(enemyStar);
+
 		// lists
 		const doors = []
 		const switches = []
