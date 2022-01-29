@@ -37,6 +37,10 @@ class NewLevel0 extends BaseScene {
 		const player = new Player(this, 206, 1407);
 		this.add.existing(player);
 
+		// brazoderecho
+		const brazoderecho = new BrazoDerecho(this, 198, 1370);
+		this.add.existing(brazoderecho);
+
 		// lists
 		const doors = []
 		const switches = []

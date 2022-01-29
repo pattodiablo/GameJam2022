@@ -72,6 +72,18 @@
             "components": [],
             "x": 206,
             "y": 1407
+        },
+        {
+            "prefabId": "0776961a-f2af-4d1c-bed8-a44a35d0d8cc",
+            "id": "fd4947c4-f1fa-41fc-8bf6-22aa3534e6e7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "brazoderecho",
+            "components": [],
+            "x": 198,
+            "y": 1370
         }
     ],
     "plainObjects": [

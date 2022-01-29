@@ -160,6 +160,13 @@
                 "key": "brazoderecho"
             },
             {
+                "url": [
+                    "assets/scenes/prefabs/BrazoDerecho.js"
+                ],
+                "type": "scripts",
+                "key": "BrazoDerecho"
+            },
+            {
                 "url": "assets/images/brazoizquierdo.png",
                 "type": "image",
                 "key": "brazoizquierdo"
