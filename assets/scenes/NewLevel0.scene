@@ -61,8 +61,8 @@
             ]
         },
         {
-            "prefabId": "2bdd30b0-e379-4943-9d6b-ed6cb2ba5b0a",
-            "id": "d2800736-9db9-492e-85d2-5b568e6c820d",
+            "prefabId": "b3cab0a0-a053-40a7-b9ef-95c9e2185fb1",
+            "id": "ca802f58-eb79-4fc2-b79a-77cb1658f4c2",
             "unlock": [
                 "x",
                 "y"
@@ -70,8 +70,8 @@
             "label": "player",
             "scope": "CLASS",
             "components": [],
-            "x": 231,
-            "y": 1406
+            "x": 206,
+            "y": 1407
         }
     ],
     "plainObjects": [
@@ -92,7 +92,7 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 3
+        "version": 2
     },
     "lists": [
         {

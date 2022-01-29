@@ -1,27 +1,25 @@
 {
-    "id": "2bdd30b0-e379-4943-9d6b-ed6cb2ba5b0a",
+    "id": "b3cab0a0-a053-40a7-b9ef-95c9e2185fb1",
     "sceneType": "PREFAB",
     "settings": {
         "preloadMethodName": "",
         "preloadPackFiles": [],
         "createMethodName": "",
-        "borderWidth": 288,
-        "borderHeight": 192
+        "borderWidth": 320,
+        "borderHeight": 480
     },
     "displayList": [
         {
             "type": "Sprite",
-            "id": "7510685d-e1b6-4e60-9ac0-d57acec2b000",
-            "label": "player_climb_player_climb_1",
+            "id": "4189e1a6-7e52-4502-ad45-cb766df6aacd",
+            "label": "PlayerBody",
             "components": [
                 "Physics",
                 "PhysicsBody",
                 "StartAnimation"
             ],
             "Physics.bodyGravity": 500,
-            "PhysicsBody.bodyX": 6,
-            "PhysicsBody.bodyY": 5,
-            "PhysicsBody.bodyWidth": 25,
+            "PhysicsBody.bodyWidth": 100,
             "PhysicsBody.bodyHeight": 100,
             "StartAnimation.animationKey": "idlePlayer",
             "texture": {

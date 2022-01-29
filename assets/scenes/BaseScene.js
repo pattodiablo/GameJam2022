@@ -68,7 +68,7 @@ class BaseScene extends Phaser.Scene {
 		this.createCoins();
 		this.createEmptyWalls();
 		this.createAcidWalls();
-		this.createPlayerBullets();
+	
 		this.initTutorials();
 
 		this.mainDoorActive = true;
@@ -821,7 +821,7 @@ class BaseScene extends Phaser.Scene {
 			yoyo:true,
 			callbackScope: this,
 			onComplete: function () {
-				this.player.body.enable=false;
+			//	this.player.body.enable=false;
 			}
 		});
 
@@ -865,19 +865,7 @@ class BaseScene extends Phaser.Scene {
 
 	}
 
-	createPlayerBullets(){
 
-		for(var i=0; i<10; i++){
-
-			const playerBullet = new PlayerBullet(this, this.player.x, this.player.y);
-			this.add.existing(playerBullet);
-			playerBullet.isActive=false;
-			this.playerBullets.push(playerBullet);
-
-		}
-		
-
-	}
 	iniciarMusica(){
 		songLoader.start()
 
@@ -1025,8 +1013,6 @@ class BaseScene extends Phaser.Scene {
 		this.physics.add.collider(this.player, this.layer, this.layerCollidingCallback, null, this);
 	
 		this.physics.add.collider(this.enemies, this.layer);	
-
-		this.physics.add.collider(this.player, this.platforms, this.onPlatform);
 		
 		this.physics.add.collider(this.playerBullets, this.enemies, this.hitEnemy);	
 		this.physics.add.collider(this.enemies, this.platforms);	

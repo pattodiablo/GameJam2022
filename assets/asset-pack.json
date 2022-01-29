@@ -155,6 +155,16 @@
                 "key": "bossguard_shot02"
             },
             {
+                "url": "assets/images/brazoderecho.png",
+                "type": "image",
+                "key": "brazoderecho"
+            },
+            {
+                "url": "assets/images/brazoizquierdo.png",
+                "type": "image",
+                "key": "brazoizquierdo"
+            },
+            {
                 "url": [
                     "assets/scenes/prefabs/CannonRoll.js"
                 ],
@@ -837,8 +847,10 @@
                 "key": "playBtn"
             },
             {
-                "url": "assets/scenes/prefabs/Player.js",
-                "type": "script",
+                "url": [
+                    "assets/scenes/Player.js"
+                ],
+                "type": "scripts",
                 "key": "Player"
             },
             {
