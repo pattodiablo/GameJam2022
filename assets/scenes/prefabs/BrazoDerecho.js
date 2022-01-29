@@ -19,6 +19,7 @@ class BrazoDerecho extends Phaser.GameObjects.Sprite {
 	/* START-USER-CODE */
 
 		create(){
+
 			this.x=this.scene.player.x;
 			this.y=this.scene.player.y-10;
 
@@ -27,6 +28,11 @@ class BrazoDerecho extends Phaser.GameObjects.Sprite {
 			this.brazoIzquierdo.scaleX=-1;
 			this.brazoIzquierdo.visible=false;
 
+			this.scene.input.on('pointerdown', function (pointer) {
+
+				
+		
+			}, this);
 			
 
 		}
@@ -34,14 +40,18 @@ class BrazoDerecho extends Phaser.GameObjects.Sprite {
 
 		update(){
 
-			console.log(this.scene.input.x)
+		
+			this.mouseAngle = Phaser.Math.Angle.Between(this.x, this.y, this.scene.input.x+ this.scene.cameras.main.scrollX, this.scene.input.y + this.scene.cameras.main.scrollY)
+		
 
 			if(this.scene.player.flipX){
 				this.visible=false;
+				this.brazoIzquierdo.rotation=this.mouseAngle+Math.PI;
 				this.brazoIzquierdo.visible=true;
 			}else{
 				this.visible=true;
 				this.brazoIzquierdo.visible=false;
+				this.rotation=this.mouseAngle;
 			}
 			this.x=this.scene.player.x;
 			this.y=this.scene.player.y-30;

@@ -172,6 +172,11 @@
                 "key": "brazoizquierdo"
             },
             {
+                "url": "assets/images/bullet.png",
+                "type": "image",
+                "key": "bullet"
+            },
+            {
                 "url": [
                     "assets/scenes/prefabs/CannonRoll.js"
                 ],
