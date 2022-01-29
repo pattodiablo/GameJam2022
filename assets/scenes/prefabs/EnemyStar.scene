@@ -13,7 +13,9 @@
             "type": "Sprite",
             "id": "fdc5cbfc-56c7-4780-b759-70153baabd4f",
             "label": "enemy1",
-            "components": [],
+            "components": [
+                "Physics"
+            ],
             "texture": {
                 "key": "enemy1"
             }
