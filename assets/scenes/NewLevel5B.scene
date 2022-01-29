@@ -1,0 +1,551 @@
+{
+    "id": "71230019-bad3-4e58-864d-acc4d148ca0b",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 40,
+        "snapHeight": 37,
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "NewLevel5B",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "e05adcec-99a8-4767-a1cd-db11aa0338e9",
+            "label": "tech_lab2",
+            "components": [
+                "FixedToCamera"
+            ],
+            "texture": {
+                "key": "tech_lab2"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "5fe7a3e9-c867-4e07-90cf-cc6ef247496c",
+            "label": "nocollide_1",
+            "components": [],
+            "tilemapId": "e813a74d-4267-4b60-8382-4aded5acab48",
+            "layerName": "nocollide",
+            "tilesets": [
+                "Laboratorio_tiles"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "7d6127f1-3911-49ed-bd33-f145dbd5bf39",
+            "label": "nocollideFx",
+            "components": [],
+            "tilemapId": "e813a74d-4267-4b60-8382-4aded5acab48",
+            "layerName": "nocollideFx",
+            "tilesets": [
+                "Laboratorio_tiles"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "34a768f6-c024-4b0f-8b2e-c610e384507a",
+            "label": "layer",
+            "scope": "CLASS",
+            "components": [],
+            "tilemapId": "e813a74d-4267-4b60-8382-4aded5acab48",
+            "layerName": "collide",
+            "tilesets": [
+                "Laboratorio_tiles"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "868b6c38-a036-4835-983b-3d37081666bc",
+            "label": "collideFx_1",
+            "components": [],
+            "tilemapId": "31188d14-e560-4386-abf1-e8e4fe199c30",
+            "layerName": "collideFx",
+            "tilesets": [
+                "Laboratorio_tiles"
+            ]
+        },
+        {
+            "prefabId": "2bdd30b0-e379-4943-9d6b-ed6cb2ba5b0a",
+            "id": "d2800736-9db9-492e-85d2-5b568e6c820d",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "components": [],
+            "x": 1538,
+            "y": 308
+        },
+        {
+            "prefabId": "d983bda3-3906-4cca-89ee-13f2180c8940",
+            "id": "1289299e-d5b0-4602-8431-0dee9649bceb",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "smallDoor",
+            "components": [],
+            "x": 206,
+            "y": 1121,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "757564b1-48e3-4c4f-9257-3a1d5bd5505d",
+            "id": "5f4106eb-29fc-48c3-8bd8-d7594a669fe6",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "switchPanel",
+            "components": [],
+            "x": 719,
+            "y": 898
+        },
+        {
+            "prefabId": "0b6a9364-c0e7-4115-8dc4-c0a13d50343a",
+            "id": "2e785ec6-188c-4d79-8660-a84b717ab0de",
+            "unlock": [
+                "x",
+                "y",
+                "tollCost"
+            ],
+            "label": "toll",
+            "tollCost": 120,
+            "components": [],
+            "x": 697,
+            "y": 592
+        },
+        {
+            "prefabId": "0f8a81a2-5a4b-4383-b9f0-cf2ce6a24410",
+            "id": "9c64a1f4-c496-4f51-87ed-e479602139a4",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "angrySpin",
+            "components": [],
+            "x": 744,
+            "y": 351
+        },
+        {
+            "prefabId": "7013c41a-a194-4bae-aca0-15e7eb0f552b",
+            "id": "7c23dfa4-f61a-430c-81da-973c6e3e6403",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "proxySpyke",
+            "components": [],
+            "x": 206,
+            "y": 491
+        },
+        {
+            "prefabId": "7013c41a-a194-4bae-aca0-15e7eb0f552b",
+            "id": "8d0e0cb5-36c4-42a6-84cc-eb82aff45fda",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "proxySpyke_1",
+            "components": [],
+            "x": 368,
+            "y": 491
+        },
+        {
+            "prefabId": "7013c41a-a194-4bae-aca0-15e7eb0f552b",
+            "id": "17afbe7c-ee1b-42a2-8724-3062f9fdaeff",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "proxySpyke_2",
+            "components": [],
+            "x": 496,
+            "y": 492
+        },
+        {
+            "prefabId": "90b200d8-00c8-4e64-841c-42791d7bc769",
+            "id": "ce420826-5ab1-453c-a3c2-328ee27f44db",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sampoShooter",
+            "components": [],
+            "x": 956,
+            "y": 590
+        },
+        {
+            "prefabId": "90b200d8-00c8-4e64-841c-42791d7bc769",
+            "id": "73021021-269a-4d9d-bb64-a82a2c7b3947",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sampoShooter_1",
+            "components": [],
+            "x": 1364,
+            "y": 590
+        },
+        {
+            "prefabId": "dae0c595-f7aa-48e4-92ff-be93ff062d2a",
+            "id": "488e18b6-370e-41b1-bd5b-159317f27715",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "blobber",
+            "components": [],
+            "x": 967,
+            "y": 656
+        },
+        {
+            "prefabId": "dae0c595-f7aa-48e4-92ff-be93ff062d2a",
+            "id": "54126972-0273-4bb3-8dda-0cce5c129962",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "blobber_1",
+            "components": [],
+            "x": 457,
+            "y": 657
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "d5a2c1a6-961a-4049-8f29-a0a68775e434",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone",
+            "components": [],
+            "x": 646,
+            "y": 1003
+        },
+        {
+            "prefabId": "90b200d8-00c8-4e64-841c-42791d7bc769",
+            "id": "b717aad7-48da-4842-94e0-6417ba8e243b",
+            "unlock": [
+                "x",
+                "y",
+                "RevivingPodID"
+            ],
+            "label": "sampoShooter_2",
+            "RevivingPodID": "pod2",
+            "components": [],
+            "x": 212,
+            "y": 1290
+        },
+        {
+            "prefabId": "90b200d8-00c8-4e64-841c-42791d7bc769",
+            "id": "75c7a6af-e8b7-4d6b-b154-c1339a84c7e4",
+            "unlock": [
+                "x",
+                "y",
+                "RevivingPodID"
+            ],
+            "label": "sampoShooter_3",
+            "RevivingPodID": "pod2",
+            "components": [],
+            "x": 573,
+            "y": 1292
+        },
+        {
+            "prefabId": "90b200d8-00c8-4e64-841c-42791d7bc769",
+            "id": "daf7fcea-cf95-43ba-b5a0-3081750a789d",
+            "unlock": [
+                "x",
+                "y",
+                "RevivingPodID"
+            ],
+            "label": "sampoShooter_4",
+            "RevivingPodID": "pod2",
+            "components": [],
+            "x": 1153,
+            "y": 1291
+        },
+        {
+            "prefabId": "e1306e17-6229-485c-81c5-fb8fe209c8da",
+            "id": "3a324619-eef5-436d-ae79-5c79dd7dd0f5",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "heart",
+            "components": [],
+            "x": 1483,
+            "y": 1257
+        },
+        {
+            "prefabId": "e1306e17-6229-485c-81c5-fb8fe209c8da",
+            "id": "2de9b872-3402-40fc-bf2d-3a7d9d87ae76",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "heart_1",
+            "components": [],
+            "x": 1486,
+            "y": 1052
+        },
+        {
+            "prefabId": "e1306e17-6229-485c-81c5-fb8fe209c8da",
+            "id": "46403cc7-b2e0-4cbe-bb72-bfeeeb4dba61",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "heart_2",
+            "components": [],
+            "x": 1476,
+            "y": 807
+        },
+        {
+            "prefabId": "dae0c595-f7aa-48e4-92ff-be93ff062d2a",
+            "id": "fd842435-b600-4795-8707-519a19ca980f",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "blobber_2",
+            "components": [],
+            "x": 1168,
+            "y": 433
+        },
+        {
+            "prefabId": "e1306e17-6229-485c-81c5-fb8fe209c8da",
+            "id": "f5fa3b64-6aac-4105-b3b9-e7f33bad3c49",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "heart_3",
+            "components": [],
+            "x": 929,
+            "y": 85
+        },
+        {
+            "prefabId": "90b200d8-00c8-4e64-841c-42791d7bc769",
+            "id": "ac5114e7-924a-41cd-bc88-a7ee76aa9df1",
+            "unlock": [
+                "x",
+                "y",
+                "travelDistance",
+                "RevivingPodID"
+            ],
+            "label": "sampoShooter_5",
+            "RevivingPodID": "pod3",
+            "travelDistance": 100,
+            "components": [],
+            "x": 242,
+            "y": 364
+        },
+        {
+            "prefabId": "5aa80ba6-889a-4b80-81df-0d5f4ba5de86",
+            "id": "e0827a10-5ca1-4251-acac-567fa4cdc261",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "misile",
+            "components": [],
+            "x": 1725,
+            "y": 158
+        },
+        {
+            "prefabId": "3305649f-477c-45f5-a110-8182010b02f0",
+            "id": "7f00d3cb-e2a8-4c93-b8e9-24ee25e19e8a",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemyCreator",
+            "components": [],
+            "x": 1290,
+            "y": 250,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "90b200d8-00c8-4e64-841c-42791d7bc769",
+            "id": "7da2960e-0fd9-4152-bcb9-22960d041a0b",
+            "unlock": [
+                "x",
+                "y",
+                "travelDistance",
+                "EnemyID"
+            ],
+            "label": "sampoShooter_6",
+            "EnemyID": 1,
+            "travelDistance": 100,
+            "components": [],
+            "x": 1061,
+            "y": 364
+        },
+        {
+            "prefabId": "3305649f-477c-45f5-a110-8182010b02f0",
+            "id": "9c34ee21-e7d0-4458-be9b-11baf79e06a1",
+            "unlock": [
+                "x",
+                "y",
+                "PodID"
+            ],
+            "label": "enemyCreator_1",
+            "PodID": "pod2",
+            "components": [],
+            "x": 914,
+            "y": 443,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "3305649f-477c-45f5-a110-8182010b02f0",
+            "id": "af6d5f3d-77f1-4c79-af9c-eeace05ee00f",
+            "unlock": [
+                "x",
+                "y",
+                "PodID"
+            ],
+            "label": "enemyCreator_2",
+            "PodID": "pod3",
+            "components": [],
+            "x": 594,
+            "y": 252,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "90b200d8-00c8-4e64-841c-42791d7bc769",
+            "id": "6c9a4960-aa06-4373-b703-9bb7a3a01d89",
+            "unlock": [
+                "x",
+                "y",
+                "RevivingPodID"
+            ],
+            "label": "sampoShooter_5_1",
+            "RevivingPodID": "pod3",
+            "components": [],
+            "x": 404,
+            "y": 589
+        },
+        {
+            "prefabId": "1925181b-f823-418a-823d-bb8741a2e2be",
+            "id": "6d78d8ae-6a00-4b2d-ae85-07d4ea9def1b",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "energyStation",
+            "components": [],
+            "x": 127,
+            "y": 21,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "132851fc-10a4-452c-a832-422ff1f6d7b1",
+            "id": "88202204-44cb-4628-be36-e34cdc175cbc",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sideDoorLocked",
+            "components": [],
+            "x": 786,
+            "y": 532
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "e813a74d-4267-4b60-8382-4aded5acab48",
+            "type": "Tilemap",
+            "label": "mapa",
+            "key": "new_level5B",
+            "tilesets": [
+                {
+                    "name": "Laboratorio_tiles",
+                    "imageKey": "Laboratorio_tiles"
+                }
+            ]
+        },
+        {
+            "id": "31188d14-e560-4386-abf1-e8e4fe199c30",
+            "type": "Tilemap",
+            "label": "new_level5B",
+            "key": "new_level5B",
+            "tilesets": [
+                {
+                    "name": "Laboratorio_tiles",
+                    "imageKey": "Laboratorio_tiles"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "0e080d9c-0b39-4755-a5d5-57ae5501d356",
+            "label": "doors"
+        },
+        {
+            "id": "a5839e13-79a6-473b-b910-924096033370",
+            "label": "switches",
+            "objectIds": [
+                "9a1b8a13-4e2f-4e74-9b76-aacfaf3b136f"
+            ]
+        },
+        {
+            "id": "5b8b5385-7170-4f04-8368-32349b8524e7",
+            "label": "enemies",
+            "objectIds": [
+                "9c64a1f4-c496-4f51-87ed-e479602139a4",
+                "488e18b6-370e-41b1-bd5b-159317f27715",
+                "73021021-269a-4d9d-bb64-a82a2c7b3947",
+                "ce420826-5ab1-453c-a3c2-328ee27f44db",
+                "daf7fcea-cf95-43ba-b5a0-3081750a789d",
+                "75c7a6af-e8b7-4d6b-b154-c1339a84c7e4",
+                "b717aad7-48da-4842-94e0-6417ba8e243b",
+                "d5a2c1a6-961a-4049-8f29-a0a68775e434",
+                "54126972-0273-4bb3-8dda-0cce5c129962",
+                "fd842435-b600-4795-8707-519a19ca980f",
+                "7da2960e-0fd9-4152-bcb9-22960d041a0b",
+                "ac5114e7-924a-41cd-bc88-a7ee76aa9df1",
+                "6c9a4960-aa06-4373-b703-9bb7a3a01d89"
+            ]
+        },
+        {
+            "id": "162e2fe2-38a7-450b-88ec-186b241d78cc",
+            "label": "platforms"
+        },
+        {
+            "id": "9ebda1ea-a3d2-410b-b328-4358561cbdf7",
+            "label": "coins"
+        },
+        {
+            "id": "b383c0e6-a04f-4afa-b7ac-20a74e4cbe4c",
+            "label": "catapultas"
+        },
+        {
+            "id": "c178e26c-494b-4400-b756-424719a97c29",
+            "label": "revivingPods",
+            "objectIds": [
+                "9c34ee21-e7d0-4458-be9b-11baf79e06a1",
+                "7f00d3cb-e2a8-4c93-b8e9-24ee25e19e8a",
+                "af6d5f3d-77f1-4c79-af9c-eeace05ee00f"
+            ]
+        },
+        {
+            "id": "05b55c93-d737-42fc-948f-bc35aa612a87",
+            "label": "tutorials"
+        }
+    ]
+}

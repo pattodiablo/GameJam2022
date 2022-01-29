@@ -1,0 +1,2277 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": [
+                    "assets/scenes/prefabs/AcidTile.js"
+                ],
+                "type": "scripts",
+                "key": "AcidTile"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/ActiveZoneBoss.js"
+                ],
+                "type": "scripts",
+                "key": "ActiveZoneBoss"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/AlertSign.js"
+                ],
+                "type": "scripts",
+                "key": "AlertSign"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/AngrySpin.js"
+                ],
+                "type": "scripts",
+                "key": "AngrySpin"
+            },
+            {
+                "url": "assets/images/arrow.png",
+                "type": "image",
+                "key": "arrow"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Arrow.js"
+                ],
+                "type": "scripts",
+                "key": "Arrow"
+            },
+            {
+                "url": "assets/images/backJetPackStation.png",
+                "type": "image",
+                "key": "backJetPackStation"
+            },
+            {
+                "url": "assets/images/BADEYES.png",
+                "type": "image",
+                "key": "BADEYES"
+            },
+            {
+                "url": "assets/images/bangta.png",
+                "type": "image",
+                "key": "bangta"
+            },
+            {
+                "url": "assets/scenes/prefabs/Bangta.js",
+                "type": "script",
+                "key": "Bangta"
+            },
+            {
+                "url": "assets/images/basura.png",
+                "type": "image",
+                "key": "basura"
+            },
+            {
+                "url": "assets/images/bgLevel1.png",
+                "type": "image",
+                "key": "bgLevel1"
+            },
+            {
+                "url": "assets/images/bigWindow.png",
+                "type": "image",
+                "key": "bigWindow"
+            },
+            {
+                "url": "assets/images/bite.png",
+                "type": "image",
+                "key": "bite"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/BiteBtn.js"
+                ],
+                "type": "scripts",
+                "key": "BiteBtn"
+            },
+            {
+                "url": "assets/images/black.png",
+                "type": "image",
+                "key": "black"
+            },
+            {
+                "atlasURL": "assets/atlas/Blobber.json",
+                "textureURL": "assets/atlas/Blobber.png",
+                "type": "atlas",
+                "key": "Blobber"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Blobber.js"
+                ],
+                "type": "scripts",
+                "key": "Blobber_1"
+            },
+            {
+                "url": "assets/BlobberAnimations.json",
+                "type": "animation",
+                "key": "BlobberAnimations"
+            },
+            {
+                "url": "assets/images/bluelight.png",
+                "type": "image",
+                "key": "bluelight"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/BossArm.js"
+                ],
+                "type": "scripts",
+                "key": "BossArm"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_alert01.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_alert01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_charge01.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_charge01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_charge02.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_charge02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_charge03.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_charge03"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_destroy01.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_destroy01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_destroy02.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_destroy02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_destroy03.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_destroy03"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_destroy04.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_destroy04"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_fall01.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_fall01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_fall02.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_fall02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_fall03.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_fall03"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_fall04.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_fall04"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_hurt01.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_hurt01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_hurt02.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_hurt02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_shot01.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_shot01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/bossguard_shot02.mp3"
+                ],
+                "type": "audio",
+                "key": "bossguard_shot02"
+            },
+            {
+                "url": "assets/images/box.png",
+                "type": "image",
+                "key": "box"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Box.js"
+                ],
+                "type": "scripts",
+                "key": "Box"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/BuyShotBtn.js"
+                ],
+                "type": "scripts",
+                "key": "BuyShotBtn"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/CannonRelay.js"
+                ],
+                "type": "scripts",
+                "key": "CannonRelay"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/CannonRoll.js"
+                ],
+                "type": "scripts",
+                "key": "CannonRoll"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Cart.js"
+                ],
+                "type": "scripts",
+                "key": "Cart"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Catapulta.js"
+                ],
+                "type": "scripts",
+                "key": "Catapulta"
+            },
+            {
+                "url": "assets/images/closeBtn.png",
+                "type": "image",
+                "key": "closeBtn"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/CloseBtn.js"
+                ],
+                "type": "scripts",
+                "key": "CloseBtn"
+            },
+            {
+                "url": "assets/images/coffeshop.png",
+                "type": "image",
+                "key": "coffeshop"
+            },
+            {
+                "url": "assets/scenes/prefabs/Coin.js",
+                "type": "script",
+                "key": "Coin"
+            },
+            {
+                "url": "assets/images/coinDisplay.png",
+                "type": "image",
+                "key": "coinDisplay"
+            },
+            {
+                "url": "assets/images/counter.png",
+                "type": "image",
+                "key": "counter"
+            },
+            {
+                "url": "assets/images/crakedHead.png",
+                "type": "image",
+                "key": "crakedHead"
+            },
+            {
+                "url": "assets/images/creditos.png",
+                "type": "image",
+                "key": "creditos"
+            },
+            {
+                "url": "assets/images/creditsButton.png",
+                "type": "image",
+                "key": "creditsButton"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/CyberPigeon.js"
+                ],
+                "type": "scripts",
+                "key": "CyberPigeon_1"
+            },
+            {
+                "url": "assets/CyberPigeonAnimation.json",
+                "type": "animation",
+                "key": "CyberPigeonAnimation"
+            },
+            {
+                "url": "assets/images/damagedBossArm.png",
+                "type": "image",
+                "key": "damagedBossArm"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/DeditoButton.js"
+                ],
+                "type": "scripts",
+                "key": "DeditoButton"
+            },
+            {
+                "url": "assets/images/demoScene.png",
+                "type": "image",
+                "key": "demoScene"
+            },
+            {
+                "url": "assets/scenes/DemoScene.js",
+                "type": "sceneFile",
+                "key": "DemoScene"
+            },
+            {
+                "url": "assets/images/desk.png",
+                "type": "image",
+                "key": "desk"
+            },
+            {
+                "url": "assets/images/door.png",
+                "type": "image",
+                "key": "door"
+            },
+            {
+                "url": "assets/scenes/prefabs/Door.js",
+                "type": "script",
+                "key": "Door"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/DoubleJumpBtnBuy.js"
+                ],
+                "type": "scripts",
+                "key": "DoubleJumpBtnBuy"
+            },
+            {
+                "url": "assets/dronAnimations.json",
+                "type": "animation",
+                "key": "dronAnimations"
+            },
+            {
+                "atlasURL": "assets/atlas/drone.json",
+                "textureURL": "assets/atlas/drone.png",
+                "type": "atlas",
+                "key": "drone"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Drone.js"
+                ],
+                "type": "scripts",
+                "key": "Drone"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/DroneShot.js"
+                ],
+                "type": "scripts",
+                "key": "DroneShot"
+            },
+            {
+                "url": "assets/images/eggBomb.png",
+                "type": "image",
+                "key": "eggBomb"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/EggBomb.js"
+                ],
+                "type": "scripts",
+                "key": "EggBomb"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/eggbomb_deploy_01.mp3"
+                ],
+                "type": "audio",
+                "key": "eggbomb_deploy_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/eggbomb_explotion_01.mp3"
+                ],
+                "type": "audio",
+                "key": "eggbomb_explotion_01"
+            },
+            {
+                "url": "assets/sprites/wall.png",
+                "type": "image",
+                "key": "emptyWall"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/EmptyWall.js"
+                ],
+                "type": "scripts",
+                "key": "EmptyWall"
+            },
+            {
+                "url": "assets/scenes/EndingScene.js",
+                "type": "sceneFile",
+                "key": "EndingScene"
+            },
+            {
+                "url": "assets/images/endingSupa.png",
+                "type": "image",
+                "key": "endingSupa"
+            },
+            {
+                "url": "assets/images/endingSupa2.png",
+                "type": "image",
+                "key": "endingSupa2"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/EnemyBarrel.js"
+                ],
+                "type": "scripts",
+                "key": "EnemyBarrel"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/EnemyBody.js"
+                ],
+                "type": "scripts",
+                "key": "EnemyBody"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/EnemyCreator.js"
+                ],
+                "type": "scripts",
+                "key": "EnemyCreator"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/EnemyHead.js"
+                ],
+                "type": "scripts",
+                "key": "EnemyHead"
+            },
+            {
+                "url": "assets/images/energyPanel.png",
+                "type": "image",
+                "key": "energyPanel"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/EnergyPanel.js"
+                ],
+                "type": "scripts",
+                "key": "EnergyPanel"
+            },
+            {
+                "url": "assets/images/energyRode.png",
+                "type": "image",
+                "key": "energyRode"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/EnergyRode.js"
+                ],
+                "type": "scripts",
+                "key": "EnergyRode"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/EnergyStation.js"
+                ],
+                "type": "scripts",
+                "key": "EnergyStation"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/EnergyStationPreview.js"
+                ],
+                "type": "scripts",
+                "key": "EnergyStationPreview"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_button_01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_button_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_elevator_01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_elevator_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_error_01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_error_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_grabcard01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_grabcard01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_grabcard02.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_grabcard02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_leavepowerupstation_01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_leavepowerupstation_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_missile_warning_01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_missile_warning_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_monsterspawn01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_monsterspawn01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/Envi_PickupCoin_05_01.mp3"
+                ],
+                "type": "audio",
+                "key": "Envi_PickupCoin_05_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/Envi_PickupCoin_05_02.mp3"
+                ],
+                "type": "audio",
+                "key": "Envi_PickupCoin_05_02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/Envi_PickupCoin_05_03.mp3"
+                ],
+                "type": "audio",
+                "key": "Envi_PickupCoin_05_03"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_powerupstation_01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_powerupstation_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_proxyspike_01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_proxyspike_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_saw_01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_saw_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_sidedoor_01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_sidedoor_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_sidedoor_close_01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_sidedoor_close_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_sideswitch_01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_sideswitch_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_sideswitch_tier01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_sideswitch_tier01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_sideswitch_tier02.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_sideswitch_tier02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_sideswitch_tier03.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_sideswitch_tier03"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_sideswitch_tier04.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_sideswitch_tier04"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_slidewall_01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_slidewall_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_slingcharge_02.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_slingcharge_02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_slingshot_02.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_slingshot_02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/Envi_stomper_01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_stomper_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_success_03.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_success_03"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_switch_02.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_switch_02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_tollerror_01.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_tollerror_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/envi_tollerror_02.mp3"
+                ],
+                "type": "audio",
+                "key": "envi_tollerror_02"
+            },
+            {
+                "url": [
+                    "assets/scenes/components/EventComponent.js",
+                    "assets/scenes/components/Physics.js",
+                    "assets/scenes/components/AnimationKillOnComplete.js",
+                    "assets/scenes/components/StartAnimation.js",
+                    "assets/scenes/components/PhysicsBody.js",
+                    "assets/scenes/components/CharacterMove.js",
+                    "assets/scenes/components/FixedToCamera.js",
+                    "assets/scenes/components/ControllerButton.js"
+                ],
+                "type": "scripts",
+                "key": "EventComponent"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/ExitJetPackBtn.js"
+                ],
+                "type": "scripts",
+                "key": "ExitJetPackBtn"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Explotion.js"
+                ],
+                "type": "scripts",
+                "key": "Explotion"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/finalboss_armhit_01.mp3"
+                ],
+                "type": "audio",
+                "key": "finalboss_armhit_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/finalboss_crystalcrack_01.mp3"
+                ],
+                "type": "audio",
+                "key": "finalboss_crystalcrack_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/finalboss_destroy_01.mp3"
+                ],
+                "type": "audio",
+                "key": "finalboss_destroy_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/finalboss_eyelaser_01.mp3"
+                ],
+                "type": "audio",
+                "key": "finalboss_eyelaser_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/finalboss_handstomp_01.mp3"
+                ],
+                "type": "audio",
+                "key": "finalboss_handstomp_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/finalboss_hurt_01.mp3"
+                ],
+                "type": "audio",
+                "key": "finalboss_hurt_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/finalboss_idle_01.mp3"
+                ],
+                "type": "audio",
+                "key": "finalboss_idle_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/finalboss_laugh_01.mp3"
+                ],
+                "type": "audio",
+                "key": "finalboss_laugh_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/finalboss_minedestroy_01.mp3"
+                ],
+                "type": "audio",
+                "key": "finalboss_minedestroy_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/finalboss_moltenrain_01.mp3"
+                ],
+                "type": "audio",
+                "key": "finalboss_moltenrain_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/finalboss_moltenrain_02.mp3"
+                ],
+                "type": "audio",
+                "key": "finalboss_moltenrain_02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/finalboss_spawn_01.mp3"
+                ],
+                "type": "audio",
+                "key": "finalboss_spawn_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/finalboss_upanddown_02.mp3"
+                ],
+                "type": "audio",
+                "key": "finalboss_upanddown_02"
+            },
+            {
+                "url": "assets/environment/finalStage.png",
+                "type": "image",
+                "key": "finalStage"
+            },
+            {
+                "atlasURL": "assets/atlas/flares.json",
+                "textureURL": "assets/atlas/flares.png",
+                "type": "atlas",
+                "key": "flares"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/FuelBar.js"
+                ],
+                "type": "scripts",
+                "key": "FuelBar"
+            },
+            {
+                "url": "assets/images/fuelBarFrame.png",
+                "type": "image",
+                "key": "fuelBarFrame"
+            },
+            {
+                "url": "assets/images/fxBtn.png",
+                "type": "image",
+                "key": "fxBtn"
+            },
+            {
+                "url": "assets/scenes/gameOverScene.js",
+                "type": "sceneFile",
+                "key": "gameOverScene"
+            },
+            {
+                "url": "assets/images/getCoinsBtn.png",
+                "type": "image",
+                "key": "getCoinsBtn"
+            },
+            {
+                "url": "assets/images/gotoLevelWall.png",
+                "type": "image",
+                "key": "gotoLevelWall"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/GotoLevelWall.js"
+                ],
+                "type": "scripts",
+                "key": "GotoLevelWall"
+            },
+            {
+                "url": "assets/images/grafitty.png",
+                "type": "image",
+                "key": "grafitty"
+            },
+            {
+                "url": "assets/images/grafitty 2.png",
+                "type": "image",
+                "key": "grafitty 2"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/GuardBoss.js"
+                ],
+                "type": "scripts",
+                "key": "GuardBoss"
+            },
+            {
+                "url": "assets/GuardianBossAnimation.json",
+                "type": "animation",
+                "key": "GuardianBossAnimation"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/GuardianShot.js"
+                ],
+                "type": "scripts",
+                "key": "GuardianShot"
+            },
+            {
+                "url": "assets/images/hand.png",
+                "type": "image",
+                "key": "hand"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/HandPointer.js"
+                ],
+                "type": "scripts",
+                "key": "HandPointer"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/HandPull.js"
+                ],
+                "type": "scripts",
+                "key": "HandPull"
+            },
+            {
+                "url": "assets/images/hangOn.png",
+                "type": "image",
+                "key": "hangOn"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Heart.js"
+                ],
+                "type": "scripts",
+                "key": "Heart"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/HeartBtn.js"
+                ],
+                "type": "scripts",
+                "key": "HeartBtn"
+            },
+            {
+                "url": "assets/images/hotDogCart.png",
+                "type": "image",
+                "key": "hotDogCart"
+            },
+            {
+                "url": "assets/images/howToBtn.png",
+                "type": "image",
+                "key": "howToBtn"
+            },
+            {
+                "url": "assets/images/inkDot.png",
+                "type": "image",
+                "key": "inkDot"
+            },
+            {
+                "url": "assets/images/interludeBg.jpg",
+                "type": "image",
+                "key": "interludeBg"
+            },
+            {
+                "url": "assets/scenes/InterludeMap.js",
+                "type": "sceneFile",
+                "key": "InterludeMap"
+            },
+            {
+                "url": "assets/scenes/IntroMovie.js",
+                "type": "sceneFile",
+                "key": "IntroMovie"
+            },
+            {
+                "url": "assets/environment/Invernadero_tiles.png",
+                "type": "image",
+                "key": "Invernadero_tiles"
+            },
+            {
+                "url": "assets/images/invernaderoBg.png",
+                "type": "image",
+                "key": "invernaderoBg"
+            },
+            {
+                "url": "assets/images/jetPackShot.png",
+                "type": "image",
+                "key": "jetPackShot"
+            },
+            {
+                "url": "assets/images/jetpackSuitOffline.png",
+                "type": "image",
+                "key": "jetpackSuitOffline"
+            },
+            {
+                "url": "assets/images/jumpingSupa.png",
+                "type": "image",
+                "key": "jumpingSupa"
+            },
+            {
+                "url": "assets/images/knob.png",
+                "type": "image",
+                "key": "knob"
+            },
+            {
+                "url": "assets/images/knobCannon.png",
+                "type": "image",
+                "key": "knobCannon"
+            },
+            {
+                "url": "assets/environment/Laboratorio_tiles.png",
+                "type": "image",
+                "key": "Laboratorio_tiles"
+            },
+            {
+                "url": "assets/images/lamp.png",
+                "type": "image",
+                "key": "lamp"
+            },
+            {
+                "url": "assets/scenes/LevelMap.js",
+                "type": "sceneFile",
+                "key": "LevelMap"
+            },
+            {
+                "url": "assets/images/lifeBar.png",
+                "type": "image",
+                "key": "lifeBar"
+            },
+            {
+                "url": "assets/images/lifeBarfill.png",
+                "type": "image",
+                "key": "lifeBarfill"
+            },
+            {
+                "url": "assets/images/lifeBarfillBg.png",
+                "type": "image",
+                "key": "lifeBarfillBg"
+            },
+            {
+                "url": "assets/images/lifepanel.png",
+                "type": "image",
+                "key": "lifepanel"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/LifePanel.js"
+                ],
+                "type": "scripts",
+                "key": "LifePanel"
+            },
+            {
+                "url": "assets/images/LifeRode.png",
+                "type": "image",
+                "key": "LifeRode"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/LifeRode.js"
+                ],
+                "type": "scripts",
+                "key": "LifeRode_1"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/LightBeam.js"
+                ],
+                "type": "scripts",
+                "key": "LightBeam"
+            },
+            {
+                "url": "assets/images/lightBean.png",
+                "type": "image",
+                "key": "lightBean"
+            },
+            {
+                "url": "assets/images/logo.png",
+                "type": "image",
+                "key": "logo"
+            },
+            {
+                "url": "assets/images/maceta.png",
+                "type": "image",
+                "key": "maceta"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/MainEntrance.js"
+                ],
+                "type": "scripts",
+                "key": "MainEntrance"
+            },
+            {
+                "url": "assets/scenes/prefabs/MainStomp.js",
+                "type": "script",
+                "key": "MainStomp"
+            },
+            {
+                "url": "assets/images/mapLevelBg.png",
+                "type": "image",
+                "key": "mapLevelBg"
+            },
+            {
+                "url": "assets/images/mapLevelBuilding.png",
+                "type": "image",
+                "key": "mapLevelBuilding"
+            },
+            {
+                "url": "assets/images/mapRoad.png",
+                "type": "image",
+                "key": "mapRoad"
+            },
+            {
+                "atlasURL": "assets/atlas/mechapirana.json",
+                "textureURL": "assets/atlas/mechapirana.png",
+                "type": "atlas",
+                "key": "mechapirana"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/MechaPirana.js"
+                ],
+                "type": "scripts",
+                "key": "MechaPirana"
+            },
+            {
+                "url": "assets/MechaPirana.json",
+                "type": "animation",
+                "key": "MechaPirana_1"
+            },
+            {
+                "url": "assets/images/menuBtn.png",
+                "type": "image",
+                "key": "menuBtn"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/MenuBtn.js"
+                ],
+                "type": "scripts",
+                "key": "MenuBtn"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/MenuPanel.js"
+                ],
+                "type": "scripts",
+                "key": "MenuPanel"
+            },
+            {
+                "url": "assets/images/Meteorito.png",
+                "type": "image",
+                "key": "Meteorito"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Meteorito.js"
+                ],
+                "type": "scripts",
+                "key": "Meteorito_1"
+            },
+            {
+                "url": "assets/images/mina.png",
+                "type": "image",
+                "key": "mina"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Mina.js"
+                ],
+                "type": "scripts",
+                "key": "Mina"
+            },
+            {
+                "url": "assets/minaAnim.json",
+                "type": "animation",
+                "key": "minaAnim"
+            },
+            {
+                "atlasURL": "assets/atlas/minaAtlas.json",
+                "textureURL": "assets/atlas/minaAtlas.png",
+                "type": "atlas",
+                "key": "minaAtlas"
+            },
+            {
+                "atlasURL": "assets/atlas/misile.json",
+                "textureURL": "assets/atlas/misile.png",
+                "type": "atlas",
+                "key": "misile"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Misile.js"
+                ],
+                "type": "scripts",
+                "key": "Misile"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Misile_Vertical.js"
+                ],
+                "type": "scripts",
+                "key": "Misile_Vertical"
+            },
+            {
+                "url": "assets/images/musicBtn.png",
+                "type": "image",
+                "key": "musicBtn"
+            },
+            {
+                "url": "assets/environment/new_buildingTiles.png",
+                "type": "image",
+                "key": "new_buildingTiles"
+            },
+            {
+                "url": "assets/environment/new_ciudad_tiles.png",
+                "type": "image",
+                "key": "new_ciudad_tiles"
+            },
+            {
+                "url": "assets/maps/new_level0.json",
+                "type": "tilemapTiledJSON",
+                "key": "new_level0"
+            },
+            {
+                "url": "assets/maps/new_level0A.json",
+                "type": "tilemapTiledJSON",
+                "key": "new_level0A"
+            },
+            {
+                "url": "assets/maps/new_level0B.json",
+                "type": "tilemapTiledJSON",
+                "key": "new_level0B"
+            },
+            {
+                "url": "assets/maps/new_level0C.json",
+                "type": "tilemapTiledJSON",
+                "key": "new_level0C"
+            },
+            {
+                "url": "assets/maps/new_level0D.json",
+                "type": "tilemapTiledJSON",
+                "key": "new_level0D"
+            },
+            {
+                "url": "assets/images/newInroBg.png",
+                "type": "image",
+                "key": "newInroBg"
+            },
+            {
+                "url": "assets/scenes/NewLevel0.js",
+                "type": "sceneFile",
+                "key": "NewLevel0"
+            },
+            {
+                "url": "assets/scenes/NewLevel0A.js",
+                "type": "sceneFile",
+                "key": "NewLevel0A"
+            },
+            {
+                "url": "assets/scenes/NewLevel0B.js",
+                "type": "sceneFile",
+                "key": "NewLevel0B"
+            },
+            {
+                "url": "assets/scenes/NewLevel0C.js",
+                "type": "sceneFile",
+                "key": "NewLevel0C"
+            },
+            {
+                "url": "assets/scenes/NewLevel0D.js",
+                "type": "sceneFile",
+                "key": "NewLevel0D"
+            },
+            {
+                "url": "assets/newPropsAnimations.json",
+                "type": "animation",
+                "key": "newPropsAnimations"
+            },
+            {
+                "atlasURL": "assets/atlas/newSupaAnimations.json",
+                "textureURL": "assets/atlas/newSupaAnimations.png",
+                "type": "atlas",
+                "key": "newSupaAnimations"
+            },
+            {
+                "url": "assets/newSupaAnimations.json",
+                "type": "animation",
+                "key": "newSupaAnimations"
+            },
+            {
+                "url": "assets/images/nextBtn.png",
+                "type": "image",
+                "key": "nextBtn"
+            },
+            {
+                "url": "assets/images/arrow-down-left.png",
+                "type": "image",
+                "key": "nextPage"
+            },
+            {
+                "url": "assets/images/noBtn.png",
+                "type": "image",
+                "key": "noBtn"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/PassCard.js"
+                ],
+                "type": "scripts",
+                "key": "PassCard"
+            },
+            {
+                "url": "assets/images/pilar.png",
+                "type": "image",
+                "key": "pilar"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/piranha_bite_01.mp3"
+                ],
+                "type": "audio",
+                "key": "piranha_bite_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/piranha_bite_02.mp3"
+                ],
+                "type": "audio",
+                "key": "piranha_bite_02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/piranha_jump_01.mp3"
+                ],
+                "type": "audio",
+                "key": "piranha_jump_01"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Platform1.js"
+                ],
+                "type": "scripts",
+                "key": "Platform1"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Platform2.js"
+                ],
+                "type": "scripts",
+                "key": "Platform2"
+            },
+            {
+                "url": "assets/images/playAgainBtn.png",
+                "type": "image",
+                "key": "playAgainBtn"
+            },
+            {
+                "url": "assets/images/playBtn.png",
+                "type": "image",
+                "key": "playBtn"
+            },
+            {
+                "url": "assets/scenes/prefabs/Player.js",
+                "type": "script",
+                "key": "Player"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/PlayerBullet.js"
+                ],
+                "type": "scripts",
+                "key": "PlayerBullet"
+            },
+            {
+                "url": "assets/images/pointerArrow.png",
+                "type": "image",
+                "key": "pointerArrow"
+            },
+            {
+                "url": "assets/images/pointerDown.png",
+                "type": "image",
+                "key": "pointerDown"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/PointerDownBtn.js"
+                ],
+                "type": "scripts",
+                "key": "PointerDownBtn"
+            },
+            {
+                "url": "assets/images/police line.png",
+                "type": "image",
+                "key": "police line"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/PortalCannon.js"
+                ],
+                "type": "scripts",
+                "key": "PortalCannon"
+            },
+            {
+                "url": "assets/images/portelCannon.png",
+                "type": "image",
+                "key": "portelCannon"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Poste.js"
+                ],
+                "type": "scripts",
+                "key": "Poste"
+            },
+            {
+                "url": "assets/images/posters.png",
+                "type": "image",
+                "key": "posters"
+            },
+            {
+                "url": "assets/images/PowerPodium.png",
+                "type": "image",
+                "key": "PowerPodium"
+            },
+            {
+                "url": "assets/scenes/prefabs/PowerReady.js",
+                "type": "script",
+                "key": "PowerReady"
+            },
+            {
+                "url": "assets/scenes/prefabs/PowerUp.js",
+                "type": "script",
+                "key": "PowerUp"
+            },
+            {
+                "url": "assets/images/powerUp1.png",
+                "type": "image",
+                "key": "powerUp1"
+            },
+            {
+                "url": "assets/sprites/press-enter-text.png",
+                "type": "image",
+                "key": "press-enter-text"
+            },
+            {
+                "url": "assets/propAnimations.json",
+                "type": "animation",
+                "key": "propAnimations"
+            },
+            {
+                "atlasURL": "assets/atlas/props.json",
+                "textureURL": "assets/atlas/props.png",
+                "type": "atlas",
+                "key": "props"
+            },
+            {
+                "atlasURL": "assets/atlas/propsNew.json",
+                "textureURL": "assets/atlas/propsNew.png",
+                "type": "atlas",
+                "key": "propsNew"
+            },
+            {
+                "atlasURL": "assets/atlas/propsNew2.json",
+                "textureURL": "assets/atlas/propsNew2.png",
+                "type": "atlas",
+                "key": "propsNew2"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/ProxySpyke.js"
+                ],
+                "type": "scripts",
+                "key": "ProxySpyke"
+            },
+            {
+                "atlasURL": "assets/atlas/puerco espin.json",
+                "textureURL": "assets/atlas/puerco espin.png",
+                "type": "atlas",
+                "key": "puerco espin"
+            },
+            {
+                "url": "assets/puercoEspin.json",
+                "type": "animation",
+                "key": "puercoEspin"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/pwrup_activate_03.mp3"
+                ],
+                "type": "audio",
+                "key": "pwrup_activate_03"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/pwrup_arrowbite_charge_01.mp3"
+                ],
+                "type": "audio",
+                "key": "pwrup_arrowbite_charge_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/pwrup_arrowbite_shot_01.mp3"
+                ],
+                "type": "audio",
+                "key": "pwrup_arrowbite_shot_01"
+            },
+            {
+                "url": "assets/images/readyText.png",
+                "type": "image",
+                "key": "readyText"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/ReadyText.js"
+                ],
+                "type": "scripts",
+                "key": "ReadyText"
+            },
+            {
+                "url": "assets/images/red.png",
+                "type": "image",
+                "key": "red"
+            },
+            {
+                "url": "assets/images/reviveStripe.png",
+                "type": "image",
+                "key": "reviveStripe"
+            },
+            {
+                "url": "assets/images/ring.png",
+                "type": "image",
+                "key": "ring"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Ring.js"
+                ],
+                "type": "scripts",
+                "key": "Ring"
+            },
+            {
+                "url": "assets/images/rocoPop.png",
+                "type": "image",
+                "key": "rocoPop"
+            },
+            {
+                "url": "assets/images/sampoBullet.png",
+                "type": "image",
+                "key": "sampoBullet"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/SampoBullet.js"
+                ],
+                "type": "scripts",
+                "key": "SampoBullet"
+            },
+            {
+                "atlasURL": "assets/atlas/sampoShooter.json",
+                "textureURL": "assets/atlas/sampoShooter.png",
+                "type": "atlas",
+                "key": "sampoShooter"
+            },
+            {
+                "url": "assets/sampoShooter.json",
+                "type": "animation",
+                "key": "sampoShooter"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/SampoShooter.js"
+                ],
+                "type": "scripts",
+                "key": "SampoShooter"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/samposhooter_damage_01.mp3"
+                ],
+                "type": "audio",
+                "key": "samposhooter_damage_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/samposhooter_destroy_01.mp3"
+                ],
+                "type": "audio",
+                "key": "samposhooter_destroy_01"
+            },
+            {
+                "url": "assets/scenes/prefabs/Saw.js",
+                "type": "script",
+                "key": "Saw"
+            },
+            {
+                "url": "assets/images/sector1.png",
+                "type": "image",
+                "key": "sector1"
+            },
+            {
+                "url": "assets/images/sector3.png",
+                "type": "image",
+                "key": "sector3"
+            },
+            {
+                "url": "assets/images/Sector32.png",
+                "type": "image",
+                "key": "Sector3"
+            },
+            {
+                "url": "assets/images/Sector4.png",
+                "type": "image",
+                "key": "Sector4"
+            },
+            {
+                "url": "assets/environment/Servidores_tiles.png",
+                "type": "image",
+                "key": "Servidores_tiles"
+            },
+            {
+                "url": "assets/images/shadowGeneral.png",
+                "type": "image",
+                "key": "shadowGeneral"
+            },
+            {
+                "url": "assets/images/shield.png",
+                "type": "image",
+                "key": "shield"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/ShieldBtn.js"
+                ],
+                "type": "scripts",
+                "key": "ShieldBtn"
+            },
+            {
+                "url": "assets/images/shot.png",
+                "type": "image",
+                "key": "shot"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/SideDoor.js"
+                ],
+                "type": "scripts",
+                "key": "SideDoor"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/SideDoorLocked.js"
+                ],
+                "type": "scripts",
+                "key": "SideDoorLocked"
+            },
+            {
+                "url": "assets/images/skipVideo.png",
+                "type": "image",
+                "key": "skipVideo"
+            },
+            {
+                "url": "assets/images/sky1.png",
+                "type": "image",
+                "key": "sky1"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/SmallDoor.js"
+                ],
+                "type": "scripts",
+                "key": "SmallDoor"
+            },
+            {
+                "atlasURL": "assets/atlas/spike.json",
+                "textureURL": "assets/atlas/spike.png",
+                "type": "atlas",
+                "key": "spike"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Spike.js"
+                ],
+                "type": "scripts",
+                "key": "Spike"
+            },
+            {
+                "url": "assets/SpikeAnim.json",
+                "type": "animation",
+                "key": "SpikeAnim"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/SpikeHorizontal.js"
+                ],
+                "type": "scripts",
+                "key": "SpikeHorizontal"
+            },
+            {
+                "url": "assets/images/splashLogo.png",
+                "type": "image",
+                "key": "splashLogo"
+            },
+            {
+                "url": "assets/images/spot.png",
+                "type": "image",
+                "key": "spot"
+            },
+            {
+                "url": "assets/images/star.png",
+                "type": "image",
+                "key": "star"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/StarEarn.js"
+                ],
+                "type": "scripts",
+                "key": "StarEarn"
+            },
+            {
+                "atlasURL": "assets/atlas/stinger.json",
+                "textureURL": "assets/atlas/stinger.png",
+                "type": "atlas",
+                "key": "stinger"
+            },
+            {
+                "url": "assets/sprites/stomper.png",
+                "type": "image",
+                "key": "stomper"
+            },
+            {
+                "url": "assets/scenes/prefabs/Stomper.js",
+                "type": "script",
+                "key": "Stomper"
+            },
+            {
+                "url": "assets/sprites/stomperPipe.png",
+                "type": "image",
+                "key": "stomperPipe"
+            },
+            {
+                "url": "assets/images/stomperShadow.png",
+                "type": "image",
+                "key": "stomperShadow"
+            },
+            {
+                "url": "assets/images/sunsetEmpire.png",
+                "type": "image",
+                "key": "sunsetEmpire"
+            },
+            {
+                "url": "assets/images/sunsetEmpire2.png",
+                "type": "image",
+                "key": "sunsetEmpire2"
+            },
+            {
+                "url": "assets/images/sunsetSign.png",
+                "type": "image",
+                "key": "sunsetSign"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_cannon_01.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_cannon_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_chargingpwup_01.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_chargingpwup_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_death_01.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_death_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_doublejump_04.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_doublejump_04"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_doublejump_05.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_doublejump_05"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_doublejump_06.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_doublejump_06"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_jetpack_01.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_jetpack_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_jetpack_02.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_jetpack_02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_landing_01.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_landing_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_pickupheart_01.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_pickupheart_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_powerup_01.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_powerup_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_shot_01.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_shot_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_spawn01.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_spawn01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_spinpwrup_01.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_spinpwrup_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_voicehurt_01.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_voicehurt_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_voicehurt_02.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_voicehurt_02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_voicejump_03.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_voicejump_03"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_voicejump_04.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_voicejump_04"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/supa_voicejump_05.mp3"
+                ],
+                "type": "audio",
+                "key": "supa_voicejump_05"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/SupaBiteBtn.js"
+                ],
+                "type": "scripts",
+                "key": "SupaBiteBtn"
+            },
+            {
+                "url": "assets/images/supaEntrance.png",
+                "type": "image",
+                "key": "supaEntrance"
+            },
+            {
+                "url": "assets/images/supaHead.png",
+                "type": "image",
+                "key": "supaHead"
+            },
+            {
+                "url": "assets/images/supaJet.png",
+                "type": "image",
+                "key": "supaJet"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/SupaJet.js"
+                ],
+                "type": "scripts",
+                "key": "SupaJet"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/SupaPoiner.js"
+                ],
+                "type": "scripts",
+                "key": "SupaPoiner"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/SupaShotBtn.js"
+                ],
+                "type": "scripts",
+                "key": "SupaShotBtn"
+            },
+            {
+                "url": "assets/images/supaTitle.png",
+                "type": "image",
+                "key": "supaTitle"
+            },
+            {
+                "url": [
+                    "assets/audio/music/superbravo_gameplay_chip01.mp3"
+                ],
+                "type": "audio",
+                "key": "superbravo_gameplay_chip01"
+            },
+            {
+                "url": [
+                    "assets/audio/music/superbravo_gameplay_chip02.mp3"
+                ],
+                "type": "audio",
+                "key": "superbravo_gameplay_chip02"
+            },
+            {
+                "url": [
+                    "assets/audio/music/superbravo_gameplay_chip03.mp3"
+                ],
+                "type": "audio",
+                "key": "superbravo_gameplay_chip03"
+            },
+            {
+                "url": [
+                    "assets/audio/music/superbravo_gameplay_chip04.mp3"
+                ],
+                "type": "audio",
+                "key": "superbravo_gameplay_chip04"
+            },
+            {
+                "url": [
+                    "assets/audio/music/superbravo_gameplay_chip05.mp3"
+                ],
+                "type": "audio",
+                "key": "superbravo_gameplay_chip05"
+            },
+            {
+                "url": [
+                    "assets/audio/music/superbravo_gameplay_chip06.mp3"
+                ],
+                "type": "audio",
+                "key": "superbravo_gameplay_chip06"
+            },
+            {
+                "url": [
+                    "assets/audio/music/superbravo_gameplay_chip07.mp3"
+                ],
+                "type": "audio",
+                "key": "superbravo_gameplay_chip07"
+            },
+            {
+                "url": [
+                    "assets/audio/music/superbravo_gameplay_chip08.mp3"
+                ],
+                "type": "audio",
+                "key": "superbravo_gameplay_chip08"
+            },
+            {
+                "url": [
+                    "assets/audio/music/superbravo_gameplay_chip09.mp3"
+                ],
+                "type": "audio",
+                "key": "superbravo_gameplay_chip09"
+            },
+            {
+                "url": [
+                    "assets/audio/music/superbravo_gameplay_chip10.mp3"
+                ],
+                "type": "audio",
+                "key": "superbravo_gameplay_chip10"
+            },
+            {
+                "url": [
+                    "assets/audio/music/superbravo_gameplay_finalboss2.mp3"
+                ],
+                "type": "audio",
+                "key": "superbravo_gameplay_finalboss2"
+            },
+            {
+                "url": [
+                    "assets/audio/music/superbravo_gameplay_tutorial.mp3"
+                ],
+                "type": "audio",
+                "key": "superbravo_gameplay_tutorial"
+            },
+            {
+                "url": [
+                    "assets/audio/music/superbravo_ready_01.mp3"
+                ],
+                "type": "audio",
+                "key": "superbravo_ready_01"
+            },
+            {
+                "url": "assets/images/sweetFlowers.png",
+                "type": "image",
+                "key": "sweetFlowers"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/SwitchPanel.js"
+                ],
+                "type": "scripts",
+                "key": "SwitchPanel"
+            },
+            {
+                "url": "assets/images/targetRing.png",
+                "type": "image",
+                "key": "targetRing"
+            },
+            {
+                "url": "assets/images/tech_back.png",
+                "type": "image",
+                "key": "tech_back"
+            },
+            {
+                "url": "assets/images/tech_lab2.png",
+                "type": "image",
+                "key": "tech_lab2"
+            },
+            {
+                "url": "assets/images/textInfo.png",
+                "type": "image",
+                "key": "textInfo"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/TextInfo.js"
+                ],
+                "type": "scripts",
+                "key": "TextInfo"
+            },
+            {
+                "atlasURL": "assets/atlas/TheGuardBoss.json",
+                "textureURL": "assets/atlas/TheGuardBoss.png",
+                "type": "atlas",
+                "key": "TheGuardBoss"
+            },
+            {
+                "url": "assets/images/titleLogo.png",
+                "type": "image",
+                "key": "titleLogo"
+            },
+            {
+                "url": "assets/scenes/TitleScreen.js",
+                "type": "sceneFile",
+                "key": "TitleScreen"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Toll.js"
+                ],
+                "type": "scripts",
+                "key": "Toll"
+            },
+            {
+                "url": "assets/images/trashBin.png",
+                "type": "image",
+                "key": "trashBin"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Traverso.js"
+                ],
+                "type": "scripts",
+                "key": "Traverso"
+            },
+            {
+                "atlasURL": "assets/atlas/traversoAnimations.json",
+                "textureURL": "assets/atlas/traversoAnimations.png",
+                "type": "atlas",
+                "key": "traversoAnimations"
+            },
+            {
+                "url": "assets/TraversoAnimations.json",
+                "type": "animation",
+                "key": "TraversoAnimations"
+            },
+            {
+                "atlasURL": "assets/atlas/traversoFly.json",
+                "textureURL": "assets/atlas/traversoFly.png",
+                "type": "atlas",
+                "key": "traversoFly"
+            },
+            {
+                "url": "assets/images/tuto 11.png",
+                "type": "image",
+                "key": "tuto 11"
+            },
+            {
+                "url": "assets/images/tuto1.png",
+                "type": "image",
+                "key": "tuto1"
+            },
+            {
+                "url": "assets/images/tuto10.png",
+                "type": "image",
+                "key": "tuto10"
+            },
+            {
+                "url": "assets/images/tuto2.png",
+                "type": "image",
+                "key": "tuto2"
+            },
+            {
+                "url": "assets/images/tuto3.png",
+                "type": "image",
+                "key": "tuto3"
+            },
+            {
+                "url": "assets/images/tuto4.png",
+                "type": "image",
+                "key": "tuto4"
+            },
+            {
+                "url": "assets/images/tuto5.png",
+                "type": "image",
+                "key": "tuto5"
+            },
+            {
+                "url": "assets/images/tuto6.png",
+                "type": "image",
+                "key": "tuto6"
+            },
+            {
+                "url": "assets/images/tuto7.png",
+                "type": "image",
+                "key": "tuto7"
+            },
+            {
+                "url": "assets/images/tuto8.png",
+                "type": "image",
+                "key": "tuto8"
+            },
+            {
+                "url": "assets/images/tuto9.png",
+                "type": "image",
+                "key": "tuto9"
+            },
+            {
+                "url": "assets/images/upgradeHalo.png",
+                "type": "image",
+                "key": "upgradeHalo"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/UpgradeHalo.js"
+                ],
+                "type": "scripts",
+                "key": "UpgradeHalo"
+            },
+            {
+                "url": "assets/images/wall.png",
+                "type": "image",
+                "key": "wall"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/WallBtn.js"
+                ],
+                "type": "scripts",
+                "key": "WallBtn"
+            },
+            {
+                "url": "assets/images/wallLight.png",
+                "type": "image",
+                "key": "wallLight"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/wallText.js"
+                ],
+                "type": "scripts",
+                "key": "wallText"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/Warning.js"
+                ],
+                "type": "scripts",
+                "key": "Warning"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/wdrone_lock_01.mp3"
+                ],
+                "type": "audio",
+                "key": "wdrone_lock_01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/wdrone_shot_01.mp3"
+                ],
+                "type": "audio",
+                "key": "wdrone_shot_01"
+            },
+            {
+                "url": "assets/images/yesBtn.png",
+                "type": "image",
+                "key": "yesBtn"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

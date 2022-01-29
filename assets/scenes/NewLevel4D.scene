@@ -1,0 +1,319 @@
+{
+    "id": "0f31e414-a2b4-42fc-9d64-f2e7c02bc11a",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 40,
+        "snapHeight": 37,
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "NewLevel4D",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "509e5a0a-c817-47cd-9bb1-bd3dec34c3d3",
+            "label": "invernaderoBg",
+            "components": [
+                "FixedToCamera"
+            ],
+            "texture": {
+                "key": "invernaderoBg"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "3d7d4c41-5951-403f-9be3-8edb7e229ba1",
+            "label": "noCollide_1",
+            "components": [],
+            "tilemapId": "303468d7-92aa-4e99-9aa8-94dff5ff68d5",
+            "layerName": "NoCollide",
+            "tilesets": [
+                "Invernadero_tiles"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "75697f49-fc5e-4e4e-82fe-c521f9cbb588",
+            "label": "noCollideFX",
+            "components": [],
+            "tilemapId": "303468d7-92aa-4e99-9aa8-94dff5ff68d5",
+            "layerName": "NoCollideFX",
+            "tilesets": [
+                "Invernadero_tiles"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "03157782-ce4c-4c20-a3b3-ae2468bf5000",
+            "label": "layer",
+            "scope": "CLASS",
+            "components": [],
+            "tilemapId": "303468d7-92aa-4e99-9aa8-94dff5ff68d5",
+            "layerName": "Collide",
+            "tilesets": [
+                "Invernadero_tiles"
+            ]
+        },
+        {
+            "prefabId": "69e50468-d5e9-4362-82f7-dddd6680f130",
+            "id": "fd695046-f0c0-4afa-bafc-9bc900455242",
+            "unlock": [
+                "x",
+                "y",
+                "goToLevel",
+                "desde",
+                "hasta"
+            ],
+            "label": "door",
+            "goToLevel": "NewLevel5",
+            "desde": 4,
+            "hasta": 5,
+            "components": [],
+            "x": 672,
+            "y": -40,
+            "nestedPrefabs": []
+        },
+        {
+            "type": "Image",
+            "id": "8dd06686-cc5d-4bb6-a449-3c2212879169",
+            "label": "damagedDoor_instance_10000",
+            "components": [],
+            "texture": {
+                "key": "propsNew",
+                "frame": "damagedDoor instance 10000"
+            },
+            "x": 1072,
+            "y": 1119
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "5b92d84d-6c06-40a9-8c76-559378971c39",
+            "label": "collideFX_1",
+            "components": [],
+            "tilemapId": "c0f77472-6fd6-4b15-9941-13b55400a07e",
+            "layerName": "CollideFX",
+            "tilesets": [
+                "Invernadero_tiles"
+            ]
+        },
+        {
+            "prefabId": "2bdd30b0-e379-4943-9d6b-ed6cb2ba5b0a",
+            "id": "d2800736-9db9-492e-85d2-5b568e6c820d",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "components": [],
+            "x": 1074,
+            "y": 1172
+        },
+        {
+            "prefabId": "c812057b-6b17-4fd2-9f6d-b8c03b50c9dc",
+            "id": "a059d989-9376-46f2-8c42-397520cd39a3",
+            "unlock": [
+                "x",
+                "y",
+                "ThingToDrop"
+            ],
+            "label": "guardBoss",
+            "scope": "CLASS",
+            "ThingToDrop": "Platform1",
+            "components": [],
+            "x": 894,
+            "y": 750
+        },
+        {
+            "prefabId": "4e7d1116-2b35-48d0-9c9b-266277a60e96",
+            "id": "93aa866a-8620-47d1-8a49-4ed981128693",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "alpha",
+                "activateBoss",
+                "isActive",
+                "textActivate"
+            ],
+            "label": "activeZoneBoss",
+            "scope": "CLASS",
+            "isActive": true,
+            "activateBoss": true,
+            "textActivate": false,
+            "components": [],
+            "x": 383,
+            "y": 708,
+            "scaleX": 4,
+            "scaleY": 4,
+            "alpha": 0
+        },
+        {
+            "prefabId": "deab70e2-d5f9-4cfd-b0bb-0cc7f477400e",
+            "id": "f5d719d2-f730-44e4-8fa8-d1359a35dcbe",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "passCard",
+            "components": [],
+            "x": 328,
+            "y": 278
+        },
+        {
+            "prefabId": "1925181b-f823-418a-823d-bb8741a2e2be",
+            "id": "a0ce2bcc-1bbd-4114-bc98-04c3a29759df",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "energyStation",
+            "components": [],
+            "x": 337,
+            "y": 492,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "3c2e0a0e-b56d-4b75-b43e-f2475de3560b",
+            "id": "73c2b9d4-8df6-41e8-b517-5524011ed128",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "platform1",
+            "components": [],
+            "x": 658,
+            "y": 660
+        },
+        {
+            "prefabId": "c5a4c8f6-a934-468d-9cd1-5b3c0d4501f8",
+            "id": "2a7d026e-050b-4990-be40-d27f90102a45",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "portalCannon",
+            "components": [],
+            "x": 1203,
+            "y": 858
+        },
+        {
+            "prefabId": "c5a4c8f6-a934-468d-9cd1-5b3c0d4501f8",
+            "id": "86b5ee18-b211-4b59-a9c1-9fa56938a927",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "portalCannon_1",
+            "components": [],
+            "x": 1206,
+            "y": 596
+        },
+        {
+            "prefabId": "c5a4c8f6-a934-468d-9cd1-5b3c0d4501f8",
+            "id": "41ff57a1-d511-465a-8e63-aae29664d006",
+            "unlock": [
+                "x",
+                "y",
+                "angle"
+            ],
+            "label": "portalCannon_1_1",
+            "components": [],
+            "x": 1203,
+            "y": 102,
+            "angle": -90
+        },
+        {
+            "prefabId": "c5a4c8f6-a934-468d-9cd1-5b3c0d4501f8",
+            "id": "e96528cb-443e-4391-97e4-e1fa66c75237",
+            "unlock": [
+                "x",
+                "y",
+                "angle"
+            ],
+            "label": "portalCannon_1_1_1",
+            "components": [],
+            "x": 904,
+            "y": 104,
+            "angle": -180
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "303468d7-92aa-4e99-9aa8-94dff5ff68d5",
+            "type": "Tilemap",
+            "label": "mapa",
+            "key": "new_level4D",
+            "tilesets": [
+                {
+                    "name": "Invernadero_tiles",
+                    "imageKey": "Invernadero_tiles"
+                }
+            ]
+        },
+        {
+            "id": "c0f77472-6fd6-4b15-9941-13b55400a07e",
+            "type": "Tilemap",
+            "label": "new_level4D",
+            "key": "new_level4D",
+            "tilesets": [
+                {
+                    "name": "Invernadero_tiles",
+                    "imageKey": "Invernadero_tiles"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "0e080d9c-0b39-4755-a5d5-57ae5501d356",
+            "label": "doors"
+        },
+        {
+            "id": "a5839e13-79a6-473b-b910-924096033370",
+            "label": "switches",
+            "objectIds": [
+                "9a1b8a13-4e2f-4e74-9b76-aacfaf3b136f"
+            ]
+        },
+        {
+            "id": "5b8b5385-7170-4f04-8368-32349b8524e7",
+            "label": "enemies",
+            "objectIds": [
+                "a059d989-9376-46f2-8c42-397520cd39a3"
+            ]
+        },
+        {
+            "id": "162e2fe2-38a7-450b-88ec-186b241d78cc",
+            "label": "platforms"
+        },
+        {
+            "id": "9ebda1ea-a3d2-410b-b328-4358561cbdf7",
+            "label": "coins"
+        },
+        {
+            "id": "b383c0e6-a04f-4afa-b7ac-20a74e4cbe4c",
+            "label": "catapultas"
+        },
+        {
+            "id": "c178e26c-494b-4400-b756-424719a97c29",
+            "label": "revivingPods"
+        },
+        {
+            "id": "05b55c93-d737-42fc-948f-bc35aa612a87",
+            "label": "tutorials"
+        }
+    ]
+}

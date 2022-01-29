@@ -1,0 +1,256 @@
+{
+    "id": "3c1e3009-c66e-4cb8-bc32-71bb1fadcdf5",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 40,
+        "snapHeight": 37,
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "NewLevel6D",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "509e5a0a-c817-47cd-9bb1-bd3dec34c3d3",
+            "label": "invernaderoBg",
+            "components": [
+                "FixedToCamera"
+            ],
+            "texture": {
+                "key": "invernaderoBg"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "4e1d7569-2b53-4cc7-9282-7e32224b8bef",
+            "label": "noCollide_1",
+            "components": [],
+            "tilemapId": "3cbd2244-547d-41a3-81f0-a81ce1e0de27",
+            "layerName": "NoCollide",
+            "tilesets": [
+                "Laboratorio_tiles"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "0149c629-0a38-48d2-a6a7-9c48acd96eab",
+            "label": "noCollideFX",
+            "components": [],
+            "tilemapId": "3cbd2244-547d-41a3-81f0-a81ce1e0de27",
+            "layerName": "NoCollideFX",
+            "tilesets": [
+                "Laboratorio_tiles"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "593d8986-e59f-415d-95e7-63d9b478fa71",
+            "label": "layer",
+            "scope": "CLASS",
+            "components": [],
+            "tilemapId": "3cbd2244-547d-41a3-81f0-a81ce1e0de27",
+            "layerName": "Collide",
+            "tilesets": [
+                "Laboratorio_tiles"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "d99a5fc4-b9a3-4936-8468-0e8629597dc9",
+            "label": "collideFX_1",
+            "components": [],
+            "tilemapId": "dbaaf5b0-0e98-41d2-b053-319481910ca7",
+            "layerName": "CollideFX",
+            "tilesets": [
+                "Laboratorio_tiles"
+            ]
+        },
+        {
+            "prefabId": "69e50468-d5e9-4362-82f7-dddd6680f130",
+            "id": "4c0d3316-ad56-4a85-93b7-7adb68e659ff",
+            "unlock": [
+                "x",
+                "y",
+                "goToLevel"
+            ],
+            "label": "door",
+            "goToLevel": "NewLevel7X",
+            "components": [],
+            "x": 798,
+            "y": 22,
+            "nestedPrefabs": []
+        },
+        {
+            "type": "Image",
+            "id": "c62d1b30-ebc1-4047-8ee4-c473f00b3c29",
+            "label": "damagedDoor_instance_10000",
+            "components": [],
+            "texture": {
+                "key": "propsNew",
+                "frame": "damagedDoor instance 10000"
+            },
+            "x": 812,
+            "y": 832
+        },
+        {
+            "prefabId": "2bdd30b0-e379-4943-9d6b-ed6cb2ba5b0a",
+            "id": "d2800736-9db9-492e-85d2-5b568e6c820d",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "components": [],
+            "x": 814,
+            "y": 866
+        },
+        {
+            "prefabId": "c812057b-6b17-4fd2-9f6d-b8c03b50c9dc",
+            "id": "f2cfda02-6799-4669-b175-2c9ff6c1e269",
+            "unlock": [
+                "x",
+                "y",
+                "travelDistance",
+                "ThingToDrop"
+            ],
+            "label": "guardBoss",
+            "scope": "CLASS",
+            "travelDistance": 200,
+            "ThingToDrop": "PassCard",
+            "components": [],
+            "x": 1293,
+            "y": 413
+        },
+        {
+            "prefabId": "4e7d1116-2b35-48d0-9c9b-266277a60e96",
+            "id": "eb27bcd0-bb1c-4628-b164-02e30c3c6e6e",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "alpha",
+                "textActivate",
+                "activateBoss",
+                "isActive",
+                "objectToActivate"
+            ],
+            "label": "activeZoneBoss",
+            "scope": "CLASS",
+            "isActive": true,
+            "activateBoss": true,
+            "textActivate": false,
+            "components": [],
+            "x": 722,
+            "y": 411,
+            "scaleX": 6,
+            "scaleY": 3,
+            "alpha": 0
+        },
+        {
+            "type": "Image",
+            "id": "f535f4a0-cd06-4f72-90ae-d25416797de7",
+            "label": "backJetPackStation",
+            "components": [],
+            "texture": {
+                "key": "backJetPackStation"
+            },
+            "x": 816,
+            "y": 631
+        },
+        {
+            "prefabId": "94065d82-d3b0-4eb8-b901-a3fd8c176e5a",
+            "id": "9db24667-937a-4b14-8f2a-2cf7f012523b",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "supaJet",
+            "scope": "CLASS",
+            "components": [],
+            "x": 817,
+            "y": 622
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "3cbd2244-547d-41a3-81f0-a81ce1e0de27",
+            "type": "Tilemap",
+            "label": "mapa",
+            "key": "new_level6D",
+            "tilesets": [
+                {
+                    "name": "Laboratorio_tiles",
+                    "imageKey": "Laboratorio_tiles"
+                }
+            ]
+        },
+        {
+            "id": "dbaaf5b0-0e98-41d2-b053-319481910ca7",
+            "type": "Tilemap",
+            "label": "new_level6D",
+            "key": "new_level6D",
+            "tilesets": [
+                {
+                    "name": "Laboratorio_tiles",
+                    "imageKey": "Laboratorio_tiles"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "lists": [
+        {
+            "id": "0e080d9c-0b39-4755-a5d5-57ae5501d356",
+            "label": "doors",
+            "objectIds": [
+                "4c0d3316-ad56-4a85-93b7-7adb68e659ff"
+            ]
+        },
+        {
+            "id": "a5839e13-79a6-473b-b910-924096033370",
+            "label": "switches",
+            "objectIds": [
+                "9a1b8a13-4e2f-4e74-9b76-aacfaf3b136f"
+            ]
+        },
+        {
+            "id": "5b8b5385-7170-4f04-8368-32349b8524e7",
+            "label": "enemies",
+            "objectIds": [
+                "f2cfda02-6799-4669-b175-2c9ff6c1e269"
+            ]
+        },
+        {
+            "id": "162e2fe2-38a7-450b-88ec-186b241d78cc",
+            "label": "platforms"
+        },
+        {
+            "id": "9ebda1ea-a3d2-410b-b328-4358561cbdf7",
+            "label": "coins"
+        },
+        {
+            "id": "b383c0e6-a04f-4afa-b7ac-20a74e4cbe4c",
+            "label": "catapultas"
+        },
+        {
+            "id": "c178e26c-494b-4400-b756-424719a97c29",
+            "label": "revivingPods"
+        },
+        {
+            "id": "05b55c93-d737-42fc-948f-bc35aa612a87",
+            "label": "tutorials"
+        }
+    ]
+}

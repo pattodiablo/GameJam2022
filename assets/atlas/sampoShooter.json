@@ -1,0 +1,123 @@
+﻿{"frames": {
+
+"explode instance 10000":
+{
+	"frame": {"x":1,"y":1,"w":18,"h":14},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":57,"h":41},
+	"sourceSize": {"w":57,"h":41}
+},
+"explode instance 10001":
+{
+	"frame": {"x":20,"y":1,"w":54,"h":33},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":57,"h":41},
+	"sourceSize": {"w":57,"h":41}
+},
+"explode instance 10002":
+{
+	"frame": {"x":75,"y":1,"w":57,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":57,"h":41},
+	"sourceSize": {"w":57,"h":41}
+},
+"explode instance 10003":
+{
+	"frame": {"x":133,"y":1,"w":57,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":41},
+	"sourceSize": {"w":57,"h":41}
+},
+"newSampo  instance 10000":
+{
+	"frame": {"x":191,"y":1,"w":38,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":38,"h":48},
+	"sourceSize": {"w":38,"h":48}
+},
+"newSampo  instance 10001":
+{
+	"frame": {"x":1,"y":49,"w":38,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":48},
+	"sourceSize": {"w":38,"h":48}
+},
+"sampo_blink0000":
+{
+	"frame": {"x":40,"y":49,"w":52,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":46},
+	"sourceSize": {"w":52,"h":46}
+},
+"sampo_blink0001":
+{
+	"frame": {"x":93,"y":49,"w":52,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":46},
+	"sourceSize": {"w":52,"h":46}
+},
+"sampo_open0000":
+{
+	"frame": {"x":146,"y":49,"w":51,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":46},
+	"sourceSize": {"w":51,"h":46}
+},
+"sampo_open0001":
+{
+	"frame": {"x":198,"y":49,"w":51,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":46},
+	"sourceSize": {"w":51,"h":46}
+},
+"sampo_walkOpen0000":
+{
+	"frame": {"x":1,"y":98,"w":51,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":46},
+	"sourceSize": {"w":51,"h":46}
+},
+"sampo_walkOpen0001":
+{
+	"frame": {"x":53,"y":98,"w":51,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":51,"h":46},
+	"sourceSize": {"w":51,"h":46}
+},
+"sampo_walking0000":
+{
+	"frame": {"x":105,"y":98,"w":52,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":46},
+	"sourceSize": {"w":52,"h":46}
+},
+"sampo_walking0001":
+{
+	"frame": {"x":158,"y":98,"w":52,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":52,"h":46},
+	"sourceSize": {"w":52,"h":46}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "19.2.1.408",
+	"image": "sampoShooter.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":256},
+	"scale": "1"
+}
+}

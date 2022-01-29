@@ -1,0 +1,59 @@
+﻿{"frames": {
+
+"stinger0000":
+{
+	"frame": {"x":1,"y":1,"w":56,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":53},
+	"sourceSize": {"w":66,"h":53}
+},
+"stinger0001":
+{
+	"frame": {"x":58,"y":1,"w":59,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":53},
+	"sourceSize": {"w":66,"h":53}
+},
+"stinger0002":
+{
+	"frame": {"x":118,"y":1,"w":63,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":53},
+	"sourceSize": {"w":66,"h":53}
+},
+"stinger0003":
+{
+	"frame": {"x":182,"y":1,"w":66,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":53},
+	"sourceSize": {"w":66,"h":53}
+},
+"stinger0004":
+{
+	"frame": {"x":1,"y":55,"w":61,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":53},
+	"sourceSize": {"w":66,"h":53}
+},
+"stinger0005":
+{
+	"frame": {"x":63,"y":55,"w":56,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":53},
+	"sourceSize": {"w":66,"h":53}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "20.5.1.31044",
+	"image": "stinger.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":128},
+	"scale": "1"
+}
+}

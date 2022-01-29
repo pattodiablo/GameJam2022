@@ -1,0 +1,72 @@
+{
+    "anims": [
+        {
+            "key": "movingPirana",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "mechapirana",
+                    "frame": "pirana0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "mechapirana",
+                    "frame": "pirana0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "mechapirana",
+                    "frame": "pirana0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "mechapirana",
+                    "frame": "pirana0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "mechapirana",
+                    "frame": "pirana0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "mechapirana",
+                    "frame": "pirana0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "mechapirana",
+                    "frame": "pirana0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "mechapirana",
+                    "frame": "pirana0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "mechapirana",
+                    "frame": "pirana0008",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

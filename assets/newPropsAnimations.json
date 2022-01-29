@@ -1,0 +1,973 @@
+{
+    "anims": [
+        {
+            "key": "newSaw",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "saw0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "saw0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "saw0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "saw0003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "newSaw2",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "saw20000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "saw20001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "saw20002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "saw20003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "powerStationEmpty",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 7 instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 7 instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 7 instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 7 instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 7 instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "StationPreview",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "energy_station instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "energy_station instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "energy_station instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "energy_station instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showOnStart": true
+        },
+        {
+            "key": "ring",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10020",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10021",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10022",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10023",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10024",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10025",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10026",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10027",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10028",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10029",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10030",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10031",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10032",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10033",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10034",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10035",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10036",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10037",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10038",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10039",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Aro de Luz instance 10040",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "enemyBorn",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "enemyCreator instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "enemyCreator instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "enemyCreator instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "enemyCreator instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "enemyCreator instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "platform1",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 9 instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "platform2",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 10 instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "SupaBiteBtnActive",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 11 instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "SupaShotBtnActive",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 12 instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "dedito",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "Dedito instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Dedito instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Dedito instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Dedito instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "tollUnlocked",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "toll instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "toll instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "heartPump",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "CORAZON 2.ai instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "CORAZON 2.ai instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "CORAZON 2.ai instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "CORAZON 2.ai instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "CORAZON 2.ai instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "CORAZON 2.ai instance 10005",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "TollIdle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 2,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "TollLevel1",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 2,
+            "skipMissedFrames": true,
+            "yoyo": true
+        },
+        {
+            "key": "TollLevel2",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 2,
+            "skipMissedFrames": true,
+            "yoyo": true
+        },
+        {
+            "key": "TollLevel3",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 2,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "TollLevel4",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10005",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 2,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "TollLevel5",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 33 instance 10007",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 3,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "readyCanonButton",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 11 instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 11 instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 11 instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 11 instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 11 instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 11 instance 10005",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "repeatDelay": 3000,
+            "yoyo": true
+        },
+        {
+            "key": "sideDoorOpen",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "sideDoor instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "sideDoor instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "sideDoor instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "sideDoor instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "sideDoor instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "sideDoorClosed",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "sideDoor instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "sideDoor instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "sideDoor instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "sideDoor instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "sideDoor instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "posteAnimation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew2",
+                    "frame": "poste instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "poste instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "poste instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "poste instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "poste instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "poste instance 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "poste instance 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "poste instance 10007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "poste instance 10008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "poste instance 10009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

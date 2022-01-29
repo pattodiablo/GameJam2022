@@ -1,0 +1,54 @@
+{
+    "anims": [
+        {
+            "key": "stingerIdle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "stinger",
+                    "frame": "stinger0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "stinger",
+                    "frame": "stinger0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "stinger",
+                    "frame": "stinger0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "stinger",
+                    "frame": "stinger0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "stinger",
+                    "frame": "stinger0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "stinger",
+                    "frame": "stinger0005",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 48,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

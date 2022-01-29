@@ -1,0 +1,99 @@
+{
+    "anims": [
+        {
+            "key": "idleTraverso",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "traversoAnimations",
+                    "frame": "idle0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "traversoAnimations",
+                    "frame": "idle0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "traversoAnimations",
+                    "frame": "idle0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "traversoAnimations",
+                    "frame": "idle0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "traversoAnimations",
+                    "frame": "idle0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "traversoAnimations",
+                    "frame": "idle0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "traversoAnimations",
+                    "frame": "idle0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "traversoAnimations",
+                    "frame": "idle0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "traversoAnimations",
+                    "frame": "idle0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "traversoAnimations",
+                    "frame": "idle0009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "traversoFly",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "traversoFly",
+                    "frame": "traverso1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "traversoFly",
+                    "frame": "traverso2.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

@@ -1,0 +1,462 @@
+{
+    "id": "52ef8b24-6ad9-4f36-9969-c97a44636208",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 40,
+        "snapHeight": 37,
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "NewLevel7B",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "f4775dbe-302b-4a7e-8777-e09ee9603175",
+            "label": "tech_back",
+            "components": [
+                "FixedToCamera"
+            ],
+            "texture": {
+                "key": "tech_back"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "c3a7c36e-109c-449a-933d-4d9f86202d83",
+            "label": "noCollide_1",
+            "components": [],
+            "tilemapId": "fb56b44e-6928-482c-bcc9-d0b6832fa122",
+            "layerName": "NoCollide",
+            "tilesets": [
+                "Servidores_tiles"
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "a6d369fc-78f5-4751-8e1e-6034350974ae",
+            "label": "damagedDoor_instance_10000",
+            "components": [],
+            "texture": {
+                "key": "propsNew",
+                "frame": "damagedDoor instance 10000"
+            },
+            "x": 1102,
+            "y": 641
+        },
+        {
+            "prefabId": "d983bda3-3906-4cca-89ee-13f2180c8940",
+            "id": "40998298-ad57-4dbf-a157-a175983d2ca4",
+            "unlock": [
+                "x",
+                "y",
+                "goToLevel"
+            ],
+            "label": "smallDoor",
+            "goToLevel": "NewLevel7X",
+            "components": [],
+            "x": 113,
+            "y": -29,
+            "nestedPrefabs": []
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "77e7bc97-233f-4f99-b835-d9e99f736dc1",
+            "label": "noCollideFX",
+            "components": [],
+            "tilemapId": "fb56b44e-6928-482c-bcc9-d0b6832fa122",
+            "layerName": "NoCollideFX",
+            "tilesets": [
+                "Servidores_tiles"
+            ]
+        },
+        {
+            "prefabId": "1925181b-f823-418a-823d-bb8741a2e2be",
+            "id": "776eb310-5f51-429a-992b-315287176f61",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "energyStation",
+            "components": [],
+            "x": 127,
+            "y": 1080,
+            "nestedPrefabs": []
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "0fdb9955-539a-4037-8772-df31aad59074",
+            "label": "layer",
+            "scope": "CLASS",
+            "components": [],
+            "tilemapId": "fb56b44e-6928-482c-bcc9-d0b6832fa122",
+            "layerName": "Collide",
+            "tilesets": [
+                "Servidores_tiles"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "4a6bb924-6e9b-4ebf-847f-08fb7c822faa",
+            "label": "collideFX_1",
+            "components": [],
+            "tilemapId": "8f1d88eb-7994-457e-9077-d7829def23ea",
+            "layerName": "CollideFX",
+            "tilesets": [
+                "Servidores_tiles"
+            ]
+        },
+        {
+            "prefabId": "2bdd30b0-e379-4943-9d6b-ed6cb2ba5b0a",
+            "id": "d2800736-9db9-492e-85d2-5b568e6c820d",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "components": [],
+            "x": 1106,
+            "y": 666
+        },
+        {
+            "prefabId": "757564b1-48e3-4c4f-9257-3a1d5bd5505d",
+            "id": "231b3428-3878-4a72-955a-1e98cba2d719",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "switchPanel",
+            "components": [],
+            "x": 2159,
+            "y": 108
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "6a681dfc-cb07-4c1b-8d5f-694c588250e6",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone",
+            "components": [],
+            "x": 288,
+            "y": 757
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "1347405d-15f6-4753-b7c3-0431bd0b3f81",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_1",
+            "components": [],
+            "x": 158,
+            "y": 568
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "87939ec4-b1dd-4358-98ba-bd325bbb0b7c",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_2",
+            "components": [],
+            "x": 414,
+            "y": 375
+        },
+        {
+            "prefabId": "0b6a9364-c0e7-4115-8dc4-c0a13d50343a",
+            "id": "00ddec7e-10cf-4387-b251-f8a520e70b38",
+            "unlock": [
+                "x",
+                "y",
+                "LockId"
+            ],
+            "label": "toll",
+            "LockId": "2",
+            "components": [],
+            "x": 2079,
+            "y": 1146
+        },
+        {
+            "prefabId": "132851fc-10a4-452c-a832-422ff1f6d7b1",
+            "id": "63aea301-6b8d-4339-bd2a-cee476609984",
+            "unlock": [
+                "x",
+                "y",
+                "LockedBy",
+                "doorID",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "sideDoorLocked",
+            "LockedBy": "2",
+            "doorID": "2",
+            "components": [],
+            "x": 2080,
+            "y": 97,
+            "scaleX": 0.8,
+            "scaleY": 0.8
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "78f879e0-c520-4964-a860-0c3fe58e5048",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_3",
+            "components": [],
+            "x": 2146,
+            "y": 217
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "fb72aefb-b438-46f7-a798-5264839ba433",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_4",
+            "components": [],
+            "x": 1793,
+            "y": 532
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "e28086ef-55d9-409c-86ab-63973d816730",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_5",
+            "components": [],
+            "x": 1240,
+            "y": 215
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "c0f52709-42a8-4eb8-8eed-b6f45f61b26e",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_6",
+            "components": [],
+            "x": 695,
+            "y": 218
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "834ceae3-8419-4fc7-868a-e8f915dd0e01",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_7",
+            "components": [],
+            "x": 1762,
+            "y": 950
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "10532159-2e5d-477f-86df-083031447231",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_8",
+            "components": [],
+            "x": 1377,
+            "y": 1047
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "2df994b5-932f-4319-b817-b6801de09707",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_9",
+            "components": [],
+            "x": 825,
+            "y": 1049
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "1a306704-e8e0-4060-acf3-289a582b6303",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_10",
+            "components": [],
+            "x": 1598,
+            "y": 664
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "7db868ad-d6a8-4f77-846e-f941f66af4c0",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_11",
+            "components": [],
+            "x": 609,
+            "y": 663
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "e3983d91-16b2-4a46-a2b1-c3af078e4015",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_12",
+            "components": [],
+            "x": 961,
+            "y": 54
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "05a88b79-1fc4-4d2b-b31f-032f7b7dd892",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_13",
+            "components": [],
+            "x": 1438,
+            "y": 52
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "463e94d9-434a-468c-9817-c92a26852479",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_14",
+            "components": [],
+            "x": 1762,
+            "y": 53
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "0c091b06-0449-460b-ad6e-66753587efd9",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_15",
+            "components": [],
+            "x": 725,
+            "y": 853
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "56117e35-221e-45cf-8d64-96507995d904",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_16",
+            "components": [],
+            "x": 1490,
+            "y": 852
+        },
+        {
+            "prefabId": "f2c2ba10-5d18-44d1-b4bb-30e1d2aac783",
+            "id": "a00c75f5-2749-4b1a-b927-d15ffca90682",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "drone_17",
+            "components": [],
+            "x": 2145,
+            "y": 727
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "fb56b44e-6928-482c-bcc9-d0b6832fa122",
+            "type": "Tilemap",
+            "label": "mapa",
+            "key": "new_level7B",
+            "tilesets": [
+                {
+                    "name": "Servidores_tiles",
+                    "imageKey": "Servidores_tiles"
+                }
+            ]
+        },
+        {
+            "id": "8f1d88eb-7994-457e-9077-d7829def23ea",
+            "type": "Tilemap",
+            "label": "new_level7B",
+            "key": "new_level7B",
+            "tilesets": [
+                {
+                    "name": "Servidores_tiles",
+                    "imageKey": "Servidores_tiles"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "lists": [
+        {
+            "id": "0e080d9c-0b39-4755-a5d5-57ae5501d356",
+            "label": "doors",
+            "objectIds": [
+                "40998298-ad57-4dbf-a157-a175983d2ca4"
+            ]
+        },
+        {
+            "id": "a5839e13-79a6-473b-b910-924096033370",
+            "label": "switches",
+            "objectIds": [
+                "9a1b8a13-4e2f-4e74-9b76-aacfaf3b136f",
+                "231b3428-3878-4a72-955a-1e98cba2d719"
+            ]
+        },
+        {
+            "id": "5b8b5385-7170-4f04-8368-32349b8524e7",
+            "label": "enemies"
+        },
+        {
+            "id": "162e2fe2-38a7-450b-88ec-186b241d78cc",
+            "label": "platforms"
+        },
+        {
+            "id": "9ebda1ea-a3d2-410b-b328-4358561cbdf7",
+            "label": "coins"
+        },
+        {
+            "id": "b383c0e6-a04f-4afa-b7ac-20a74e4cbe4c",
+            "label": "catapultas"
+        },
+        {
+            "id": "c178e26c-494b-4400-b756-424719a97c29",
+            "label": "revivingPods"
+        },
+        {
+            "id": "05b55c93-d737-42fc-948f-bc35aa612a87",
+            "label": "tutorials"
+        }
+    ]
+}

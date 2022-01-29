@@ -1,0 +1,669 @@
+{
+    "anims": [
+        {
+            "key": "guardianIdle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "idle0019",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "guardianWalk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "walking0019",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "guardianFalling",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "falling0000",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "guardianFiring",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "firing0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "firing0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "firing0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "firing0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "firing0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "firing0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "firing0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "firing0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "firing0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "firing0009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "guardianShot",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10020",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10021",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10022",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10023",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10024",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10025",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10026",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10027",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10028",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "guardianShot instancia 10029",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "guardianDamaged",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TheGuardBoss",
+                    "frame": "damage0019",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

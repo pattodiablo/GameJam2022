@@ -1,0 +1,45 @@
+{
+    "id": "0f8a81a2-5a4b-4383-b9f0-cf2ce6a24410",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "195c7610-6637-461e-8397-7cddbc2a63e5",
+            "label": "camina0000",
+            "components": [
+                "StartAnimation"
+            ],
+            "StartAnimation.animationKey": "caminaEspin",
+            "texture": {
+                "key": "puerco espin",
+                "frame": "camina0000"
+            },
+            "y": 17
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "travelDistance",
+            "label": "travelDistance",
+            "tooltip": "travelDistance",
+            "defValue": 200,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

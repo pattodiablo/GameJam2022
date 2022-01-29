@@ -1,0 +1,28 @@
+{"frames": {
+
+"mina1.png":
+{
+	"frame": {"x":1,"y":1,"w":31,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":31,"h":31},
+	"sourceSize": {"w":31,"h":31}
+},
+"mina2.png":
+{
+	"frame": {"x":33,"y":1,"w":32,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":31},
+	"sourceSize": {"w":32,"h":31}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "minaAtlas.png",
+	"format": "RGBA8888",
+	"size": {"w":66,"h":33},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1f9c7eea8dc9b5af06ed41df18da4ab3:211381b6b78cba9bd47ab156156622c2:ca7527ce04e092c7059fb69af2963188$"
+}
+}

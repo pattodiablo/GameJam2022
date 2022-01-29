@@ -1,0 +1,149 @@
+{
+    "id": "909204af-3595-49bc-894e-d8d9e5bbf20c",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 40,
+        "snapHeight": 37,
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "EndingScene",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "f4775dbe-302b-4a7e-8777-e09ee9603175",
+            "label": "tech_back",
+            "scope": "CLASS",
+            "components": [
+                "FixedToCamera"
+            ],
+            "texture": {
+                "key": "tech_back"
+            },
+            "x": 1,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "9d9b74b4-4fcf-4e09-887d-8e5b743826e0",
+            "label": "endingSupa",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "endingSupa"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "09ab0d48-989c-4839-be29-c4856291eb0e",
+            "label": "endingSupa2",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "endingSupa2"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "99b553cc-2ac2-4481-a72f-6ef315b11621",
+            "label": "playAgainBtn",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "playAgainBtn"
+            },
+            "x": 237,
+            "y": 357
+        },
+        {
+            "type": "Sprite",
+            "id": "3a83fa6a-0353-4dfb-b3a5-a56b12080365",
+            "label": "creditsButton",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "creditsButton"
+            },
+            "x": 260,
+            "y": 418,
+            "scaleX": 0.3205128205128205,
+            "scaleY": 0.3205128205128205
+        },
+        {
+            "type": "Sprite",
+            "id": "12a7daae-3b9d-4803-a645-4b6719fb93e3",
+            "label": "creditos",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "creditos"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "bd0897fb-2d74-4ee4-aa03-ac35973387ee",
+            "label": "closeBtn",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "closeBtn"
+            },
+            "x": 291,
+            "y": 448
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "0e080d9c-0b39-4755-a5d5-57ae5501d356",
+            "label": "doors"
+        },
+        {
+            "id": "a5839e13-79a6-473b-b910-924096033370",
+            "label": "switches",
+            "objectIds": [
+                "9a1b8a13-4e2f-4e74-9b76-aacfaf3b136f"
+            ]
+        },
+        {
+            "id": "5b8b5385-7170-4f04-8368-32349b8524e7",
+            "label": "enemies"
+        },
+        {
+            "id": "162e2fe2-38a7-450b-88ec-186b241d78cc",
+            "label": "platforms"
+        },
+        {
+            "id": "9ebda1ea-a3d2-410b-b328-4358561cbdf7",
+            "label": "coins"
+        },
+        {
+            "id": "b383c0e6-a04f-4afa-b7ac-20a74e4cbe4c",
+            "label": "catapultas"
+        },
+        {
+            "id": "c178e26c-494b-4400-b756-424719a97c29",
+            "label": "revivingPods"
+        },
+        {
+            "id": "05b55c93-d737-42fc-948f-bc35aa612a87",
+            "label": "tutorials"
+        }
+    ]
+}

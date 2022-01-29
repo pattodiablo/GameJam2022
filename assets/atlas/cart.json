@@ -1,0 +1,35 @@
+﻿{"frames": {
+
+"cart instance 10000":
+{
+	"frame": {"x":1,"y":1,"w":72,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":66},
+	"sourceSize": {"w":72,"h":66}
+},
+"cart moving instance 10000":
+{
+	"frame": {"x":74,"y":1,"w":74,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":66},
+	"sourceSize": {"w":74,"h":66}
+},
+"cart moving instance 10001":
+{
+	"frame": {"x":149,"y":1,"w":74,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":66},
+	"sourceSize": {"w":74,"h":66}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "20.5.1.31044",
+	"image": "cart.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":128},
+	"scale": "1"
+}
+}

@@ -1,0 +1,42 @@
+{
+    "id": "070c0464-1422-44a7-9164-8b984d2940e5",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "gameOverScene",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Text",
+            "id": "411bb98e-eef3-42cf-a8ae-07a5c51b3caf",
+            "label": "titleText",
+            "scope": "CLASS",
+            "components": [],
+            "x": 168,
+            "y": 177,
+            "originY": 0,
+            "text": "GAME OVER"
+        },
+        {
+            "type": "Text",
+            "id": "d0db63bd-1bbe-4e2f-907c-052bf1f23b9f",
+            "label": "titleText_1",
+            "scope": "CLASS",
+            "components": [],
+            "x": 172,
+            "y": 319,
+            "originY": 0,
+            "text": "You will respawn from last checkpoint",
+            "fontSize": "12px"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

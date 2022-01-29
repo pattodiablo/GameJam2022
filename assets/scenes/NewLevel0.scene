@@ -1,0 +1,139 @@
+{
+    "id": "2798e1c0-3c3d-4bf4-9b90-edc9d33c11f4",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 32,
+        "snapHeight": 32,
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "NewLevel0",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "prefabId": "98617903-7395-4e97-bcd4-2600c23cbefd",
+            "id": "c7cc0a40-b38f-43d9-ac11-ddff3710e347",
+            "unlock": [
+                "scaleX",
+                "scaleY",
+                "gotoLevelName",
+                "x",
+                "y",
+                "showScore"
+            ],
+            "label": "gotoLevelWall",
+            "gotoLevelName": "NewLevel0A",
+            "showScore": false,
+            "components": [],
+            "x": 1627,
+            "y": 462,
+            "scaleY": 10
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "67a0d4c1-6645-4d40-b01b-09a1ec632ce0",
+            "label": "nocollide2_1",
+            "components": [],
+            "tilemapId": "a7f712c9-c796-4cba-b0e3-9ec7f8f27155",
+            "layerName": "nocollide2",
+            "tilesets": [
+                "new_ciudad_tiles"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "7ead72f9-e3e8-4d0e-acd6-8b0e29f24fd8",
+            "label": "nocollide",
+            "components": [],
+            "tilemapId": "a7f712c9-c796-4cba-b0e3-9ec7f8f27155",
+            "layerName": "nocollide",
+            "tilesets": [
+                "new_ciudad_tiles"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "a4c6ee38-f3e9-4ad7-9404-49ea7c8528df",
+            "label": "layer",
+            "scope": "CLASS",
+            "components": [],
+            "tilemapId": "a7f712c9-c796-4cba-b0e3-9ec7f8f27155",
+            "layerName": "collide",
+            "tilesets": [
+                "new_ciudad_tiles"
+            ]
+        },
+        {
+            "prefabId": "2bdd30b0-e379-4943-9d6b-ed6cb2ba5b0a",
+            "id": "d2800736-9db9-492e-85d2-5b568e6c820d",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "components": [],
+            "x": 87,
+            "y": 459
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "a7f712c9-c796-4cba-b0e3-9ec7f8f27155",
+            "type": "Tilemap",
+            "label": "mapa",
+            "key": "new_level0",
+            "tilesets": [
+                {
+                    "name": "new_ciudad_tiles",
+                    "imageKey": "new_ciudad_tiles"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "lists": [
+        {
+            "id": "0e080d9c-0b39-4755-a5d5-57ae5501d356",
+            "label": "doors"
+        },
+        {
+            "id": "a5839e13-79a6-473b-b910-924096033370",
+            "label": "switches",
+            "objectIds": [
+                "9a1b8a13-4e2f-4e74-9b76-aacfaf3b136f"
+            ]
+        },
+        {
+            "id": "5b8b5385-7170-4f04-8368-32349b8524e7",
+            "label": "enemies"
+        },
+        {
+            "id": "162e2fe2-38a7-450b-88ec-186b241d78cc",
+            "label": "platforms"
+        },
+        {
+            "id": "9ebda1ea-a3d2-410b-b328-4358561cbdf7",
+            "label": "coins"
+        },
+        {
+            "id": "b383c0e6-a04f-4afa-b7ac-20a74e4cbe4c",
+            "label": "catapultas"
+        },
+        {
+            "id": "c178e26c-494b-4400-b756-424719a97c29",
+            "label": "revivingPods"
+        },
+        {
+            "id": "31eff47d-130c-4018-bf6a-df9ab7135d98",
+            "label": "tutorials"
+        }
+    ]
+}

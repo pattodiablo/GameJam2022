@@ -1,0 +1,43 @@
+{
+    "anims": [
+        {
+            "key": "pigeon/flying",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "CyberPigeon",
+                    "frame": "CyberPigeon instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CyberPigeon",
+                    "frame": "CyberPigeon instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CyberPigeon",
+                    "frame": "CyberPigeon instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CyberPigeon",
+                    "frame": "CyberPigeon instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 20,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "repeatDelay": 12
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

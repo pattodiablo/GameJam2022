@@ -1,0 +1,60 @@
+{
+    "anims": [
+        {
+            "key": "SpikeOn",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "spike",
+                    "frame": "SpikeOn0001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 1,
+            "skipMissedFrames": true,
+            "showOnStart": true
+        },
+        {
+            "key": "SpikeOff",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "spike",
+                    "frame": "SpikeOn0000",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 1,
+            "skipMissedFrames": true,
+            "showOnStart": true
+        },
+        {
+            "key": "SpikeAlert",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "spike",
+                    "frame": "SpikeOn0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spike",
+                    "frame": "SpikeOn0001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}
