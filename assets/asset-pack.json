@@ -28,13 +28,6 @@
                 "key": "Arrow"
             },
             {
-                "url": [
-                    "assets/scenes/prefabs/BiteBtn.js"
-                ],
-                "type": "scripts",
-                "key": "BiteBtn"
-            },
-            {
                 "url": "assets/images/black.png",
                 "type": "image",
                 "key": "black"
@@ -43,13 +36,6 @@
                 "url": "assets/images/bluelight.png",
                 "type": "image",
                 "key": "bluelight"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/BossArm.js"
-                ],
-                "type": "scripts",
-                "key": "BossArm"
             },
             {
                 "url": [
@@ -165,27 +151,6 @@
             },
             {
                 "url": [
-                    "assets/scenes/prefabs/Box.js"
-                ],
-                "type": "scripts",
-                "key": "Box"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/BuyShotBtn.js"
-                ],
-                "type": "scripts",
-                "key": "BuyShotBtn"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/CannonRelay.js"
-                ],
-                "type": "scripts",
-                "key": "CannonRelay"
-            },
-            {
-                "url": [
                     "assets/scenes/prefabs/CannonRoll.js"
                 ],
                 "type": "scripts",
@@ -197,13 +162,6 @@
                 ],
                 "type": "scripts",
                 "key": "Cart"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Catapulta.js"
-                ],
-                "type": "scripts",
-                "key": "Catapulta"
             },
             {
                 "url": "assets/images/closeBtn.png",
@@ -236,18 +194,6 @@
             },
             {
                 "url": [
-                    "assets/scenes/prefabs/DeditoButton.js"
-                ],
-                "type": "scripts",
-                "key": "DeditoButton"
-            },
-            {
-                "url": "assets/scenes/DemoScene.js",
-                "type": "sceneFile",
-                "key": "DemoScene"
-            },
-            {
-                "url": [
                     "assets/scenes/prefabs/DoubleJumpBtnBuy.js"
                 ],
                 "type": "scripts",
@@ -255,24 +201,10 @@
             },
             {
                 "url": [
-                    "assets/scenes/prefabs/Drone.js"
-                ],
-                "type": "scripts",
-                "key": "Drone"
-            },
-            {
-                "url": [
                     "assets/scenes/prefabs/DroneShot.js"
                 ],
                 "type": "scripts",
                 "key": "DroneShot"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/EggBomb.js"
-                ],
-                "type": "scripts",
-                "key": "EggBomb"
             },
             {
                 "url": [
@@ -301,25 +233,9 @@
                 "key": "EmptyWall"
             },
             {
-                "url": [
-                    "assets/scenes/prefabs/EnemyBarrel.js"
-                ],
-                "type": "scripts",
-                "key": "EnemyBarrel"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/EnemyBody.js"
-                ],
-                "type": "scripts",
-                "key": "EnemyBody"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/EnemyCreator.js"
-                ],
-                "type": "scripts",
-                "key": "EnemyCreator"
+                "url": "assets/images/energyPanel.png",
+                "type": "image",
+                "key": "energyPanel"
             },
             {
                 "url": [
@@ -334,20 +250,6 @@
                 ],
                 "type": "scripts",
                 "key": "EnergyRode"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/EnergyStation.js"
-                ],
-                "type": "scripts",
-                "key": "EnergyStation"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/EnergyStationPreview.js"
-                ],
-                "type": "scripts",
-                "key": "EnergyStationPreview"
             },
             {
                 "url": [
@@ -715,20 +617,6 @@
             },
             {
                 "url": [
-                    "assets/scenes/prefabs/HandPointer.js"
-                ],
-                "type": "scripts",
-                "key": "HandPointer"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/HandPull.js"
-                ],
-                "type": "scripts",
-                "key": "HandPull"
-            },
-            {
-                "url": [
                     "assets/scenes/prefabs/Heart.js"
                 ],
                 "type": "scripts",
@@ -750,11 +638,6 @@
                 "url": "assets/images/inkDot.png",
                 "type": "image",
                 "key": "inkDot"
-            },
-            {
-                "url": "assets/scenes/IntroMovie.js",
-                "type": "sceneFile",
-                "key": "IntroMovie"
             },
             {
                 "url": "assets/images/jumpingSupa.png",
@@ -919,13 +802,6 @@
             },
             {
                 "url": [
-                    "assets/scenes/prefabs/PassCard.js"
-                ],
-                "type": "scripts",
-                "key": "PassCard"
-            },
-            {
-                "url": [
                     "assets/audio/fx/piranha_bite_01.mp3"
                 ],
                 "type": "audio",
@@ -944,20 +820,6 @@
                 ],
                 "type": "audio",
                 "key": "piranha_jump_01"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Platform1.js"
-                ],
-                "type": "scripts",
-                "key": "Platform1"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Platform2.js"
-                ],
-                "type": "scripts",
-                "key": "Platform2"
             },
             {
                 "url": "assets/images/playBtn.png",
@@ -983,27 +845,10 @@
             },
             {
                 "url": [
-                    "assets/scenes/prefabs/PointerDownBtn.js"
-                ],
-                "type": "scripts",
-                "key": "PointerDownBtn"
-            },
-            {
-                "url": [
                     "assets/scenes/prefabs/Poste.js"
                 ],
                 "type": "scripts",
                 "key": "Poste"
-            },
-            {
-                "url": "assets/scenes/prefabs/PowerReady.js",
-                "type": "script",
-                "key": "PowerReady"
-            },
-            {
-                "url": "assets/scenes/prefabs/PowerUp.js",
-                "type": "script",
-                "key": "PowerUp"
             },
             {
                 "url": "assets/propAnimations.json",
@@ -1087,11 +932,6 @@
                 "key": "SampoBullet"
             },
             {
-                "url": "assets/sampoShooter.json",
-                "type": "animation",
-                "key": "sampoShooter"
-            },
-            {
                 "url": [
                     "assets/audio/fx/samposhooter_damage_01.mp3"
                 ],
@@ -1106,21 +946,9 @@
                 "key": "samposhooter_destroy_01"
             },
             {
-                "url": "assets/scenes/prefabs/Saw.js",
-                "type": "script",
-                "key": "Saw"
-            },
-            {
                 "url": "assets/images/shadowGeneral.png",
                 "type": "image",
                 "key": "shadowGeneral"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/ShieldBtn.js"
-                ],
-                "type": "scripts",
-                "key": "ShieldBtn"
             },
             {
                 "url": [
@@ -1128,25 +956,6 @@
                 ],
                 "type": "scripts",
                 "key": "SmallDoor"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Spike.js"
-                ],
-                "type": "scripts",
-                "key": "Spike"
-            },
-            {
-                "url": "assets/SpikeAnim.json",
-                "type": "animation",
-                "key": "SpikeAnim"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/SpikeHorizontal.js"
-                ],
-                "type": "scripts",
-                "key": "SpikeHorizontal"
             },
             {
                 "url": [
@@ -1413,42 +1222,9 @@
                 "key": "superbravo_ready_01"
             },
             {
-                "url": [
-                    "assets/scenes/prefabs/SwitchPanel.js"
-                ],
-                "type": "scripts",
-                "key": "SwitchPanel"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/TextInfo.js"
-                ],
-                "type": "scripts",
-                "key": "TextInfo"
-            },
-            {
                 "url": "assets/scenes/TitleScreen.js",
                 "type": "sceneFile",
                 "key": "TitleScreen"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Toll.js"
-                ],
-                "type": "scripts",
-                "key": "Toll"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Traverso.js"
-                ],
-                "type": "scripts",
-                "key": "Traverso"
-            },
-            {
-                "url": "assets/TraversoAnimations.json",
-                "type": "animation",
-                "key": "TraversoAnimations"
             },
             {
                 "url": [
