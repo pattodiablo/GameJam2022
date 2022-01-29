@@ -837,6 +837,17 @@
                 "key": "Player"
             },
             {
+                "url": "assets/PlayerAnimation.json",
+                "type": "animation",
+                "key": "PlayerAnimation"
+            },
+            {
+                "atlasURL": "assets/atlas/playerAnimations.json",
+                "textureURL": "assets/atlas/playerAnimations.png",
+                "type": "atlas",
+                "key": "playerAnimations"
+            },
+            {
                 "url": [
                     "assets/scenes/prefabs/PlayerBullet.js"
                 ],

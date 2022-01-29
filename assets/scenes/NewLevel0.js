@@ -23,6 +23,9 @@ class NewLevel0 extends BaseScene {
 		// layer
 		const layer = mapa.createLayer("collide", ["level0"], 0, 0);
 
+		// idle_instancia_10000
+		this.add.image(486, 442, "playerAnimations", "idle instancia 10000");
+
 		// lists
 		const doors = [];
 		const switches = [];

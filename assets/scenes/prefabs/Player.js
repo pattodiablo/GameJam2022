@@ -6,7 +6,7 @@
 class Player extends Phaser.GameObjects.Sprite {
 
 	constructor(scene, x, y, texture, frame) {
-		super(scene, x, y, texture || "newSupaAnimations", frame !== undefined && frame !== null ? frame : "camina_animation instance 10006");
+		super(scene, x ?? 0, y ?? 0, texture || "playerAnimations", frame ?? "idle instancia 10000");
 
 		// this (components)
 		const thisPhysics = new Physics(this);
@@ -17,7 +17,7 @@ class Player extends Phaser.GameObjects.Sprite {
 		thisPhysicsBody.bodyWidth = 25;
 		thisPhysicsBody.bodyHeight = 25;
 		const thisStartAnimation = new StartAnimation(this);
-		thisStartAnimation.animationKey = "supa/idle";
+		thisStartAnimation.animationKey = "idlePlayer";
 
 		/* START-USER-CTR-CODE */
 		this.PhysicsBody=thisPhysicsBody;
@@ -35,129 +35,7 @@ class Player extends Phaser.GameObjects.Sprite {
 	 */
 
 	create() {
-console.log("what is this")
 
-		this.scene.input.on('pointerdown', this.mouseClickDown, this);
-		this.scene.input.on('pointerup', this.mouseClickUp, this);
-		this.scene.input.on('pointermove', this.mouseMove, this);
-
-	//	this.setDepth(10);
-		this.canmove = false;
-		this.swipeCoordX = 0;
-		this.swipeCoordX2 = 0
-		this.swipeCoordY = 0;
-		this.swipeCoordY2 = 0;
-		this.wannaJump = false;
-		this.minJumpIntention = 60;
-		this.minJumpIntentionOnPlatform = 120;
-		this.jumping = false;
-		this.isRunning = false;
-		this.maxPowerX = 60;
-		this.PowerX = 0;
-		this.PowerY = 0;
-		this.DirX = 0;
-		this.DirY = 0;
-		this.lastDirx = this.DirX;
-		this.VectorX = 0;
-		this.VectorY = 0;
-		this.ExtraPowerX = 12; //controla el poder de aceleracion lateral
-		this.ExtraPowerY = 2;
-		this.originalX = this.x;
-		this.originalY = this.y;
-		this.firstimeClickonScreen = false;
-		this.isDropping = false;
-		this.canEnterDoor = false;
-		this.enteringDoor = false;
-		this.isDead = false;
-		this.playDeadSound = true;
-		this.droppingVelocity = 650;
-		this.jumpingExtra = 3.5;
-		this.playerDoingNothing = true;
-		this.lastViewDirection = 0;
-		this.actionBegin = false;
-		this.actionEnd = false;
-		this.wannaEnterMainDoor = false;
-		this.isCollidingMainDoor = false;
-		this.overPlatform = false;
-		this.wasOnPlatform = false;
-		this.maxJumpingPower = 350;
-		this.limitWalk = 150;
-		this.canFall = true;
-		this.wannaRoll = false;
-		this.isSupaRolling = false;
-		this.canClimb = false;
-		this.wannaLaunch = false;
-		this.collidingCata = false;
-		this.canLaunch = false;
-		this.launching = false;
-		this.rollChances = 1;
-		this.canEnterPod = false;
-		this.enteringPod = false;
-		this.coins = 80;
-		this.supaRollsChances = 0;
-		this.playerLife = 10;
-		this.maxVelorunning = 200;
-		this.maxVelowalking = 150;
-		this.bulletdir = 1;
-		this.willEnterdoor = false;
-		this.isClimbing = false;
-		this.wannaEnterPod = false;
-		this.supaBiteChances = 0;
-		this.wannaRoll = false;
-		this.isBiting = false;
-		this.arrowPack = [];
-		this.currentArrow = 0;
-		this.maxarrows = 1;
-		this.firstTimeShot = true;
-		this.canEnterMainEntrance = false;
-		this.isJetPackActive = false;
-		this.isTouched = false;
-		this.supaDJumps = false;
-		this.isDJumping = false;
-		this.cannonRollPack = [];
-		this.isCannonPositioned = false;
-		this.isClickingEndInside = false;
-		this.isFiredfromCannon = false;
-		this.isCannonNearby=false;
-
-	
-
-		//this.body.setCircle(13,7,5);
-
-		this.largoBarra = this.scene.fuelBarFrame.lifeBarfill.width;
-		this.fuelRemain = Math.round(this.largoBarra * this.scene.fuelBarFrame.lifeBarfill.scaleX);
-		this.totalFuel = this.fuelRemain;
-
-		this.createJetPackBullets();
-
-
-		
-
-		//sonidos para saltos
-		this.fxjumplist = [this.scene.supa_voicejump_03, this.scene.supa_voicejump_04, this.scene.supa_voicejump_05];
-		//sonidos para doublejumps
-		//this.fxdoublejumplist = [this.scene.supa_doublejump_04, this.scene.supa_doublejump_05, this.scene.supa_doublejump_06];
-		this.fxdoublejumplist = [this.scene.supa_voicejump_03, this.scene.supa_voicejump_04, this.scene.supa_voicejump_05];
-		//sonidos para hurt
-		this.fxhurtlist = [this.scene.supa_voicehurt_01, this.scene.supa_voicehurt_02];
-
-		console.log(this.scene.game.playerData);
-		if(this.scene.game.playerData.gotCannon){
-			console.log("activando canon")
-			this.supaBiteChances++;
-		}
-
-		if(this.scene.game.playerData.doubleJump){
-		
-			this.supaDJumps++;
-			
-		}
-		
-		
-		this.getCurrentLife();
-		this.activateRoll();
-		this.crearParticulas();
-		this.createCoins();
 
 	}
 
@@ -168,7 +46,7 @@ console.log("what is this")
 		if(powerName=="doubleJump"){
 			this.body.enable=false;
 
-		
+
 			this.scene.createTextBox(this.x-80,this.y-150,"You can now double jump");
 
 			var reloadTimer = this.scene.time.addEvent({
@@ -186,7 +64,7 @@ console.log("what is this")
 
 		if(powerName=="cannonStrike"){
 			this.body.enable=false;
-			
+
 			this.scene.createTextBox(this.x-80,this.y-150,"Cannon Strike activated");
 
 			var reloadTimer = this.scene.time.addEvent({
@@ -327,7 +205,7 @@ console.log("what is this")
  			*/
 
 				}
-				
+
 
 
 			},
@@ -377,7 +255,7 @@ console.log("what is this")
 	}
 
 	mouseMove(pointer) {
-	
+
 	}
 
 	mouseClickDown(pointer) {
@@ -387,17 +265,17 @@ console.log("what is this")
 		this.stoptimer = this.scene.time.addEvent({
 			delay: 100,                // ms tiempo para frenar
 			callback: function(){
-			
+
 				if(pointer.isDown){
-				
-				
+
+
 						this.PowerX=0;
 						this.body.setAccelerationX(0);
 						this.body.setDragX(900); //frenar drag
-						
-		
+
+
 				}
-				
+
 			//
 			},
 			//args: [],
@@ -407,17 +285,17 @@ console.log("what is this")
 
 		if(this.body.enable){
 
-	
+
 
 				if (!this.isJetPackActive) {
 					this.actionBegin = true;
 					this.actionEnd = false;
-					
-					
+
+
 					if (this.canmove && !this.isBiting && !this.isCannonPositioned) {
 						this.swipeCoordX = pointer.x;
 						this.swipeCoordY = pointer.y;
-						
+
 					}
 				} else {
 					this.body.acceleration.y = 0;
@@ -426,12 +304,12 @@ console.log("what is this")
 							//this.scene.supa_jetpack_01.play();
 							this.scene.supa_jetpack_02.play();
 					}
-				
+
 					this.isClickingEndInside = false;
 				}
 
 		}
-	
+
 	}
 
 
@@ -444,79 +322,79 @@ console.log("what is this")
 				this.actionEnd = true;
 				//this.scene.supa_jetpack_01.stop();
 				this.scene.supa_jetpack_02.stop();
-	
-	
+
+
 				if (this.lastActionTimer !== undefined) {
 					this.lastActionTimer.remove();
-	
+
 				}
-	
+
 				this.doingActionChecker();
-	
+
 				if (this.canmove && !this.isBiting  && !this.isCannonPositioned) {
-	
+
 					this.swipeCoordX2 = pointer.x;
 					this.swipeCoordY2 = pointer.y;
 					this.PowerX = Math.abs(this.swipeCoordX - this.swipeCoordX2);
 				}
-	
-	
-	
+
+
+
 				this.lastViewDirection = this.VectorX;
-	
-	
+
+
 				if (this.PowerX >= this.maxPowerX) {
-	
+
 					this.PowerX = this.maxPowerX;
-	
+
 				}
-	
-	
-	
+
+
+
 				if (this.PowerX <= 20) {
 					this.body.setAccelerationX(0);
 					this.body.setDragX(900); //frenar drag
-	
+
 				}
-	
-	
+
+
 				this.DirX = Math.sign(this.swipeCoordX - this.swipeCoordX2);
 				this.VectorX = this.DirX * this.PowerX;
-	
+
 				this.DirY = Math.sign(this.swipeCoordY - this.swipeCoordY2);
 				this.VectorY = this.DirY * this.PowerY;
-	
-	
-	
+
+
+
 				if (!this.jumping) { //saltando jump saltar
-	
+
 					this.wannaLaunch = false;
 					this.PowerY = Math.abs(this.swipeCoordY - this.swipeCoordY2);
-	
+
 					this.direccionY = this.swipeCoordY - this.swipeCoordY2;
-	
-	
-				
-	
+
+
+
+
 				} else if (this.jumping) {
-	
+
 					this.PowerY = this.swipeCoordY - this.swipeCoordY2;
 					this.wannaJump = false;
-	
+
 					if (this.PowerY < -100) {
-	
-	
+
+
 						this.body.velocity.y = this.droppingVelocity;
 						this.isDropping = true;
 						this.wannaLaunch = true;
-	
+
 					} else if (this.PowerY >= 0 && this.PowerY < 20 && this.canFall) {
-	
+
 						this.PowerY = 0;
 						this.canFall = false;
-	
+
 					}
-	
+
 					else if (this.PowerY >= 40 && this.supaDJumps > 0 && !this.isDJumping) {
 						// console.log('quiero dobuble saltar');
 						this.wannaDoubleJump = true;
@@ -524,22 +402,22 @@ console.log("what is this")
 						if (this.supaDJumps <= 0) {
 							this.supaDJumps = 0;
 						}
-	
+
 					}
 				}
-	
-	
-	
-	
+
+
+
+
 				if (this.PowerY > this.minJumpIntention && this.DirY == 1 && this.body.onFloor()) { //si tiene intencion de salto
-	
+
 					this.wannaJump = true;
 					this.wasOnPlatform = false;
 					this.isClimbing = false;
-	
+
 				}
-	
-	
+
+
 				if (this.PowerY > this.minJumpIntention && this.DirY == 1 && this.canFallingJump) { //saltar antes de topar plataforma
 					this.canAirJump = true;
 					this.wannaJump = true;
@@ -547,7 +425,7 @@ console.log("what is this")
 						this.canAirJump = false;
 					}, null, this);
 				}
-	
+
 			} else {
 				this.isClickingEndInside = true;
 				this.jetPackBullets.forEach(bullet => {
@@ -556,11 +434,11 @@ console.log("what is this")
 				});
 				this.Bullettimer.remove();
 				this.body.acceleration.y = 0;
-	
+
 			}
-			
+
 		}
-	
+
 
 
 	}
@@ -732,7 +610,7 @@ console.log("what is this")
 				catapulta.play("catapultaOff", true);
 				this.body.enable = true,
 
-				
+
 					this.body.velocity.y = -catapulta.power;
 				this.isDropping = false;
 				this.wannaLaunch = false;
@@ -747,7 +625,7 @@ console.log("what is this")
 
 
 	idle() {
-		this.play("supa/idle", true);
+		this.play("idlePlayer", true);
 	}
 
 	moveSideWays() {
@@ -914,9 +792,9 @@ console.log("what is this")
 
 
 
-									this.play("supa/idle", true);
+									this.play("idlePlayer", true);
 
-									this.particles.emitters.list[0].lifespan.propertyValue = 0
+							
 								}
 
 							}
@@ -958,7 +836,7 @@ console.log("what is this")
 							//console.log('istouched on the air');
 							this.play("supa_hurt", true);
 							this.scene.player.wannaEnterMainDoor = false;
-							
+
 						}
 
 					}
@@ -985,7 +863,7 @@ console.log("what is this")
 		if (!this.isJetPackActive) {
 
 			if (this.body.onFloor() && this.wannaJump || this.wannaJump && this.wasOnPlatform) {
-				
+
 				const randomFx = Math.abs(Math.round(Math.random() * this.fxjumplist.length - 1));
 
 				this.fxjumplist[randomFx].play();
@@ -1088,877 +966,27 @@ console.log("what is this")
 
 	}
 
-	reloadBullets() {
-
-
-		this.restarTimer = this.scene.time.addEvent({
-			delay: 1500,                // ms
-			callback: function () {
-				this.scene.playerBullets.forEach(function (bullet) {
-
-					bullet.restart();
-				});
-			},
-			//args: [],
-			callbackScope: this,
-
-		});
-
-
-	}
-
-	checkIfSupaBite() { //para cuando se lanza del cañon
-
-
-		if (this.wannaBite) {
-
-
-		
-			this.scene.player.currentArrow = 0;
-			this.visible=false;
-			this.isBiting = true;
-			this.body.setVelocity(0);
-
-
-			this.body.enable = false;
-
-			this.scene.cameras.main.shake();
-			this.waitingfortarget = true;
-
-			this.cannonRoll = new CannonRoll(this.scene, this.x, this.y);
-			this.scene.add.existing(this.cannonRoll);
-			this.cannonRoll.emit("prefab-awake");
-			this.scene.cannonRollPack.push(this.cannonRoll);
-			this.scene.cameras.main.stopFollow(this);
-			this.scene.cameras.main.startFollow(this.cannonRoll,true, 0.4, 0.04);
-			
-
-			this.spriteCircle = this.scene.add.sprite(this.x, this.y, "targetRing"); //el cañon
-			let spriteCircle = this.spriteCircle;
-			spriteCircle.setOrigin(0.5, 0.5);
-			this.spriteKnob = this.scene.add.sprite(this.x, this.y, "knob"); //para jalar 
-
-			var spriteKnob = this.spriteKnob;
-			spriteKnob.name = "cheesckake" + Math.random() * 1000;
-			spriteKnob.setOrigin(0.5, 0.5);
-			spriteKnob.setInteractive();
-			this.scene.input.setDraggable(spriteKnob);
-
-			for (let i = 0; i < this.maxarrows; i++) {
-
-				const arrow = new Arrow(this.scene, this.x, this.y);
-				this.arrowPack.push(arrow);
-				this.scene.add.existing(arrow);
-
-			}
-
-			var rad = 0;
-			var deg = 0;
-
-
-			if (this.firstTimeShot) {
-
-				const handPull = new HandPull(this.scene, this.x, this.y);
-				this.scene.add.existing(handPull);
-				
-
-				this.scene.input.on('drag', function (pointer, gameObject, dragX, dragY) {
-
-
-					if(gameObject.texture.key == "knob"){
-						gameObject.x = dragX;
-						gameObject.y = dragY;
-	
-						rad = Phaser.Math.Angle.Between(gameObject.x, gameObject.y, gameObject.scene.player.spriteCircle.x, gameObject.scene.player.spriteCircle.y);
-						deg = Phaser.Math.RadToDeg(rad);
-	
-	
-						//gameObject.scene.player.pwrup_arrowbite_charge_01.play();
-	
-						gameObject.scene.player.arrowPack.forEach(arrow => {
-	
-							arrow.angle = deg + 90;
-						});
-	
-	
-						this.knobDistance = Phaser.Math.Distance.Between(gameObject.x, gameObject.y, gameObject.scene.player.spriteCircle.x, gameObject.scene.player.spriteCircle.y);
-						gameObject.scene.player.spriteCircle.scaleX = this.knobDistance / 50;
-						gameObject.scene.player.spriteCircle.scaleY = this.knobDistance / 50+50;
-	
-	
-				
-							gameObject.scene.player.spriteCircle.scaleX = 1;
-							gameObject.scene.player.spriteCircle.scaleY = 1;
-	
-					
-	
-						gameObject.scene.player.spriteCircle.angle =  deg+90;
-
-					}
-
-				});
-
-				this.scene.input.on('dragend', function (pointer, gameObject, dragX, dragY) {
-
-					if(gameObject.texture.key == "knob"){
-
-						rad = Phaser.Math.Angle.Between(gameObject.x, gameObject.y, gameObject.scene.player.spriteCircle.x, gameObject.scene.player.spriteCircle.y);
-						deg = Phaser.Math.RadToDeg(rad);
-	
-					
-						gameObject.scene.supa_cannon_01.play();
-	
-						var knobreturn = this.scene.tweens.createTimeline();
-						knobreturn.add({
-							targets: gameObject,
-							y: gameObject.scene.player.spriteCircle.y + 10,
-							x: gameObject.scene.player.spriteCircle.x + 10,
-							duration: 50,
-							ease: 'Linear',
-							repeat: 0,
-							callbackScope: this,
-							onComplete: function () {
-								if (typeof gameObject != undefined) {
-									//console.log(gameObject.scene.cannonRollPack);
-									gameObject.scene.physics.velocityFromAngle(deg, 700, gameObject.scene.cannonRollPack[0].body.velocity);//chequear
-							
-									gameObject.scene.cannonRollPack[0].killFirstRollcanon(gameObject.scene);
-									gameObject.scene.cannonRollPack[0].visible=false;
-									gameObject.scene.cameras.main.flash();
-									gameObject.scene.player.currentArrow++;
-									gameObject.scene.player.isFiredfromCannon=true;
-								
-									if (gameObject.scene.player.currentArrow >= gameObject.scene.player.maxarrows) {
-										gameObject.removeInteractive();
-										gameObject.scene.player.visible = false;
-										gameObject.scene.player.body.enable = false;
-										var killTimer = gameObject.scene.time.addEvent({
-											delay: 600,                // ms
-											callback: function () {
-												
-	
-												gameObject.scene.player.spriteCircle.destroy();
-	
-	
-												gameObject.scene.player.arrowPack.forEach(arrow => {
-													arrow.destroy();
-												});
-												gameObject.scene.player.isBiting = false;
-												gameObject.scene.player.body.setAcceleration(0);
-												gameObject.scene.player.waitingfortarget = false;
-												//gameObject.scene.player.supaBiteChances--;
-												gameObject.scene.player.arrowPack = [];
-												gameObject.destroy();
-											},
-											//args: [],
-											callbackScope: this,
-	
-										});
 	
 	
 	
-									}
-	
-	
-								}
-							}
-	
-						});
-	
-	
-						knobreturn.add({
-	
-							targets: gameObject,
-							y: gameObject.scene.player.spriteCircle.y - 10,
-							x: gameObject.scene.player.spriteCircle.x - 10,
-							duration: 50,
-							ease: 'Linear',
-							repeat: 0
-	
-						});
-	
-						knobreturn.add({
-	
-							targets: gameObject,
-							y: gameObject.scene.player.spriteCircle.y,
-							x: gameObject.scene.player.spriteCircle.x,
-							duration: 50,
-							ease: 'Linear',
-							repeat: 0,
-	
-	
-						});
-	
-						knobreturn.play();
-					}
-				
 
-				});
-				this.firstTimeShot = false;
-			}
-
-
-
-
-			this.wannaBite = false;
-		}
-
-
-	}
-
-	checkIfSuperRoll() { //Supa Roll
-		if (this.wannaRoll) {
-
-			this.isSupaRolling = true;
-			this.supa_spinpwrup_01.play();
-			this.body.y = this.body.y - 30;
-			this.y = this.y - 30; //poner tween en el futuro para que no sea tan grotesco
-			this.body.enable = false;
-			this.wannaRoll = false;
-			this.supaRollsChances--;
-			this.shoot();
-
-
-			var SupaRollActiveTimer = this.scene.time.addEvent({
-				delay: 3000,                // ms
-				callback: function () {
-
-
-					this.isSupaRolling = false;
-					this.body.enable = true;
-					this.shotTimer.destroy();
-					this.reloadBullets();
-					if (this.rollChances <= 0) {
-						this.scene.shootBtn.deactivateBtn();
-					}
-				},
-				//args: [],
-				callbackScope: this,
-
-			});
-
-
-		}
-	}
-
-	checkIfCanClimb() {
-		this.canClimb = false;
-	}
-
-	exitPod() {
-		this.alpha = 1;
-		this.body.enable = true;
-		this.enteringPod = false;
-	}
-
-	checkIfEnterPod() {
-		if (this.canEnterPod) {
-			if (this.wannaEnterPod && !this.enteringPod) {
-
-				this.scene.envi_powerupstation_01.play();
-
-				this.scene.cameras.main.flash();
-				this.body.enable = false;
-				this.enteringPod = true;
-
-
-				var enteringpod = this.scene.tweens.createTimeline();
-				enteringpod.add({
-					targets: this,
-					y: this.y + 20,
-					duration: 100,
-					ease: 'Linear',
-					repeat: 0
-
-				});
-
-				enteringpod.add({
-					targets: this,
-					y: this.y - 30,
-					duration: 100,
-					ease: 'Linear',
-					repeat: 0
-
-				});
-
-				enteringpod.add({
-					targets: this,
-					scale: 1.2,
-					duration: 100,
-					ease: 'Linear',
-					repeat: 0
-
-				});
-
-				enteringpod.add({
-					targets: this,
-					scale: 0.7,
-					duration: 100,
-					ease: 'Linear',
-					repeat: 0
-
-				});
-
-				enteringpod.add({
-					targets: this,
-					scale: 1,
-					duration: 100,
-					ease: 'Linear',
-					repeat: 0,
-					callbackScope: this,
-					onComplete: function () {
-						this.play("supa/puff", true);
-					}
-
-				});
-
-				enteringpod.add({
-					targets: this,
-					alpha: 0,
-					duration: 100,
-					ease: 'Linear',
-					repeat: 0
-
-				});
-
-				enteringpod.add({
-					targets: this,
-
-					duration: 450,
-					ease: 'Linear',
-					repeat: 0,
-					callbackScope: this,
-					onComplete: function () {
-						this.scene.energyPanel.open();
-					}
-
-				});
-
-				enteringpod.play();
-
-
-			}
-		}
-		this.canEnterPod = false;
-	}
-
-	checkIfHasPowerUps() {
-		if (this.supaRollsChances > 0) {
-
-			this.scene.shootBtn.activateBtn();
-
-		} else {
-			this.scene.shootBtn.deactivateBtn();
-
-		}
-		
-		if (this.supaBiteChances > 0 && this.isCannonNearby) {
-			
-			if(!this.scene.biteBtn.isOnScreen){
-
-				this.scene.biteBtn.activateBtn();
-			}
-			
-
-		} else {
-			this.scene.biteBtn.deactivateBtn();
-
-		}
-		this.isCannonNearby = false;
-	}
 
 	updatePlayer() {
 
 
-		this.jump();
-		this.checkIfCanClimb();
-		this.moveSideWays();
-		this.checkFallingJump();
-		this.checkAnimStatus();
-		this.checkIfFall();
-		this.timeWhenJustJump();
-		this.checkIfSuperRoll();
-		this.checkCatapultas();
-		this.checkIfEnterPod();
-		this.checkIfHasPowerUps();
-		this.checkIfSupaBite();
-
-		if (this.isJetPackActive) {
-		
-			this.PowerX = Math.abs(this.scene.input.x - 160);
-			this.VectorX = Math.sign(this.scene.input.x - 160);
-			if (this.VectorX > 0) {
-				this.flipX = false;
-			} else {
-				this.flipX = true;
-			}
-
-
-		}
-
-		
-	}
-
-	activateJetPack() {
-
-		this.isJetPackActive = true;
-	}
-
-	checkCatapultas() {
-		if (this.collidingCata) {
-			this.canLaunch = true;
-
-		} else {
-
-			this.canLaunch = false;
-		}
-
-		this.collidingCata = false;
-	}
-
-	timeWhenJustJump() {
-		if (this.body.onFloor()) {
-			this.wasOnPlatform = true;
-
-		}
-		if (this.jumping && this.wasOnPlatform) {
-
-			var jumpingChancewhenfall = this.scene.time.addEvent({
-				delay: 200,                // ms
-				callback: function () {
-
-					this.wasOnPlatform = false;
-				},
-
-				callbackScope: this,
-
-			});
-
-		}
-
-	}
-
-	checkIfFall() {
-		if (this.y >= this.scene.layer.height + 100 && !this.isDead) {
-			this.scene.supa_spawn01.play();
-			this.appearAgain();
-		}
-	}
-	// metodo cuando supa sufre dano 
-	playerhurt(player, enemy) {
-		//this.dieAnimation();
 	
 
+
+	}
+
 	
-		if (this.isDropping) {
-			console.log(enemy)
-			if(typeof enemy!=="undefined"){
-
-			
-			if(!enemy.isBoss){
-				if(!enemy.isBossShot){
-					enemy.body.enable = false;
-				
-					if(enemy.name !=="AcidTile"){
-						enemy.destroySequence();
-					}
-				}
-			
-			}else{
-				
-				if(enemy.name !=="AcidTile"){
-					enemy.destroySequence();
-				}
-				
-			}
-		}
-			this.scene.cameras.main.shake(60);
-			this.isTouched = false;
-
-			var HurtTimeline = this.scene.tweens.createTimeline();
-
-			HurtTimeline.add({
-				targets: this,
-				callbackScope: this,
-				onComplete: function () {
-
-					this.body.velocity.y = -200;
-					//const vx = this.body.velocity.x;
-					this.body.velocity.x=0;
-					this.body.velocity.x = (this.DirX)*200;
-
-				},
-				duration: 1000,
-				ease: 'Linear',
-				repeat: 3
-
-			});
-
-
-			HurtTimeline.add({
-				targets: this,
-				alpha: 1,
-				duration: 30,
-				ease: 'Linear',
-				repeat: 0,
-
-			});
-
-			HurtTimeline.play();
-
-
-		} else if (!this.isTouched) {
-
-			this.playerLife--;
-
-			if(this.playerLife<=0){
-				this.playerLife = 0;
-			}
-
-			this.scene.game.playerData.life = this.playerLife;
-
-		
-
-			updatear(this.scene.game.playerData);
-
-			this.isTouched = true;
-			this.body.velocity;
-			this.body.setAccelerationX(0);
-			this.PowerX = 0;
-			this.scene.cameras.main.shake(60);
-			this.scene.cameras.main.flash(200, 172, 29, 41);
-			var HurtTimeline = this.scene.tweens.createTimeline();
-
-			HurtTimeline.add({
-				targets: this,
-				callbackScope: this,
-				onComplete: function () {
-
-					this.body.velocity.y = -200;
-					//const vx = this.body.velocity.x;
-					this.body.velocity.x=0;
-					this.body.velocity.x = (this.DirX)*200;
-					
-
-				},
-				duration: 100,
-				ease: 'Linear',
-				repeat: 3
-
-			});
-
-			HurtTimeline.add({
-				targets: this,
-				alpha: 0,
-				duration: 30,
-				ease: 'Linear',
-				repeat: 3,
-				callbackScope: this,
-				yoyo: true,
-
-			});
-
-
-
-			HurtTimeline.add({
-				targets: this,
-				alpha: 0,
-				duration: 80, //tiempo de estar herido
-				ease: 'Linear',
-				repeat: 9,
-				callbackScope: this,
-				yoyo: true,
-				onComplete: function () {
-
-					this.isTouched = false;
-				}
-			});
-
-			HurtTimeline.add({
-				targets: this,
-				alpha: 1,
-				duration: 30,
-				ease: 'Linear',
-				repeat: 0,
-
-			});
-
-			HurtTimeline.play();
-
-
-			if (this.playerLife <= 0) {
-
-				this.dieAnimation();
-				this.scene.game.playerData.timesDead++;
-				
-				this.playerLife = this.scene.game.playerData.maxLife;
-
-			}
-
-			this.scene.lifepanel.calcularBarrasEncendidas();
-
-			const randomFx = Math.abs(Math.round(Math.random() * this.fxhurtlist.length - 1));
-
-			this.hurtAvailable = this.scene.sound.get(this.fxhurtlist[randomFx]); 
-			if(this.hurtAvailable){
-				this.fxhurtlist[randomFx].play();
-			}
-				
-			
-
-		}
-
-
-	}
-	playerStomped(player, stomp) {
-
-
-		if (!stomp.body.touching.down && !player.body.touching.up) {
-			this.scene.envi_stomper_01.play();
-			this.dieAnimation()
-
-		}
-
-
-
-	}
-
-
-	dieAnimation() {
-
-		if(this.hasCoins){
-
-			this.enemyCoins.forEach(coin => {
-
-				coin.startTimer();
-				coin.body.enable=true;
-				coin.visible=true;
-				coin.x = this.x;
-				coin.y = this.y;
-				coin.visible = true;
-				//coin.body.velocity.y=-500;
-				coin.body.velocity.x=Math.random()*50;
-
-			});
-
-			this.hasCoins = false;
-
-		}
-
-		this.isDead = true;
-		this.body.enable = false;
-		this.scene.cameras.main.flash();
-		if(this.scene.game.playerData.coins > 10){
-			this.scene.game.playerData.coins -= 10;
-		}
-	
-		this.scene.coinText.text = this.scene.game.playerData.coins;
-
-		var timeline = this.scene.tweens.createTimeline();
-		timeline.add({
-			targets: this,
-			scale: 0.8,
-			duration: 100,
-			ease: 'Linear',
-			repeat: 0
-
-		});
-
-		timeline.add({
-			targets: this,
-			scale: 1.2,
-			duration: 100,
-			ease: 'Linear',
-			repeat: 0
-
-		});
-		timeline.add({
-			targets: this,
-			scale: 1,
-			duration: 100,
-			ease: 'Linear',
-			repeat: 0
-
-		});
-		timeline.add({
-			targets: this,
-			rotation: 6.3,
-			duration: 250,
-			ease: 'Linear',
-			repeat: 0
-
-		});
-
-		
-
-
-		timeline.add({
-			targets: this,
-			y: this.y - 80,
-			duration: 250,
-			
-			ease: 'Linear',
-			repeat: 0
-
-		});
-
-		timeline.add({
-			targets: this,
-			y: this.scene.layer.height + 100,
-			alpha: 0,
-			delay:1000,
-
-			duration: 450,
-			ease: 'Linear',
-			repeat: 0,
-			callbackScope: this,
-			onComplete: function () {
-
-				this.isTouched=true;
-			}
-
-		});
-
-		timeline.add({
-			targets: this,
-			alpha: 0,
-			duration: 450,
-			ease: 'Linear',
-			repeat: 0,
-			callbackScope: this,
-			onComplete: function () {
-				this.PowerX = 0;
-				this.PowerY = 0;
-				this.restartGame();
-			}
-
-		});
-
-		timeline.play();
-
-
-	}
-
-
-	entryAnimation() {
-
-		updatear(this.scene.game.playerData); //updatea db
-		
-
-		this.visible = true;
-		this.setScale(0);
-		this.y = this.originalY - 30;
-		this.body.enable = false;
-		this.scene.cameras.main.stopFollow();
-		this.scene.cameras.main.flash();
-		this.isSupaRolling = true;
-		
-		var timeline = this.scene.tweens.createTimeline();
-		this.particles.visible = true;
-		this.scene.supa_spawn01.play();
-
-		timeline.add({
-			targets: this,
-			alpha: 0.1,
-			scale: 0.1,	
-			scale: 1,
-			duration: 200,
-			repeat: 0,
-		});
-
-		timeline.add({
-			targets: this,
-			alpha: 1,
-			scale: 1.2,
-			duration: 100,
-			repeat: 0,
-		});
-
-
-		timeline.add({
-			targets: this,
-			scale: 1,
-			duration: 100,
-			repeat: 0,
-		})
-
-		timeline.add({
-			targets: this,
-			alpha: 0.5,
-			duration: 80,
-			repeat: 4,
-			yoyo:true,
-			callbackScope: this,
-			onComplete: function () {
-				this.isSupaRolling = false;
-				
-			}
-		});
-
-		timeline.add({
-			targets: this,
-		
-			duration: 300,
-			ease: 'Back',
-			repeat: 0,
-			callbackScope: this,
-			onComplete: function () {
-				this.body.enable = true;
-				this.scene.cameras.main.startFollow(this, true, 0.4, 0.1);
-				this.canmove = true;
-			
-			}
-
-		});
-
-
-
-		timeline.play();
-
-
-	}
-
-	playerEntrance() {
-
-		this.playDeadSound = true;
-		this.body.enable = false;
-
-		this.scene.cameras.main.flash();
-
-		var entranceTimeline = this.scene.tweens.createTimeline();
-		entranceTimeline.add({
-			targets: this,
-			alpha: 1,
-			y: this.originalY,
-			duration: 500,
-			ease: 'Linear',
-			repeat: 0,
-			callbackScope: this,
-			onComplete: function () {
-				this.body.enable = true;
-			}
-		});
-		entranceTimeline.play();
-
-	}
 
 	restartGame() {
 
 		this.scene.restartGame();
-		
+
 	}
 
-	appearAgain(){
-		this.createCoins();
-		this.isDead = false;
-		this.isTouched=false;
-		this.x = this.originalX;
-		this.y = -50;
-		this.alpha = 1;
-		this.body.enable = false;
-		this.playerEntrance();
-		updatear(this.scene.game.playerData);
-	}
 
 
 

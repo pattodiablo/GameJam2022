@@ -23,6 +23,34 @@
             "tilesets": [
                 "level0"
             ]
+<<<<<<< Updated upstream
+=======
+        },
+        {
+            "prefabId": "2bdd30b0-e379-4943-9d6b-ed6cb2ba5b0a",
+            "id": "d2800736-9db9-492e-85d2-5b568e6c820d",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "components": [],
+            "x": 87,
+            "y": 459
+        },
+        {
+            "type": "Image",
+            "id": "24d82483-80ef-4919-b97e-d41544c1e26b",
+            "label": "idle_instancia_10000",
+            "components": [],
+            "texture": {
+                "key": "playerAnimations",
+                "frame": "idle instancia 10000"
+            },
+            "x": 486,
+            "y": 442
+>>>>>>> Stashed changes
         }
     ],
     "plainObjects": [
