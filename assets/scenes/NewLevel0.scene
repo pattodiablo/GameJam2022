@@ -13,6 +13,20 @@
     },
     "displayList": [
         {
+            "type": "Image",
+            "id": "9885f178-add7-447e-a420-fd7f399c30da",
+            "label": "background",
+            "scope": "CLASS",
+            "components": [
+                "FixedToCamera"
+            ],
+            "texture": {
+                "key": "background"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
             "type": "TilemapLayer",
             "id": "ca07ce61-a78b-4f7c-ade7-bf65f5088a5b",
             "label": "nocollide",
@@ -78,7 +92,7 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 2
+        "version": 3
     },
     "lists": [
         {

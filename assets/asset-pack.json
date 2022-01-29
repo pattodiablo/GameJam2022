@@ -28,6 +28,11 @@
                 "key": "Arrow"
             },
             {
+                "url": "assets/images/background.png",
+                "type": "image",
+                "key": "background"
+            },
+            {
                 "url": "assets/images/black.png",
                 "type": "image",
                 "key": "black"
