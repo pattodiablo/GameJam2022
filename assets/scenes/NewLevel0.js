@@ -37,15 +37,19 @@ class NewLevel0 extends BaseScene {
 		const player = new Player(this, 206, 1407);
 		this.add.existing(player);
 
+		// enemy1
+		const enemy1 = new EnemyStar(this, 828, 1351);
+		this.add.existing(enemy1);
+
 		// lists
-		const doors = []
-		const switches = []
-		const enemies = []
-		const platforms = []
-		const coins = []
-		const catapultas = []
-		const revivingPods = []
-		const tutorials = []
+		const doors = [];
+		const switches = [];
+		const enemies = [];
+		const platforms = [];
+		const coins = [];
+		const catapultas = [];
+		const revivingPods = [];
+		const tutorials = [];
 
 		this.tilespriteBG = tilespriteBG;
 		this.layer = layer;

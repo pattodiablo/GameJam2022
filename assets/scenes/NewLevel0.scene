@@ -72,6 +72,18 @@
             "components": [],
             "x": 206,
             "y": 1407
+        },
+        {
+            "prefabId": "cdd007db-866d-4fbd-bd97-b69248587a1d",
+            "id": "de5f8e51-f9c8-43df-b147-d85521808cf7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemy1",
+            "components": [],
+            "x": 828,
+            "y": 1351
         }
     ],
     "plainObjects": [
@@ -92,7 +104,7 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 2
+        "version": 3
     },
     "lists": [
         {

@@ -248,6 +248,18 @@
                 "key": "EmptyWall"
             },
             {
+                "url": "assets/images/enemy1.png",
+                "type": "image",
+                "key": "enemy1"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/EnemyStar.js"
+                ],
+                "type": "scripts",
+                "key": "EnemyStar"
+            },
+            {
                 "url": "assets/images/energyPanel.png",
                 "type": "image",
                 "key": "energyPanel"
