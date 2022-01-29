@@ -12,52 +12,65 @@ class Player extends Phaser.GameObjects.Sprite {
 		const thisPhysics = new Physics(this);
 		thisPhysics.bodyGravity = 500;
 		const thisPhysicsBody = new PhysicsBody(this);
-		thisPhysicsBody.bodyX = 6;
-		thisPhysicsBody.bodyY = 5;
-		thisPhysicsBody.bodyWidth = 25;
+		thisPhysicsBody.bodyWidth = 100;
 		thisPhysicsBody.bodyHeight = 100;
 		const thisStartAnimation = new StartAnimation(this);
 		thisStartAnimation.animationKey = "idlePlayer";
 
 		/* START-USER-CTR-CODE */
-		this.PhysicsBody=thisPhysicsBody;
-		thisPhysicsBody.enable = false;
 		this.createEvent = this.scene.events.once(Phaser.Scenes.Events.UPDATE, this.create, this);
 		this.scene.events.on("update", () => this.updatePlayer())
-
 		/* END-USER-CTR-CODE */
 	}
 
 	/* START-USER-CODE */
 
-	/**
-	 * @return {Phaser.Physics.Arcade.Body} 
-	 */
+	create(){
 
-	create() {
+		this.velocityPlayer = 250;
 
-
-	}
-
-
-
-	updatePlayer() {
-
-
-
-
+		this.cursors = this.scene.input.keyboard.addKeys(
+			{up:Phaser.Input.Keyboard.KeyCodes.W,
+			down:Phaser.Input.Keyboard.KeyCodes.S,
+			left:Phaser.Input.Keyboard.KeyCodes.A,
+			right:Phaser.Input.Keyboard.KeyCodes.D});
 
 	}
 
+	updatePlayer(){
+		if (this.cursors.right.isDown) {
 
+			this.body.velocity.x=this.velocityPlayer;
+			this.flipX=false;
+			this.isWalking=true;
 
-	restartGame() {
+		}else if (this.cursors.left.isDown) {
 
-		this.scene.restartGame();
+			this.flipX=true;
+			this.body.velocity.x=-this.velocityPlayer;
+			this.isWalking=true;
 
+		}else{
+			this.body.velocity.x=0;
+			this.isWalking=false;
+		}
+
+		this.checkAnimStatus()
 	}
 
 
+	checkAnimStatus(){
+
+		if(this.isWalking){
+
+			this.play("walkingPlayer",true);
+		}
+		if(!this.isWalking){
+			this.play("idlePlayer",true);
+
+		}
+
+	}
 
 
 	/* END-USER-CODE */

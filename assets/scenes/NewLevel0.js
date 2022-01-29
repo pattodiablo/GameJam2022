@@ -34,18 +34,26 @@ class NewLevel0 extends BaseScene {
 		const layer = mapa.createLayer("collide", ["level0"], 0, 0);
 
 		// player
-		const player = new Player(this, 231, 1406);
+		const player = new Player(this, 206, 1407);
 		this.add.existing(player);
 
+		// brazoderecho
+		const brazoderecho = new BrazoDerecho(this, 198, 1370);
+		this.add.existing(brazoderecho);
+
+		// enemyStar
+		const enemyStar = new EnemyStar(this, 636, 1344);
+		this.add.existing(enemyStar);
+
 		// lists
-		const doors = [];
-		const switches = [];
-		const enemies = [];
-		const platforms = [];
-		const coins = [];
-		const catapultas = [];
-		const revivingPods = [];
-		const tutorials = [];
+		const doors = []
+		const switches = []
+		const enemies = []
+		const platforms = []
+		const coins = []
+		const catapultas = []
+		const revivingPods = []
+		const tutorials = []
 
 		this.tilespriteBG = tilespriteBG;
 		this.layer = layer;
