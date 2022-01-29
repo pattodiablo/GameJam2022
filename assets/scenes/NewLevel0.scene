@@ -14,17 +14,37 @@
     "displayList": [
         {
             "type": "TilemapLayer",
-            "id": "8c251bfb-8bf8-4cff-adc2-508215b27d9a",
+            "id": "ca07ce61-a78b-4f7c-ade7-bf65f5088a5b",
+            "label": "nocollide",
+            "components": [],
+            "tilemapId": "379bac7a-0e88-4afc-9e91-a9974c755928",
+            "layerName": "nocollide",
+            "tilesets": [
+                "level0"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "f2cbff96-effe-4360-ba08-0f12be94a861",
+            "label": "nocollide2",
+            "components": [],
+            "tilemapId": "379bac7a-0e88-4afc-9e91-a9974c755928",
+            "layerName": "nocollide2",
+            "tilesets": [
+                "level0"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "d52a10a6-5602-428f-aa28-e652fc3458aa",
             "label": "layer",
             "scope": "CLASS",
             "components": [],
-            "tilemapId": "615ce41e-ce87-4c3e-843d-b208159ce5a4",
+            "tilemapId": "379bac7a-0e88-4afc-9e91-a9974c755928",
             "layerName": "collide",
             "tilesets": [
                 "level0"
             ]
-<<<<<<< Updated upstream
-=======
         },
         {
             "prefabId": "2bdd30b0-e379-4943-9d6b-ed6cb2ba5b0a",
@@ -38,24 +58,11 @@
             "components": [],
             "x": 87,
             "y": 459
-        },
-        {
-            "type": "Image",
-            "id": "24d82483-80ef-4919-b97e-d41544c1e26b",
-            "label": "idle_instancia_10000",
-            "components": [],
-            "texture": {
-                "key": "playerAnimations",
-                "frame": "idle instancia 10000"
-            },
-            "x": 486,
-            "y": 442
->>>>>>> Stashed changes
         }
     ],
     "plainObjects": [
         {
-            "id": "615ce41e-ce87-4c3e-843d-b208159ce5a4",
+            "id": "379bac7a-0e88-4afc-9e91-a9974c755928",
             "type": "Tilemap",
             "label": "mapa",
             "key": "new_level0",
@@ -71,7 +78,7 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 3
+        "version": 2
     },
     "lists": [
         {

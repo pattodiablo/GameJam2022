@@ -20,23 +20,31 @@ class NewLevel0 extends BaseScene {
 		const mapa = this.add.tilemap("new_level0");
 		mapa.addTilesetImage("level0", "level0");
 
+		// nocollide
+		mapa.createLayer("nocollide", [], 0, 0);
+
+		// nocollide2
+		mapa.createLayer("nocollide2", ["level0"], 0, 0);
+
 		// layer
 		const layer = mapa.createLayer("collide", ["level0"], 0, 0);
 
-		// idle_instancia_10000
-		this.add.image(486, 442, "playerAnimations", "idle instancia 10000");
+		// player
+		const player = new Player(this, 87, 459);
+		this.add.existing(player);
 
 		// lists
-		const doors = [];
-		const switches = [];
-		const enemies = [];
-		const platforms = [];
-		const coins = [];
-		const catapultas = [];
-		const revivingPods = [];
-		const tutorials = [];
+		const doors = []
+		const switches = []
+		const enemies = []
+		const platforms = []
+		const coins = []
+		const catapultas = []
+		const revivingPods = []
+		const tutorials = []
 
 		this.layer = layer;
+		this.player = player;
 		this.mapa = mapa;
 		this.doors = doors;
 		this.switches = switches;
@@ -52,6 +60,8 @@ class NewLevel0 extends BaseScene {
 
 	/** @type {Phaser.Tilemaps.TilemapLayer} */
 	layer;
+	/** @type {Player} */
+	player;
 	/** @type {Array<any>} */
 	doors;
 	/** @type {Array<any>} */

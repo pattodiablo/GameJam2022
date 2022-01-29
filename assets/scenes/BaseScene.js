@@ -504,11 +504,6 @@ class BaseScene extends Phaser.Scene {
 
 	
 
-		const energyPanel = new EnergyPanel(this, 160, this.layer.height);
-		this.add.existing(energyPanel);
-		new FixedToCamera(energyPanel);
-		energyPanel.emit("components-awake");
-		this.energyPanel = energyPanel;
 
 		// coinDisplay
 		const coinDisplay = this.add.sprite(40, 32, "coinDisplay");
@@ -823,7 +818,7 @@ class BaseScene extends Phaser.Scene {
 			onComplete: function () {
 
 			
-				this.player.entryAnimation();
+	
 
 				
 				}

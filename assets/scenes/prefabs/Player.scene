@@ -22,7 +22,7 @@
             "PhysicsBody.bodyX": 6,
             "PhysicsBody.bodyY": 5,
             "PhysicsBody.bodyWidth": 25,
-            "PhysicsBody.bodyHeight": 25,
+            "PhysicsBody.bodyHeight": 100,
             "StartAnimation.animationKey": "idlePlayer",
             "texture": {
                 "key": "playerAnimations",
