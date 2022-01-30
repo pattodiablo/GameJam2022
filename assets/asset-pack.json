@@ -178,6 +178,13 @@
             },
             {
                 "url": [
+                    "assets/scenes/prefabs/BulletOrigin.js"
+                ],
+                "type": "scripts",
+                "key": "BulletOrigin"
+            },
+            {
+                "url": [
                     "assets/scenes/prefabs/CannonRoll.js"
                 ],
                 "type": "scripts",

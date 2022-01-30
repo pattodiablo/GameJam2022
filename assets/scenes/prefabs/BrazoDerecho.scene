@@ -29,18 +29,16 @@
                     "originY": 0
                 },
                 {
-                    "type": "Image",
-                    "id": "19234b77-ec85-4168-97e2-656b3b9b28eb",
+                    "prefabId": "e689707d-045d-4993-811e-228cd5477db8",
+                    "id": "8c1909ac-7486-4f74-8c1e-f21c56a200e6",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
                     "label": "bulletOrigin",
-                    "scope": "CLASS",
                     "components": [],
-                    "texture": {
-                        "key": "black"
-                    },
                     "x": 82,
-                    "y": 27,
-                    "scaleX": 0.5,
-                    "scaleY": 0.5
+                    "y": 27
                 }
             ]
         }
