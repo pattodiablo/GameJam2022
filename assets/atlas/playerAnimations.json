@@ -1,115 +1,187 @@
 ﻿{"frames": {
 
+"death instancia 10000":
+{
+	"frame": {"x":1,"y":1,"w":127,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":133,"h":116},
+	"sourceSize": {"w":133,"h":116}
+},
+"death instancia 10001":
+{
+	"frame": {"x":129,"y":1,"w":127,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":133,"h":116},
+	"sourceSize": {"w":133,"h":116}
+},
+"death instancia 10002":
+{
+	"frame": {"x":257,"y":1,"w":127,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":133,"h":116},
+	"sourceSize": {"w":133,"h":116}
+},
+"death instancia 10003":
+{
+	"frame": {"x":385,"y":1,"w":127,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":6,"w":133,"h":116},
+	"sourceSize": {"w":133,"h":116}
+},
+"death instancia 10004":
+{
+	"frame": {"x":513,"y":1,"w":127,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":133,"h":116},
+	"sourceSize": {"w":133,"h":116}
+},
+"death instancia 10005":
+{
+	"frame": {"x":641,"y":1,"w":127,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":133,"h":116},
+	"sourceSize": {"w":133,"h":116}
+},
+"death instancia 10006":
+{
+	"frame": {"x":769,"y":1,"w":127,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":133,"h":116},
+	"sourceSize": {"w":133,"h":116}
+},
+"death instancia 10007":
+{
+	"frame": {"x":1,"y":118,"w":132,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":6,"w":133,"h":116},
+	"sourceSize": {"w":133,"h":116}
+},
+"death instancia 10008":
+{
+	"frame": {"x":134,"y":118,"w":133,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":6,"w":133,"h":116},
+	"sourceSize": {"w":133,"h":116}
+},
 "idle instancia 10000":
 {
-	"frame": {"x":1,"y":1,"w":129,"h":113},
+	"frame": {"x":268,"y":118,"w":127,"h":111},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":113},
-	"sourceSize": {"w":129,"h":113}
+	"spriteSourceSize": {"x":0,"y":0,"w":127,"h":111},
+	"sourceSize": {"w":127,"h":111}
 },
 "idle instancia 10001":
 {
-	"frame": {"x":131,"y":1,"w":129,"h":112},
+	"frame": {"x":396,"y":118,"w":127,"h":110},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":1,"w":129,"h":113},
-	"sourceSize": {"w":129,"h":113}
+	"spriteSourceSize": {"x":0,"y":1,"w":127,"h":111},
+	"sourceSize": {"w":127,"h":111}
 },
 "idle instancia 10002":
 {
-	"frame": {"x":261,"y":1,"w":129,"h":112},
+	"frame": {"x":524,"y":118,"w":127,"h":110},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":1,"w":129,"h":113},
-	"sourceSize": {"w":129,"h":113}
+	"spriteSourceSize": {"x":0,"y":1,"w":127,"h":111},
+	"sourceSize": {"w":127,"h":111}
 },
 "idle instancia 10003":
 {
-	"frame": {"x":391,"y":1,"w":129,"h":112},
+	"frame": {"x":652,"y":118,"w":127,"h":110},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":1,"w":129,"h":113},
-	"sourceSize": {"w":129,"h":113}
+	"spriteSourceSize": {"x":0,"y":1,"w":127,"h":111},
+	"sourceSize": {"w":127,"h":111}
 },
 "idle instancia 10004":
 {
-	"frame": {"x":521,"y":1,"w":129,"h":113},
+	"frame": {"x":780,"y":118,"w":127,"h":111},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":113},
-	"sourceSize": {"w":129,"h":113}
+	"spriteSourceSize": {"x":0,"y":0,"w":127,"h":111},
+	"sourceSize": {"w":127,"h":111}
 },
 "run instancia 10000":
 {
-	"frame": {"x":651,"y":1,"w":128,"h":112},
+	"frame": {"x":1,"y":230,"w":124,"h":108},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":114},
-	"sourceSize": {"w":129,"h":114}
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":111},
+	"sourceSize": {"w":125,"h":111}
 },
 "run instancia 10001":
 {
-	"frame": {"x":780,"y":1,"w":128,"h":112},
+	"frame": {"x":126,"y":230,"w":124,"h":109},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":114},
-	"sourceSize": {"w":129,"h":114}
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":111},
+	"sourceSize": {"w":125,"h":111}
 },
 "run instancia 10002":
 {
-	"frame": {"x":1,"y":115,"w":128,"h":114},
+	"frame": {"x":251,"y":230,"w":124,"h":111},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":114},
-	"sourceSize": {"w":129,"h":114}
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":111},
+	"sourceSize": {"w":125,"h":111}
 },
 "run instancia 10003":
 {
-	"frame": {"x":130,"y":115,"w":129,"h":112},
+	"frame": {"x":376,"y":230,"w":125,"h":108},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":114},
-	"sourceSize": {"w":129,"h":114}
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":111},
+	"sourceSize": {"w":125,"h":111}
 },
 "run instancia 10004":
 {
-	"frame": {"x":260,"y":115,"w":128,"h":113},
+	"frame": {"x":502,"y":230,"w":124,"h":109},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":114},
-	"sourceSize": {"w":129,"h":114}
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":111},
+	"sourceSize": {"w":125,"h":111}
 },
 "run instancia 10005":
 {
-	"frame": {"x":389,"y":115,"w":128,"h":112},
+	"frame": {"x":627,"y":230,"w":124,"h":108},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":114},
-	"sourceSize": {"w":129,"h":114}
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":111},
+	"sourceSize": {"w":125,"h":111}
 },
 "run instancia 10006":
 {
-	"frame": {"x":518,"y":115,"w":128,"h":112},
+	"frame": {"x":752,"y":230,"w":124,"h":108},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":114},
-	"sourceSize": {"w":129,"h":114}
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":111},
+	"sourceSize": {"w":125,"h":111}
 },
 "run instancia 10007":
 {
-	"frame": {"x":647,"y":115,"w":128,"h":112},
+	"frame": {"x":877,"y":230,"w":124,"h":108},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":114},
-	"sourceSize": {"w":129,"h":114}
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":111},
+	"sourceSize": {"w":125,"h":111}
 }},
 "meta": {
 	"app": "Adobe Animate",
 	"version": "21.0.9.42677",
 	"image": "playerAnimations.png",
 	"format": "RGBA8888",
-	"size": {"w":1024,"h":256},
+	"size": {"w":1024,"h":512},
 	"scale": "1"
 }
 }

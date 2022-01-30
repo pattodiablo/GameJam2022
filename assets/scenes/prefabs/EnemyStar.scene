@@ -27,5 +27,27 @@
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 3
-    }
+    },
+    "prefabProperties": [
+        {
+            "name": "isType1",
+            "label": "isType1",
+            "tooltip": "isType1",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        },
+        {
+            "name": "isType2",
+            "label": "isType2",
+            "tooltip": "isType2",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
 }
