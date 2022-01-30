@@ -75,6 +75,7 @@ class Player extends Phaser.GameObjects.Sprite {
 			onComplete: function () {
 				console.log("tween complete");
 				this.isDeath=true;
+				this.scene.gameOver.visible=true;
 				this.scene.GGJ2022_hurt01.play();
 			}
 		});
@@ -119,7 +120,7 @@ class Player extends Phaser.GameObjects.Sprite {
 			this.isWalking=true;
 
 		
-			this.scene.GGJ2022_walk01.play();
+		//	this.scene.GGJ2022_walk01.play();
 			//this.scene.GGJ2022_walk02.play();
 
 		}else if (this.cursors.left.isDown) {
@@ -128,7 +129,7 @@ class Player extends Phaser.GameObjects.Sprite {
 			this.body.velocity.x=-this.velocityPlayer;
 			this.isWalking=true;
 	
-			this.scene.GGJ2022_walk01.play();
+			//this.scene.GGJ2022_walk01.play();
 			//this.scene.GGJ2022_walk02.play();
 
 		}else{
