@@ -45,6 +45,10 @@ class NewLevel0 extends BaseScene {
 		const enemyStar = new EnemyStar(this, 636, 1344);
 		this.add.existing(enemyStar);
 
+		// bullet
+		const bullet = new PlayerBullet(this, 324, 1383);
+		this.add.existing(bullet);
+
 		// lists
 		const doors = []
 		const switches = []

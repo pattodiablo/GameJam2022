@@ -28,6 +28,8 @@ class Player extends Phaser.GameObjects.Sprite {
 	create(){
 
 		this.velocityPlayer = 250;
+		this.bulletRackCapacity=10;
+		this.bulletRack=[];
 
 		this.cursors = this.scene.input.keyboard.addKeys(
 			{up:Phaser.Input.Keyboard.KeyCodes.W,
@@ -35,6 +37,16 @@ class Player extends Phaser.GameObjects.Sprite {
 			left:Phaser.Input.Keyboard.KeyCodes.A,
 			right:Phaser.Input.Keyboard.KeyCodes.D});
 
+		this.createBullets();
+
+	}
+
+	createBullets(){
+		for (let i = 0; i < this.bulletRackCapacity; i++) {
+			
+			
+			
+		}
 	}
 
 	updatePlayer(){

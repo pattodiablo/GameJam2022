@@ -96,6 +96,18 @@
             "components": [],
             "x": 636,
             "y": 1344
+        },
+        {
+            "prefabId": "5eb59c53-23e8-4ff1-8d81-afc9f441bcf9",
+            "id": "a22a4ebe-07d1-4d20-80ae-b21427e9a2ff",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bullet",
+            "components": [],
+            "x": 324,
+            "y": 1383
         }
     ],
     "plainObjects": [
