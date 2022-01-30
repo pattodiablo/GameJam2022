@@ -96,8 +96,10 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 			enemy.hit3 = new Explotion(enemy.scene, enemy.x, enemy.y);
 			enemy.scene.add.existing(enemy.hit3);
 			enemy.destroy();
+			this.scene.GGJ2022_destroy01.play();
 		}
 		bullet.destroy();
+		
 		}
 		
 
@@ -106,6 +108,7 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 	touchPlayer(enemy,player){
 
 		player.deathProcess();
+		
 	}
 	update ()
     {
