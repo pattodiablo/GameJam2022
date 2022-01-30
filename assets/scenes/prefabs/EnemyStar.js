@@ -33,10 +33,10 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 
 		if(this.isType1){
 			this.setTexture('enemy1');
-			this.image = this.scene.add.sprite(this.x, this.y, 'inkDot');
-			this.image.setBlendMode(Phaser.BlendModes.ADD);
-			this.enemyShadow=this.scene.add.sprite(this.x, this.y, 'enemy1').setBlendMode(Phaser.BlendModes.OVERLAY);
-			this.sprites.push(this.enemyShadow);
+			//this.image = this.scene.add.sprite(this.x, this.y, 'inkDot');
+			//this.image.setBlendMode(Phaser.BlendModes.ADD);
+			//this.enemyShadow=this.scene.add.sprite(this.x, this.y, 'enemy1').setBlendMode(Phaser.BlendModes.OVERLAY);
+			//this.sprites.push(this.enemyShadow);
 	
 			var floating = this.scene.tweens.createTimeline();
 			floating.add({
@@ -44,6 +44,7 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 				y: this.y + 20,
 				duration: 500,
 				ease: 'Linear',
+				scale: 0.90,
 				repeat: -1,
 				yoyo:true
 			});

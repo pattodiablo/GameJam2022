@@ -65,6 +65,16 @@
                 "key": "bullet"
             },
             {
+                "url": "assets/bulletanimation01.json",
+                "type": "animation",
+                "key": "bulletanimation01"
+            },
+            {
+                "url": "assets/bulletanimation02.json",
+                "type": "animation",
+                "key": "bulletanimation02"
+            },
+            {
                 "url": "assets/images/bulletB.png",
                 "type": "image",
                 "key": "bulletB"
@@ -369,6 +379,20 @@
                 ],
                 "type": "scripts",
                 "key": "HeartBtn"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/hit1.js"
+                ],
+                "type": "scripts",
+                "key": "hit1"
+            },
+            {
+                "url": [
+                    "assets/scenes/prefabs/hit3.js"
+                ],
+                "type": "scripts",
+                "key": "hit3"
             },
             {
                 "url": "assets/images/howToBtn.png",

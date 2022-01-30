@@ -79,22 +79,37 @@ class BaseScene extends Phaser.Scene {
 
 		//CREAR ENEMYS
 		var timer = this.time.addEvent({
-			delay: 1000,                // ms
+			delay: 2000,                // ms
 			callback: function(){
 				var conseguirRandomStar=Math.random();
-				console.log("valor random "+conseguirRandomStar);
+				var conseguirRandomLeffRight=Math.random();
+				//console.log("valor random "+conseguirRandomStar);
+				//console.log("valor random left right "+conseguirRandomLeffRight);
 				var xEnemy=0;
 				var yEnemy=0;
-				//const enemyStar = new EnemyStar(this, this.cameras.main.scrollX + this.cameras.main.width+100, 1344);
+				
 				const enemyStar = new EnemyStar(this, xEnemy, yEnemy);
+				this.maxY = this.cameras.main.scrollY+this.cameras.main.height-300;
+					this.minY = this.cameras.main.scrollY+100;
+					this.Yrandom = Math.floor(Math.random() * (this.maxY  - this.minY)) + this.minY;
+					enemyStar.y=this.Yrandom;
 				if(conseguirRandomStar<0.5){
 					enemyStar.isType1=true;
-					enemyStar.x=this.cameras.main.scrollX + this.cameras.main.width+100;
-					enemyStar.y=1344;
+					
+					if(conseguirRandomLeffRight<0.5){
+						enemyStar.x=this.cameras.main.scrollX + this.cameras.main.width+100;
+					}else{
+						enemyStar.x=(this.cameras.main.scrollX +100)*-1;
+					}
+					
 				}else{
 					enemyStar.isType2=true;
-					enemyStar.x=this.cameras.main.scrollX;
-					enemyStar.y=this.cameras.main.scrollY -this.cameras.main.height;
+
+					if(conseguirRandomLeffRight<0.5){
+						enemyStar.x=this.cameras.main.scrollX + this.cameras.main.width+100;
+					}else{
+						enemyStar.x=(this.cameras.main.scrollX +100)*-1;
+					}
 				}
 				this.add.existing(enemyStar);
 				
