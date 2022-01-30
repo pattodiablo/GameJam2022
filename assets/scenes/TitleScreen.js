@@ -22,8 +22,8 @@ class TitleScreen extends Phaser.Scene {
 
 		// playBtn
 		const playBtn = this.add.image(161, 402, "playBtn");
-		playBtn.scaleX = 0;
-		playBtn.scaleY = 0;
+		playBtn.scaleX = 0.10;
+		playBtn.scaleY = 0.10;
 
 		// titleBg
 		const titleBg = this.add.sprite(312, 231, "title");
