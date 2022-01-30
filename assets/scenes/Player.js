@@ -75,8 +75,9 @@ class Player extends Phaser.GameObjects.Sprite {
 			onComplete: function () {
 				console.log("tween complete");
 				this.isDeath=true;
-				this.scene.gameOver.visible=true;
 				this.scene.GGJ2022_hurt01.play();
+				this.scene.gameOver.visible=true;
+				this.scene.GGJ2022_gameover01.play();
 			}
 		});
 		destroyTimeline.play();
