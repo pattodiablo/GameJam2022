@@ -725,6 +725,11 @@
                 "key": "supaTitle"
             },
             {
+                "url": "assets/images/title.png",
+                "type": "image",
+                "key": "title"
+            },
+            {
                 "url": "assets/scenes/TitleScreen.js",
                 "type": "sceneFile",
                 "key": "TitleScreen"

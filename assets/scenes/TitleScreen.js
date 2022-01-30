@@ -25,6 +25,9 @@ class TitleScreen extends Phaser.Scene {
 		playBtn.scaleX = 0;
 		playBtn.scaleY = 0;
 
+		// title
+		this.add.image(107, 174, "title");
+
 		this.red = red;
 		this.playBtn = playBtn;
 
@@ -181,7 +184,7 @@ class TitleScreen extends Phaser.Scene {
 			lifespan: { min: 1000, max: 4000 },
 			start: true
 		});
-	
+
 
 		this.particles3.setDepth(1);
 		this.playBtn.setDepth(2);
