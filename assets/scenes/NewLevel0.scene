@@ -61,48 +61,6 @@
             ]
         },
         {
-            "prefabId": "c46816ea-b122-4964-8f11-f0e0434ab349",
-            "id": "370f8aea-af44-4f36-a331-c640541c2d77",
-            "unlock": [
-                "x",
-                "y",
-                "angle"
-            ],
-            "label": "brazoIzquierdo",
-            "components": [],
-            "x": 218,
-            "y": 1381,
-            "angle": 0,
-            "nestedPrefabs": []
-        },
-        {
-            "prefabId": "b3cab0a0-a053-40a7-b9ef-95c9e2185fb1",
-            "id": "ca802f58-eb79-4fc2-b79a-77cb1658f4c2",
-            "unlock": [
-                "x",
-                "y"
-            ],
-            "label": "player",
-            "scope": "CLASS",
-            "components": [],
-            "x": 206,
-            "y": 1407
-        },
-        {
-            "prefabId": "0776961a-f2af-4d1c-bed8-a44a35d0d8cc",
-            "id": "fd4947c4-f1fa-41fc-8bf6-22aa3534e6e7",
-            "unlock": [
-                "x",
-                "y"
-            ],
-            "label": "brazoderecho",
-            "scope": "CLASS",
-            "components": [],
-            "x": 198,
-            "y": 1370,
-            "nestedPrefabs": []
-        },
-        {
             "prefabId": "cdd007db-866d-4fbd-bd97-b69248587a1d",
             "id": "cb14b75e-c3c7-4a52-8d87-157c7171172a",
             "unlock": [
@@ -138,6 +96,49 @@
             "components": [],
             "x": 279,
             "y": 1397
+        },
+        {
+            "prefabId": "c46816ea-b122-4964-8f11-f0e0434ab349",
+            "id": "370f8aea-af44-4f36-a331-c640541c2d77",
+            "unlock": [
+                "x",
+                "y",
+                "angle"
+            ],
+            "label": "brazoIzquierdo",
+            "scope": "CLASS",
+            "components": [],
+            "x": 218,
+            "y": 1381,
+            "angle": 0,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "b3cab0a0-a053-40a7-b9ef-95c9e2185fb1",
+            "id": "ca802f58-eb79-4fc2-b79a-77cb1658f4c2",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "components": [],
+            "x": 206,
+            "y": 1407
+        },
+        {
+            "prefabId": "0776961a-f2af-4d1c-bed8-a44a35d0d8cc",
+            "id": "fd4947c4-f1fa-41fc-8bf6-22aa3534e6e7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "brazoderecho",
+            "scope": "CLASS",
+            "components": [],
+            "x": 198,
+            "y": 1370,
+            "nestedPrefabs": []
         }
     ],
     "plainObjects": [
