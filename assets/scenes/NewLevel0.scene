@@ -61,47 +61,6 @@
             ]
         },
         {
-            "prefabId": "b3cab0a0-a053-40a7-b9ef-95c9e2185fb1",
-            "id": "ca802f58-eb79-4fc2-b79a-77cb1658f4c2",
-            "unlock": [
-                "x",
-                "y"
-            ],
-            "label": "player",
-            "scope": "CLASS",
-            "components": [],
-            "x": 206,
-            "y": 1407
-        },
-        {
-            "prefabId": "0776961a-f2af-4d1c-bed8-a44a35d0d8cc",
-            "id": "fd4947c4-f1fa-41fc-8bf6-22aa3534e6e7",
-            "unlock": [
-                "x",
-                "y"
-            ],
-            "label": "brazoderecho",
-            "scope": "CLASS",
-            "components": [],
-            "x": 198,
-            "y": 1370,
-            "nestedPrefabs": []
-        },
-        {
-            "prefabId": "cdd007db-866d-4fbd-bd97-b69248587a1d",
-            "id": "cb14b75e-c3c7-4a52-8d87-157c7171172a",
-            "unlock": [
-                "x",
-                "y",
-                "isType1"
-            ],
-            "label": "enemyStar",
-            "isType1": true,
-            "components": [],
-            "x": 636,
-            "y": 1344
-        },
-        {
             "prefabId": "5eb59c53-23e8-4ff1-8d81-afc9f441bcf9",
             "id": "a22a4ebe-07d1-4d20-80ae-b21427e9a2ff",
             "unlock": [
@@ -127,18 +86,31 @@
             "y": 1397
         },
         {
-            "prefabId": "cdd007db-866d-4fbd-bd97-b69248587a1d",
-            "id": "73109845-f9e2-4425-8d99-7645f015d62d",
+            "prefabId": "b3cab0a0-a053-40a7-b9ef-95c9e2185fb1",
+            "id": "ca802f58-eb79-4fc2-b79a-77cb1658f4c2",
             "unlock": [
                 "x",
-                "y",
-                "isType2"
+                "y"
             ],
-            "label": "enemyStar_1",
-            "isType2": true,
+            "label": "player",
+            "scope": "CLASS",
             "components": [],
-            "x": 768,
-            "y": 1197
+            "x": 206,
+            "y": 1407
+        },
+        {
+            "prefabId": "0776961a-f2af-4d1c-bed8-a44a35d0d8cc",
+            "id": "fd4947c4-f1fa-41fc-8bf6-22aa3534e6e7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "brazoderecho",
+            "scope": "CLASS",
+            "components": [],
+            "x": 198,
+            "y": 1370,
+            "nestedPrefabs": []
         }
     ],
     "plainObjects": [

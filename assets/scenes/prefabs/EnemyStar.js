@@ -30,20 +30,24 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 
 	create(){
 
+		this.enemyLife=3;
+		this.enemyVelocity = Math.random(140 - 70 )+70;
+		this.setScale(Math.random(0.5 - 1)+0.5);
 
 		if(this.isType1){
 			this.setTexture('enemy1');
-			this.image = this.scene.add.sprite(this.x, this.y, 'inkDot');
-			this.image.setBlendMode(Phaser.BlendModes.ADD);
-			this.enemyShadow=this.scene.add.sprite(this.x, this.y, 'enemy1').setBlendMode(Phaser.BlendModes.OVERLAY);
-			this.sprites.push(this.enemyShadow);
+			//this.image = this.scene.add.sprite(this.x, this.y, 'inkDot');
+			//this.image.setBlendMode(Phaser.BlendModes.ADD);
+			//this.enemyShadow=this.scene.add.sprite(this.x, this.y, 'enemy1').setBlendMode(Phaser.BlendModes.OVERLAY);
+			//this.sprites.push(this.enemyShadow);
 	
 			var floating = this.scene.tweens.createTimeline();
 			floating.add({
 				targets: this,
-				y: this.y + 20,
+	
 				duration: 500,
 				ease: 'Linear',
+				scale: 0.90,
 				repeat: -1,
 				yoyo:true
 			});
@@ -76,6 +80,27 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 	initColliders(){
 
 		this.scene.physics.add.overlap(this, this.scene.player, this.touchPlayer);
+		this.scene.physics.add.overlap(this, this.scene.playerBullets, this.touchBullet);
+	}
+	
+	touchBullet(enemy,bullet){
+		if(enemy.scene.player.isRedFireActive == enemy.isType1){
+
+			if(enemy.enemyLife>0){
+			
+			enemy.enemyLife--;
+			enemy.hit3 = new hit3(enemy.scene, bullet.x, bullet.y);
+			enemy.scene.add.existing(enemy.hit3);
+		}else{
+
+			enemy.hit3 = new Explotion(enemy.scene, enemy.x, enemy.y);
+			enemy.scene.add.existing(enemy.hit3);
+			enemy.destroy();
+		}
+		bullet.destroy();
+		}
+		
+
 	}
 
 	touchPlayer(enemy,player){
@@ -84,30 +109,32 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 	}
 	update ()
     {
-		if(this.isType1){
-			this.angle++;
+	if(this.active){
+		this.angle++;
+
+
+			if(this.x<=this.scene.player.x) {
+				this.body.velocity.x=this.enemyVelocity ;
+			
+			}else{
+				this.body.velocity.x=-this.enemyVelocity ;
+
+			} 
+		
+			this.distToPlayer = Phaser.Math.Distance.BetweenPoints(this, this.scene.player);
+			this.rangoXToplayer = Math.abs( this.x - this.scene.player.x);
+		
+			if(this.distToPlayer<=260 ||  this.rangoXToplayer<60){
+		
+				this.body.gravity.y=500;
+			}
+		
 	
-			this.sprites.forEach(enemyShadow => {
-				enemyShadow.angle--;
-				enemyShadow.x=this.x;
-				enemyShadow.y=this.y;
-			});
+
+	}
+
+		
 	
-	
-			if(this.x<=this.scene.player.x) 
-				this.x++;
-			else
-				this.x--;
-		}
-	
-		if(this.isType2){
-	
-			this.angle++;
-			if(this.x<=this.scene.player.x) 
-				this.x++;
-			else
-				this.x--;
-		}
 
     }
 	/* END-USER-CODE */

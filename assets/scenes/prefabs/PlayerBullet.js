@@ -17,19 +17,28 @@ class PlayerBullet extends Phaser.GameObjects.Image {
 		/* END-USER-CTR-CODE */
 	}
 
+	/** @type {boolean} */
+	isRedBullet = true;
+
 	/* START-USER-CODE */
 
 	create(){
 
 		//this.mouseAngle = Phaser.Math.Angle.Between(this.x, this.y, this.scene.input.x+ this.scene.cameras.main.scrollX, this.scene.input.y + this.scene.cameras.main.scrollY)
-		
 
-		
+		if(this.isRedBullet){
+
+			this.setTexture("bullet");
+		}else{
+			this.setTexture("bulletB");
+
+		}
+
 	if(!this.scene.player.flipX){
 		this.mouseAngle = Phaser.Math.Angle.Between(this.x, this.y, this.scene.brazoderecho.x, this.scene.brazoderecho.y);
 		this.scene.physics.velocityFromRotation(this.mouseAngle+Math.PI-0.3, 600, this.body.velocity);
 		this.rotation=this.mouseAngle+Math.PI-0.3;
-	
+
 	}else{
 
 		this.mouseAngle = Phaser.Math.Angle.Between(this.x, this.y, this.scene.brazoderecho.x, this.scene.brazoderecho.y);
@@ -37,7 +46,18 @@ class PlayerBullet extends Phaser.GameObjects.Image {
 		this.rotation=this.mouseAngle+Math.PI+0.3;
 
 	}
-		
+
+	var destroyTimer = this.scene.time.addEvent({
+		delay: 1500,                // ms
+		callback: function(){
+
+			this.destroy();
+		},
+		//args: [],
+		callbackScope: this,
+		loop: true
+	});
+
 	}
 
 	update(){

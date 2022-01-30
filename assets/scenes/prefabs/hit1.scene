@@ -1,5 +1,5 @@
 {
-    "id": "5eb59c53-23e8-4ff1-8d81-afc9f441bcf9",
+    "id": "34e6724d-01f7-487c-8e50-b449c4c426a1",
     "sceneType": "PREFAB",
     "settings": {
         "preloadMethodName": "",
@@ -10,14 +10,16 @@
     },
     "displayList": [
         {
-            "type": "Image",
-            "id": "31632c5a-4e33-4e94-b4d4-f3e0b4a45061",
-            "label": "bullet",
+            "type": "Sprite",
+            "id": "02f07b96-09d1-4b9f-9dff-ca35fe4e3026",
+            "label": "hit10004",
             "components": [
-                "Physics"
+                "StartAnimation"
             ],
+            "StartAnimation.animationKey": "hit1",
             "texture": {
-                "key": "bullet"
+                "key": "playerAnimations",
+                "frame": "hit10004"
             }
         }
     ],
@@ -27,17 +29,5 @@
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 2
-    },
-    "prefabProperties": [
-        {
-            "name": "isRedBullet",
-            "label": "isRedBullet",
-            "tooltip": "isRedBullet",
-            "defValue": true,
-            "customDefinition": false,
-            "type": {
-                "id": "boolean"
-            }
-        }
-    ]
+    }
 }
