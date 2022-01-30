@@ -30,6 +30,7 @@ class Player extends Phaser.GameObjects.Sprite {
 		this.velocityPlayer = 250;
 		this.bulletRackCapacity=10;
 		this.bulletRack=[];
+		this.isDeath = false;
 
 		this.cursors = this.scene.input.keyboard.addKeys(
 			{up:Phaser.Input.Keyboard.KeyCodes.W,
@@ -47,6 +48,16 @@ class Player extends Phaser.GameObjects.Sprite {
 			
 			
 		}
+	}
+
+	deathProcess(){
+
+		this.isDeath=true;
+		this.isWalking=false;
+		this.body.enable=false;
+
+		
+
 	}
 
 	updatePlayer(){
@@ -73,14 +84,21 @@ class Player extends Phaser.GameObjects.Sprite {
 
 	checkAnimStatus(){
 
-		if(this.isWalking){
 
-			this.play("walkingPlayer",true);
-		}
-		if(!this.isWalking){
-			this.play("idlePlayer",true);
+		if(!this.isDeath){
+				if(this.isWalking){
+
+						this.play("walkingPlayer",true);
+					}
+					if(!this.isWalking){
+						this.play("idlePlayer",true);
+
+					}
+		}else{
+			this.play("deathPlayer",true);
 
 		}
+	
 
 	}
 

@@ -58,14 +58,14 @@ class NewLevel0 extends BaseScene {
 		this.add.existing(enemyStar_1);
 
 		// lists
-		const doors = [];
-		const switches = [];
-		const enemies = [];
-		const platforms = [];
-		const coins = [];
-		const catapultas = [];
-		const revivingPods = [];
-		const tutorials = [];
+		const doors = []
+		const switches = []
+		const enemies = []
+		const platforms = []
+		const coins = []
+		const catapultas = []
+		const revivingPods = []
+		const tutorials = []
 
 		// enemyStar (prefab fields)
 		enemyStar.isType1 = true;

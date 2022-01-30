@@ -78,9 +78,9 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 		this.scene.physics.add.overlap(this, this.scene.player, this.touchPlayer);
 	}
 
-	touchPlayer(){
+	touchPlayer(enemy,player){
 
-		
+		player.deathProcess();
 	}
 	update ()
     {
