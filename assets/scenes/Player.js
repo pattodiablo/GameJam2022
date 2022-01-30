@@ -52,7 +52,7 @@ class Player extends Phaser.GameObjects.Sprite {
 	}
 
 	deathProcess(){
-
+	
 
 		this.isWalking=false;
 		this.body.enable=false;
@@ -64,19 +64,29 @@ class Player extends Phaser.GameObjects.Sprite {
 			duration: 150,
 			ease: 'Linear',
 			yoyo: true,
-			repeat: 3,
+			repeat: 4,
 			callbackScope: this,
 			onComplete: function () {
-			for (let i = 0; i < 20; i++) {
-				
-				const explotion = new Explotion(this.scene, this.x, this.y);
-				this.scene.add.existing(explotion);
-				
-			}
+				console.log("tween complete");
 				this.isDeath=true;
 			}
 		});
 		destroyTimeline.play();
+
+		var timer = this.scene.time.addEvent({
+			delay: 500,                // ms
+			callback: function(){
+
+				const explotion = new Explotion(this.scene, this.x, this.y);
+				this.scene.add.existing(explotion);
+			},
+			//args: [],
+			callbackScope: this,
+			reapeat: -1
+		});
+
+
+		
 
 	}
 
@@ -124,7 +134,7 @@ class Player extends Phaser.GameObjects.Sprite {
 
 					}
 		}else{
-			this.play("deathPlayer",true);
+			this.play("almostDeath",true);
 
 		}
 	

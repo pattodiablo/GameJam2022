@@ -61,13 +61,42 @@
             ]
         },
         {
-            "prefabId": "cdd007db-866d-4fbd-bd97-b69248587a1d",
-            "id": "cb14b75e-c3c7-4a52-8d87-157c7171172a",
+            "prefabId": "b3cab0a0-a053-40a7-b9ef-95c9e2185fb1",
+            "id": "ca802f58-eb79-4fc2-b79a-77cb1658f4c2",
             "unlock": [
                 "x",
                 "y"
             ],
+            "label": "player",
+            "scope": "CLASS",
+            "components": [],
+            "x": 206,
+            "y": 1407
+        },
+        {
+            "prefabId": "0776961a-f2af-4d1c-bed8-a44a35d0d8cc",
+            "id": "fd4947c4-f1fa-41fc-8bf6-22aa3534e6e7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "brazoderecho",
+            "scope": "CLASS",
+            "components": [],
+            "x": 198,
+            "y": 1370,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "cdd007db-866d-4fbd-bd97-b69248587a1d",
+            "id": "cb14b75e-c3c7-4a52-8d87-157c7171172a",
+            "unlock": [
+                "x",
+                "y",
+                "isType1"
+            ],
             "label": "enemyStar",
+            "isType1": true,
             "components": [],
             "x": 636,
             "y": 1344
@@ -98,45 +127,54 @@
             "y": 1397
         },
         {
-            "prefabId": "c46816ea-b122-4964-8f11-f0e0434ab349",
-            "id": "2daca5fa-3be8-4ec2-97ed-17fd3d228a78",
+            "prefabId": "cdd007db-866d-4fbd-bd97-b69248587a1d",
+            "id": "73109845-f9e2-4425-8d99-7645f015d62d",
             "unlock": [
                 "x",
-                "y"
+                "y",
+                "isType2"
             ],
-            "label": "brazoIzquierdo",
-            "scope": "CLASS",
+            "label": "enemyStar_1",
+            "isType2": true,
             "components": [],
-            "x": 208,
-            "y": 1358,
-            "nestedPrefabs": []
+            "x": 768,
+            "y": 1197
         },
         {
-            "prefabId": "b3cab0a0-a053-40a7-b9ef-95c9e2185fb1",
-            "id": "ca802f58-eb79-4fc2-b79a-77cb1658f4c2",
+            "prefabId": "e3123caa-31be-4c56-8e95-4cf917a9dff7",
+            "id": "eb939024-6737-4e4f-b1e2-24d1ee944234",
             "unlock": [
                 "x",
                 "y"
             ],
-            "label": "player",
-            "scope": "CLASS",
+            "label": "explotion",
             "components": [],
-            "x": 206,
-            "y": 1407
+            "x": 461,
+            "y": 1437
         },
         {
-            "prefabId": "0776961a-f2af-4d1c-bed8-a44a35d0d8cc",
-            "id": "fd4947c4-f1fa-41fc-8bf6-22aa3534e6e7",
+            "prefabId": "34e6724d-01f7-487c-8e50-b449c4c426a1",
+            "id": "a3cba8b2-366b-437d-bc83-f5cb2213d473",
             "unlock": [
                 "x",
                 "y"
             ],
-            "label": "brazoderecho",
-            "scope": "CLASS",
+            "label": "hit10004",
             "components": [],
-            "x": 198,
-            "y": 1370,
-            "nestedPrefabs": []
+            "x": 298,
+            "y": 1399
+        },
+        {
+            "prefabId": "72de7ea7-391a-4253-8604-3f024d634930",
+            "id": "6e08edc7-5918-4fcf-a861-41a04d566825",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "hit30006",
+            "components": [],
+            "x": 591,
+            "y": 1378
         }
     ],
     "plainObjects": [
@@ -157,7 +195,7 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 3
+        "version": 2
     },
     "lists": [
         {

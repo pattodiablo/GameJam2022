@@ -33,6 +33,14 @@ class NewLevel0 extends BaseScene {
 		// layer
 		const layer = mapa.createLayer("collide", ["level0"], 0, 0);
 
+		// player
+		const player = new Player(this, 206, 1407);
+		this.add.existing(player);
+
+		// brazoderecho
+		const brazoderecho = new BrazoDerecho(this, 198, 1370);
+		this.add.existing(brazoderecho);
+
 		// enemyStar
 		const enemyStar = new EnemyStar(this, 636, 1344);
 		this.add.existing(enemyStar);
@@ -45,34 +53,43 @@ class NewLevel0 extends BaseScene {
 		const bulletOrigin = new BulletOrigin(this, 279, 1397);
 		this.add.existing(bulletOrigin);
 
-		// brazoIzquierdo
-		const brazoIzquierdo = new BrazoIzquierdo(this, 208, 1358);
-		this.add.existing(brazoIzquierdo);
+		// enemyStar_1
+		const enemyStar_1 = new EnemyStar(this, 768, 1197);
+		this.add.existing(enemyStar_1);
 
-		// player
-		const player = new Player(this, 206, 1407);
-		this.add.existing(player);
+		// explotion
+		const explotion = new Explotion(this, 461, 1437);
+		this.add.existing(explotion);
 
-		// brazoderecho
-		const brazoderecho = new BrazoDerecho(this, 198, 1370);
-		this.add.existing(brazoderecho);
+		// hit10004
+		const hit10004 = new hit1(this, 298, 1399);
+		this.add.existing(hit10004);
+
+		// hit30006
+		const hit30006 = new hit3(this, 591, 1378);
+		this.add.existing(hit30006);
 
 		// lists
-		const doors = [];
-		const switches = [];
-		const enemies = [];
-		const platforms = [];
-		const coins = [];
-		const catapultas = [];
-		const revivingPods = [];
-		const tutorials = [];
+		const doors = []
+		const switches = []
+		const enemies = []
+		const platforms = []
+		const coins = []
+		const catapultas = []
+		const revivingPods = []
+		const tutorials = []
+
+		// enemyStar (prefab fields)
+		enemyStar.isType1 = true;
+
+		// enemyStar_1 (prefab fields)
+		enemyStar_1.isType2 = true;
 
 		this.tilespriteBG = tilespriteBG;
 		this.layer = layer;
-		this.bulletOrigin = bulletOrigin;
-		this.brazoIzquierdo = brazoIzquierdo;
 		this.player = player;
 		this.brazoderecho = brazoderecho;
+		this.bulletOrigin = bulletOrigin;
 		this.mapa = mapa;
 		this.doors = doors;
 		this.switches = switches;
@@ -90,14 +107,12 @@ class NewLevel0 extends BaseScene {
 	tilespriteBG;
 	/** @type {Phaser.Tilemaps.TilemapLayer} */
 	layer;
-	/** @type {BulletOrigin} */
-	bulletOrigin;
-	/** @type {BrazoIzquierdo} */
-	brazoIzquierdo;
 	/** @type {Player} */
 	player;
 	/** @type {BrazoDerecho} */
 	brazoderecho;
+	/** @type {BulletOrigin} */
+	bulletOrigin;
 	/** @type {Array<any>} */
 	doors;
 	/** @type {Array<any>} */
