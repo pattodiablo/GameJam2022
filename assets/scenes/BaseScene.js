@@ -77,6 +77,55 @@ class BaseScene extends Phaser.Scene {
 		this.mainDoorActive = true;
 		this.isfirstMainScene = true;
 
+		//CREAR ENEMYS
+		var timer = this.time.addEvent({
+			delay: 2000,                // ms
+			callback: function(){
+				var conseguirRandomStar=Math.random();
+				var conseguirRandomLeffRight=Math.random();
+				//console.log("valor random "+conseguirRandomStar);
+				//console.log("valor random left right "+conseguirRandomLeffRight);
+				var xEnemy=0;
+				var yEnemy=0;
+				
+				const enemyStar = new EnemyStar(this, xEnemy, yEnemy);
+				this.maxY = this.cameras.main.scrollY+this.cameras.main.height-300;
+					this.minY = this.cameras.main.scrollY+100;
+					this.Yrandom = Math.floor(Math.random() * (this.maxY  - this.minY)) + this.minY;
+					enemyStar.y=this.Yrandom;
+				if(conseguirRandomStar<0.5){
+					enemyStar.isType1=true;
+					
+					if(conseguirRandomLeffRight<0.5){
+						enemyStar.x=this.cameras.main.scrollX + this.cameras.main.width+100;
+					}else{
+						enemyStar.x=(this.cameras.main.scrollX +100)*-1;
+					}
+					
+				}else{
+					enemyStar.isType2=true;
+
+					if(conseguirRandomLeffRight<0.5){
+						enemyStar.x=this.cameras.main.scrollX + this.cameras.main.width+100;
+					}else{
+						enemyStar.x=(this.cameras.main.scrollX +100)*-1;
+					}
+				}
+				this.add.existing(enemyStar);
+				
+				//hacer calculo randomico mathrandom >0.5
+				//if true type1 else type0 
+				//tambien hacer raandom yu 
+
+				
+
+			},
+			//args: [],
+			callbackScope: this,
+			loop: true
+		});
+	
+		//CREAR ENEMYS
 
 		if(this.bgLevel1 !== undefined){
 			console.log(this.bgLevel1);
