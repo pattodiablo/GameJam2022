@@ -79,7 +79,7 @@ class BaseScene extends Phaser.Scene {
 
 		//CREAR ENEMYS
 		var timer = this.time.addEvent({
-			delay: 2000,                // ms
+			delay: 1500,                // ms
 			callback: function(){
 				var conseguirRandomStar=Math.random();
 				var conseguirRandomLeffRight=Math.random();
