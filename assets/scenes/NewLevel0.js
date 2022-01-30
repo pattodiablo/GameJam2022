@@ -41,10 +41,6 @@ class NewLevel0 extends BaseScene {
 		const brazoderecho = new BrazoDerecho(this, 198, 1370);
 		this.add.existing(brazoderecho);
 
-		// enemyStar
-		const enemyStar = new EnemyStar(this, 636, 1344);
-		this.add.existing(enemyStar);
-
 		// bullet
 		const bullet = new PlayerBullet(this, 324, 1383);
 		this.add.existing(bullet);
@@ -53,6 +49,8 @@ class NewLevel0 extends BaseScene {
 		const bulletOrigin = new BulletOrigin(this, 279, 1397);
 		this.add.existing(bulletOrigin);
 
+<<<<<<< HEAD
+=======
 		// enemyStar_1
 		const enemyStar_1 = new EnemyStar(this, 768, 1197);
 		this.add.existing(enemyStar_1);
@@ -61,29 +59,16 @@ class NewLevel0 extends BaseScene {
 		const explotion = new Explotion(this, 461, 1437);
 		this.add.existing(explotion);
 
-		// hit10004
-		const hit10004 = new hit1(this, 298, 1399);
-		this.add.existing(hit10004);
-
-		// hit30006
-		const hit30006 = new hit3(this, 591, 1378);
-		this.add.existing(hit30006);
-
+>>>>>>> main
 		// lists
-		const doors = []
-		const switches = []
-		const enemies = []
-		const platforms = []
-		const coins = []
-		const catapultas = []
-		const revivingPods = []
-		const tutorials = []
-
-		// enemyStar (prefab fields)
-		enemyStar.isType1 = true;
-
-		// enemyStar_1 (prefab fields)
-		enemyStar_1.isType2 = true;
+		const doors = [];
+		const switches = [];
+		const enemies = [];
+		const platforms = [];
+		const coins = [];
+		const catapultas = [];
+		const revivingPods = [];
+		const tutorials = [];
 
 		this.tilespriteBG = tilespriteBG;
 		this.layer = layer;
