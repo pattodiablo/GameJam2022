@@ -119,7 +119,7 @@ class Player extends Phaser.GameObjects.Sprite {
 			this.isWalking=true;
 
 		
-			this.scene.GGJ2022_walk01.play();
+			//this.scene.GGJ2022_walk01.play();
 			//this.scene.GGJ2022_walk02.play();
 
 		}else if (this.cursors.left.isDown) {
@@ -128,7 +128,7 @@ class Player extends Phaser.GameObjects.Sprite {
 			this.body.velocity.x=-this.velocityPlayer;
 			this.isWalking=true;
 	
-			this.scene.GGJ2022_walk01.play();
+			//this.scene.GGJ2022_walk01.play();
 			//this.scene.GGJ2022_walk02.play();
 
 		}else{
