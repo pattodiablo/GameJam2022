@@ -92,11 +92,12 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 			enemy.hit3 = new hit3(enemy.scene, bullet.x, bullet.y);
 			enemy.scene.add.existing(enemy.hit3);
 		}else{
-
+			enemy.scene.GGJ2022_destroy01.play();
 			enemy.hit3 = new Explotion(enemy.scene, enemy.x, enemy.y);
 			enemy.scene.add.existing(enemy.hit3);
 			enemy.destroy();
-			this.scene.GGJ2022_destroy01.play();
+			
+			
 		}
 		bullet.destroy();
 		
