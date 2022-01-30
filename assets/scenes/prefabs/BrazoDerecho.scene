@@ -27,18 +27,6 @@
                     },
                     "originX": 0,
                     "originY": 0
-                },
-                {
-                    "prefabId": "e689707d-045d-4993-811e-228cd5477db8",
-                    "id": "8c1909ac-7486-4f74-8c1e-f21c56a200e6",
-                    "unlock": [
-                        "x",
-                        "y"
-                    ],
-                    "label": "bulletOrigin",
-                    "components": [],
-                    "x": 82,
-                    "y": 27
                 }
             ]
         }

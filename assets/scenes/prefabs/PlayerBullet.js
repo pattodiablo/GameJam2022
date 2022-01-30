@@ -21,9 +21,23 @@ class PlayerBullet extends Phaser.GameObjects.Image {
 
 	create(){
 
-		this.mouseAngle = Phaser.Math.Angle.Between(this.x, this.y, this.scene.input.x+ this.scene.cameras.main.scrollX, this.scene.input.y + this.scene.cameras.main.scrollY)
-		this.scene.physics.velocityFromRotation(this.mouseAngle, 600, this.body.velocity);
-		this.rotation=this.mouseAngle;
+		//this.mouseAngle = Phaser.Math.Angle.Between(this.x, this.y, this.scene.input.x+ this.scene.cameras.main.scrollX, this.scene.input.y + this.scene.cameras.main.scrollY)
+		
+
+		
+	if(!this.scene.player.flipX){
+		this.mouseAngle = Phaser.Math.Angle.Between(this.x, this.y, this.scene.brazoderecho.x, this.scene.brazoderecho.y);
+		this.scene.physics.velocityFromRotation(this.mouseAngle+Math.PI-0.3, 600, this.body.velocity);
+		this.rotation=this.mouseAngle+Math.PI-0.3;
+	
+	}else{
+
+		this.mouseAngle = Phaser.Math.Angle.Between(this.x, this.y, this.scene.brazoderecho.x, this.scene.brazoderecho.y);
+		this.scene.physics.velocityFromRotation(this.mouseAngle+Math.PI+0.3, 600, this.body.velocity);
+		this.rotation=this.mouseAngle+Math.PI+0.3;
+
+	}
+		
 	}
 
 	update(){

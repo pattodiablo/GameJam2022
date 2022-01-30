@@ -272,6 +272,11 @@
                 "key": "enemy1"
             },
             {
+                "url": "assets/images/enemy2.png",
+                "type": "image",
+                "key": "enemy2"
+            },
+            {
                 "url": [
                     "assets/scenes/prefabs/EnemyStar.js"
                 ],

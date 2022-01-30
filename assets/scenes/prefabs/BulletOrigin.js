@@ -20,6 +20,16 @@ class BulletOrigin extends Phaser.GameObjects.Sprite {
 	/* START-USER-CODE */
 
 	create(){
+	
+
+		this.scene.input.on('pointerdown', function (pointer) {
+
+	
+			const bullet = new PlayerBullet(this.scene,this.x, this.y);
+			this.scene.add.existing(bullet);
+
+		}, this);
+
 
 	}
 
