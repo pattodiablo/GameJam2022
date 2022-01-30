@@ -72,6 +72,11 @@
                 "key": "bullet"
             },
             {
+                "url": "assets/images/bulletB.png",
+                "type": "image",
+                "key": "bulletB"
+            },
+            {
                 "url": [
                     "assets/scenes/prefabs/BulletOrigin.js"
                 ],
