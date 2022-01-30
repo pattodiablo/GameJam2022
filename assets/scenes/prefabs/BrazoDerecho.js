@@ -3,18 +3,37 @@
 
 /* START OF COMPILED CODE */
 
-class BrazoDerecho extends Phaser.GameObjects.Sprite {
+class BrazoDerecho extends Phaser.GameObjects.Container {
 
-	constructor(scene, x, y, texture, frame) {
-		super(scene, x ?? -1, y ?? -2, texture || "brazoderecho", frame);
+	constructor(scene, x, y) {
+		super(scene, x ?? -1, y ?? -2);
 
-		this.setOrigin(0, 0);
+		// brazoderecho
+		const brazoderecho = scene.add.sprite(0, 0, "brazoderecho");
+		brazoderecho.setOrigin(0, 0);
+		this.add(brazoderecho);
+
+		// bulletOrigin
+		const bulletOrigin = scene.add.sprite(82, 27, "black");
+		bulletOrigin.scaleX = 0.5;
+		bulletOrigin.scaleY = 0.5;
+		bulletOrigin.alpha = 0;
+		bulletOrigin.alphaTopLeft = 0;
+		bulletOrigin.alphaTopRight = 0;
+		bulletOrigin.alphaBottomLeft = 0;
+		bulletOrigin.alphaBottomRight = 0;
+		this.add(bulletOrigin);
+
+		this.bulletOrigin = bulletOrigin;
 
 		/* START-USER-CTR-CODE */
 		this.createEvent = this.scene.events.once(Phaser.Scenes.Events.UPDATE, this.create, this);
 		this.scene.events.on("update", () => this.update())
 		/* END-USER-CTR-CODE */
 	}
+
+	/** @type {Phaser.GameObjects.Sprite} */
+	bulletOrigin;
 
 	/* START-USER-CODE */
 
@@ -30,19 +49,20 @@ class BrazoDerecho extends Phaser.GameObjects.Sprite {
 
 			this.scene.input.on('pointerdown', function (pointer) {
 
-				
-		
+				const bullet = new PlayerBullet(this.scene, this.x+this.bulletOrigin.x, this.y+this.bulletOrigin.y);
+				this.scene.add.existing(bullet);
+
 			}, this);
-			
+
 
 		}
 
 
 		update(){
 
-		
+
 			this.mouseAngle = Phaser.Math.Angle.Between(this.x, this.y, this.scene.input.x+ this.scene.cameras.main.scrollX, this.scene.input.y + this.scene.cameras.main.scrollY)
-		
+
 
 			if(this.scene.player.flipX){
 				this.visible=false;
