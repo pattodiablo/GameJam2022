@@ -29,6 +29,8 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 
 
 	create(){
+
+
 		if(this.isType1){
 			this.setTexture('enemy1');
 			this.image = this.scene.add.sprite(this.x, this.y, 'inkDot');
@@ -66,9 +68,20 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 			floating2.play();
 	
 		}
+
+		this.initColliders();
 	}
 
 
+	initColliders(){
+
+		this.scene.physics.add.overlap(this, this.scene.player, this.touchPlayer);
+	}
+
+	touchPlayer(){
+
+		
+	}
 	update ()
     {
 		if(this.isType1){
