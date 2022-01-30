@@ -77,6 +77,40 @@ class BaseScene extends Phaser.Scene {
 		this.mainDoorActive = true;
 		this.isfirstMainScene = true;
 
+		//CREAR ENEMYS
+		var timer = this.time.addEvent({
+			delay: 1000,                // ms
+			callback: function(){
+				var conseguirRandomStar=Math.random();
+				console.log("valor random "+conseguirRandomStar);
+				var xEnemy=0;
+				var yEnemy=0;
+				//const enemyStar = new EnemyStar(this, this.cameras.main.scrollX + this.cameras.main.width+100, 1344);
+				const enemyStar = new EnemyStar(this, xEnemy, yEnemy);
+				if(conseguirRandomStar<0.5){
+					enemyStar.isType1=true;
+					enemyStar.x=this.cameras.main.scrollX + this.cameras.main.width+100;
+					enemyStar.y=1344;
+				}else{
+					enemyStar.isType2=true;
+					enemyStar.x=this.cameras.main.scrollX;
+					enemyStar.y=this.cameras.main.scrollY -this.cameras.main.height;
+				}
+				this.add.existing(enemyStar);
+				
+				//hacer calculo randomico mathrandom >0.5
+				//if true type1 else type0 
+				//tambien hacer raandom yu 
+
+				
+
+			},
+			//args: [],
+			callbackScope: this,
+			loop: true
+		});
+	
+		//CREAR ENEMYS
 
 		if(this.bgLevel1 !== undefined){
 			console.log(this.bgLevel1);
