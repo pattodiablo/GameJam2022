@@ -14,21 +14,14 @@ class BrazoDerecho extends Phaser.GameObjects.Container {
 		this.add(brazoderecho);
 
 		// bulletOrigin
-		const bulletOrigin = scene.add.image(82, 27, "black");
-		bulletOrigin.scaleX = 0.5;
-		bulletOrigin.scaleY = 0.5;
+		const bulletOrigin = new BulletOrigin(scene, 82, 27);
 		this.add(bulletOrigin);
-
-		this.bulletOrigin = bulletOrigin;
 
 		/* START-USER-CTR-CODE */
 		this.createEvent = this.scene.events.once(Phaser.Scenes.Events.UPDATE, this.create, this);
 		this.scene.events.on("update", () => this.update())
 		/* END-USER-CTR-CODE */
 	}
-
-	/** @type {Phaser.GameObjects.Image} */
-	bulletOrigin;
 
 	/* START-USER-CODE */
 
@@ -42,19 +35,13 @@ class BrazoDerecho extends Phaser.GameObjects.Container {
 			this.brazoIzquierdo.scaleX=-1;
 			this.brazoIzquierdo.visible=false;
 
-			this.scene.input.on('pointerdown', function (pointer) {
 
-				const bullet = new PlayerBullet(this.scene, this.x+this.bulletOrigin.x, this.y+this.bulletOrigin.y);
-				this.scene.add.existing(bullet);
-
-			}, this);
 
 
 		}
 
 
 		update(){
-
 
 			this.mouseAngle = Phaser.Math.Angle.Between(this.x, this.y, this.scene.input.x+ this.scene.cameras.main.scrollX, this.scene.input.y + this.scene.cameras.main.scrollY)
 

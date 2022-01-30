@@ -81,9 +81,11 @@
                 "y"
             ],
             "label": "brazoderecho",
+            "scope": "CLASS",
             "components": [],
             "x": 198,
-            "y": 1370
+            "y": 1370,
+            "nestedPrefabs": []
         },
         {
             "prefabId": "cdd007db-866d-4fbd-bd97-b69248587a1d",

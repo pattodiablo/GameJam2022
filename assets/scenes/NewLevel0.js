@@ -62,6 +62,7 @@ class NewLevel0 extends BaseScene {
 		this.tilespriteBG = tilespriteBG;
 		this.layer = layer;
 		this.player = player;
+		this.brazoderecho = brazoderecho;
 		this.mapa = mapa;
 		this.doors = doors;
 		this.switches = switches;
@@ -81,6 +82,8 @@ class NewLevel0 extends BaseScene {
 	layer;
 	/** @type {Player} */
 	player;
+	/** @type {BrazoDerecho} */
+	brazoderecho;
 	/** @type {Array<any>} */
 	doors;
 	/** @type {Array<any>} */
