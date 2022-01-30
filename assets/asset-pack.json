@@ -321,6 +321,13 @@
             },
             {
                 "url": [
+                    "assets/audio/music/GGJ2022_ost03.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_ost03"
+            },
+            {
+                "url": [
                     "assets/audio/fx/GGJ2022_switchweapon01.mp3"
                 ],
                 "type": "audio",
