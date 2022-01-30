@@ -151,6 +151,30 @@
             "components": [],
             "x": 461,
             "y": 1437
+        },
+        {
+            "prefabId": "34e6724d-01f7-487c-8e50-b449c4c426a1",
+            "id": "a3cba8b2-366b-437d-bc83-f5cb2213d473",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "hit10004",
+            "components": [],
+            "x": 298,
+            "y": 1399
+        },
+        {
+            "prefabId": "72de7ea7-391a-4253-8604-3f024d634930",
+            "id": "6e08edc7-5918-4fcf-a861-41a04d566825",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "hit30006",
+            "components": [],
+            "x": 591,
+            "y": 1378
         }
     ],
     "plainObjects": [
