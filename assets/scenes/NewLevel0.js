@@ -57,14 +57,6 @@ class NewLevel0 extends BaseScene {
 		const explotion = new Explotion(this, 461, 1437);
 		this.add.existing(explotion);
 
-		// hit10004
-		const hit10004 = new hit1(this, 298, 1399);
-		this.add.existing(hit10004);
-
-		// hit30006
-		const hit30006 = new hit3(this, 591, 1378);
-		this.add.existing(hit30006);
-
 		// lists
 		const doors = [];
 		const switches = [];

@@ -3,15 +3,15 @@
 
 /* START OF COMPILED CODE */
 
-class BrazoDerecho extends Phaser.GameObjects.Container {
+class BrazoIzquierdo extends Phaser.GameObjects.Container {
 
 	constructor(scene, x, y) {
 		super(scene, x ?? -1, y ?? -2);
 
-		// brazoderecho
-		const brazoderecho = scene.add.sprite(0, 0, "brazoderecho");
-		brazoderecho.setOrigin(0, 0);
-		this.add(brazoderecho);
+		// brazoizquierdo
+		const brazoizquierdo = scene.add.sprite(0, 0, "brazoizquierdo");
+		brazoizquierdo.setOrigin(0, 0);
+		this.add(brazoizquierdo);
 
 		/* START-USER-CTR-CODE */
 		this.createEvent = this.scene.events.once(Phaser.Scenes.Events.UPDATE, this.create, this);
@@ -26,13 +26,12 @@ class BrazoDerecho extends Phaser.GameObjects.Container {
 			this.x=this.scene.player.x;
 			this.y=this.scene.player.y-10;
 
-			this.brazoizquierdo=this.scene.add.sprite(this.x,this.y,"brazoizquierdo");
-			this.brazoizquierdo.setOrigin(0,0);
-			this.brazoizquierdo.scaleX=-1;
-			this.brazoizquierdo.visible=false;
-			this.visible.true;
+			this.brazoderecho=this.scene.add.sprite(this.x,this.y,"brazoderecho");
+			this.brazoderecho.setOrigin(0,0);
+			this.brazoderecho.scaleX=-1;
+			this.brazoderecho.visible=false;
+			this.visible=true;
 		
-
 
 
 
@@ -46,19 +45,21 @@ class BrazoDerecho extends Phaser.GameObjects.Container {
 
 			if(this.scene.player.flipX){
 				this.visible=false;
-				this.brazoizquierdo.rotation=this.mouseAngle+Math.PI;
-				this.brazoizquierdo.visible=true;
+				this.brazoderecho.rotation=this.mouseAngle+Math.PI;
+				this.brazoderecho.visible=true;
 				
+			
 			}else{
 				this.visible=true;
-				this.brazoizquierdo.visible=false;
+				this.brazoderecho.visible=false;
 				this.rotation=this.mouseAngle;
+				
 			
 			}
 			this.x=this.scene.player.x;
-			this.y=this.scene.player.y-30;
-			this.brazoizquierdo.x=this.scene.player.x;
-			this.brazoizquierdo.y=this.scene.player.y-30;
+			this.y=this.scene.player.y-40;
+			this.brazoderecho.x=this.scene.player.x;
+			this.brazoderecho.y=this.scene.player.y-40;
 
 		}
 	/* END-USER-CODE */
