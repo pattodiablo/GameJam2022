@@ -31,6 +31,8 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 	create(){
 
 		this.enemyLife=3;
+		this.enemyVelocity = Math.random(140 - 70 )+70;
+		this.setScale(Math.random(0.5 - 1)+0.5);
 
 		if(this.isType1){
 			this.setTexture('enemy1');
@@ -42,7 +44,7 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 			var floating = this.scene.tweens.createTimeline();
 			floating.add({
 				targets: this,
-				y: this.y + 20,
+	
 				duration: 500,
 				ease: 'Linear',
 				scale: 0.90,
@@ -109,33 +111,25 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
     {
 	if(this.active){
 		this.angle++;
-		if(this.x<=this.scene.player.x) {
-			this.x++;
-			
-			if(this.y<=this.scene.player.y){
-				this.y++;
-			}else{
-				this.y--;
-			} 
-		}else{
-			this.x--;
-			
-			if(this.y<=this.scene.player.y){
-				this.y++;
-			}else{
-				this.y--;
-			} 
-		} 
-		
-			
 
-		if(this.isType1){
+
+			if(this.x<=this.scene.player.x) {
+				this.body.velocity.x=this.enemyVelocity ;
 			
-		}
-		if(this.isType2){
-			
-			
-		}
+			}else{
+				this.body.velocity.x=-this.enemyVelocity ;
+
+			} 
+		
+			this.distToPlayer = Phaser.Math.Distance.BetweenPoints(this, this.scene.player);
+			this.rangoXToplayer = Math.abs( this.x - this.scene.player.x);
+		
+			if(this.distToPlayer<=260 ||  this.rangoXToplayer<60){
+		
+				this.body.gravity.y=500;
+			}
+		
+	
 
 	}
 

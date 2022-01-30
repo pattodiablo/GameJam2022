@@ -21,6 +21,7 @@ class BulletOrigin extends Phaser.GameObjects.Sprite {
 
 	create(){
 	
+		this.visible=false;
 
 		this.scene.input.on('pointerdown', function (pointer) {
 
