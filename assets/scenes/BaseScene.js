@@ -37,7 +37,6 @@ class BaseScene extends Phaser.Scene {
 
 
 	
-
 		//console.log("level key " + this.scene.key);
 		activeLeveles.push(this.scene.key);
 		//console.log("active leveles " + activeLeveles);
@@ -79,7 +78,7 @@ class BaseScene extends Phaser.Scene {
 
 		//CREAR ENEMYS
 		var timer = this.time.addEvent({
-			delay: 2000,                // ms
+			delay: 1500,                // ms
 			callback: function(){
 				var conseguirRandomStar=Math.random();
 				var conseguirRandomLeffRight=Math.random();
@@ -155,6 +154,7 @@ class BaseScene extends Phaser.Scene {
 		this.GGJ2022_gameover01 = this.sound.add('GGJ2022_gameover01');
 		this.GGJ2022_ost01 = this.sound.add('GGJ2022_ost01');
 		this.GGJ2022_ost02 = this.sound.add('GGJ2022_ost02');
+		//this.GGJ2022_ost03 = this.sound.add('GGJ2022_ost03');
 						
 		this.supajukebox = [this.GGJ2022_ost01,this.GGJ2022_ost02,this.GGJ2022_gameover01];
 
@@ -162,6 +162,7 @@ class BaseScene extends Phaser.Scene {
 		this.GGJ2022_gameover01.loop = false;
 		this.GGJ2022_ost01.loop = true;
 		this.GGJ2022_ost02.loop = true;
+		//this.GGJ2022_ost03.loop = true;
 		
 		//______________________________________________________________________________________________________________________________________________________________
 		
@@ -278,7 +279,18 @@ class BaseScene extends Phaser.Scene {
 
 				// menuPanel
 
-		
+		this.howToPlay.x=260;
+
+		this.howToPlay.y=this.cameras.main.scrollY+this.cameras.main.height-100;
+
+		this.gameOver.visible = false;
+
+		this.gameOver.setInteractive().on('pointerdown', function (pointer, localX, localY, event) {
+
+			location.reload();
+
+		});
+	
 
 		this.checkSoundStatus();
 		this.initLevel();
@@ -840,6 +852,10 @@ class BaseScene extends Phaser.Scene {
 
 
 	update(){
+
+		this.gameOver.x=this.player.x;
+
+		this.gameOver.y=this.player.y-200;
 	
 		this.checkElevator();
 	

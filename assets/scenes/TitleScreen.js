@@ -46,6 +46,9 @@ class TitleScreen extends Phaser.Scene {
 
 	create() {
 
+		this.GGJ2022_ost03 = this.sound.add('GGJ2022_ost03');
+		this.GGJ2022_ost03.loop = true;
+		this.GGJ2022_ost03.play();
 
 		this.editorCreate();
 
@@ -202,7 +205,7 @@ class TitleScreen extends Phaser.Scene {
 
 	enterPressed() {
 	//	this.scene.start("IntroMovie");
-
+		this.GGJ2022_ost03.stop();
 		this.scene.start("NewLevel0");
 
 		//this.scene.start(this.game.playerData.level);

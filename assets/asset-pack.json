@@ -243,6 +243,11 @@
                 "key": "fxBtn"
             },
             {
+                "url": "assets/images/gameOver.png",
+                "type": "image",
+                "key": "gameOver"
+            },
+            {
                 "url": [
                     "assets/audio/fx/GGJ2022_destroy01.mp3"
                 ],
@@ -318,6 +323,13 @@
                 ],
                 "type": "audio",
                 "key": "GGJ2022_ost02"
+            },
+            {
+                "url": [
+                    "assets/audio/music/GGJ2022_ost03.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_ost03"
             },
             {
                 "url": [
@@ -398,6 +410,11 @@
                 "url": "assets/images/howToBtn.png",
                 "type": "image",
                 "key": "howToBtn"
+            },
+            {
+                "url": "assets/images/howToPlay.png",
+                "type": "image",
+                "key": "howToPlay"
             },
             {
                 "url": "assets/images/inkDot.png",

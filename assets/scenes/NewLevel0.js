@@ -49,21 +49,29 @@ class NewLevel0 extends BaseScene {
 		const brazoderecho = new BrazoDerecho(this, 198, 1370);
 		this.add.existing(brazoderecho);
 
+		// howToPlay
+		const howToPlay = this.add.image(270, 850, "howToPlay");
+
+		// gameOver
+		const gameOver = this.add.sprite(1014, 1220, "gameOver");
+
 		// lists
-		const doors = []
-		const switches = []
-		const enemies = []
-		const platforms = []
-		const coins = []
-		const catapultas = []
-		const revivingPods = []
-		const tutorials = []
+		const doors = [];
+		const switches = [];
+		const enemies = [];
+		const platforms = [];
+		const coins = [];
+		const catapultas = [];
+		const revivingPods = [];
+		const tutorials = [];
 
 		this.tilespriteBG = tilespriteBG;
 		this.layer = layer;
 		this.bulletOrigin = bulletOrigin;
 		this.player = player;
 		this.brazoderecho = brazoderecho;
+		this.howToPlay = howToPlay;
+		this.gameOver = gameOver;
 		this.mapa = mapa;
 		this.doors = doors;
 		this.switches = switches;
@@ -87,6 +95,10 @@ class NewLevel0 extends BaseScene {
 	player;
 	/** @type {BrazoDerecho} */
 	brazoderecho;
+	/** @type {Phaser.GameObjects.Image} */
+	howToPlay;
+	/** @type {Phaser.GameObjects.Sprite} */
+	gameOver;
 	/** @type {Array<any>} */
 	doors;
 	/** @type {Array<any>} */
