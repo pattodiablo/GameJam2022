@@ -30,10 +30,11 @@ class BulletOrigin extends Phaser.GameObjects.Sprite {
 			if(!this.scene.player.isRedFireActive){
 
 				bullet.isRedBullet=false;
+				this.scene.GGJ2022_laser01.play();
 			}
 
 			this.scene.add.existing(bullet);
-			//this.scene.GGJ2022_laser01.play();
+			
 			this.scene.playerBullets.push(bullet);
 			this.scene.GGJ2022_laser02.play();
 
