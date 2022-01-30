@@ -97,8 +97,7 @@ class Player extends Phaser.GameObjects.Sprite {
 			this.flipX=false;
 			this.isWalking=true;
 
-			this.scene.brazoderecho.setDepth(this.depth + 1);
-			this.scene.brazoIzquierdo.setDepth(this.depth - 1);
+		
 			//this.scene.GGJ2022_walk01.play();
 			//this.scene.GGJ2022_walk02.play();
 
@@ -107,8 +106,7 @@ class Player extends Phaser.GameObjects.Sprite {
 			this.flipX=true;
 			this.body.velocity.x=-this.velocityPlayer;
 			this.isWalking=true;
-			this.scene.brazoderecho.setDepth(this.depth - 1);
-			this.scene.brazoIzquierdo.setDepth(this.depth + 2);
+	
 			//this.scene.GGJ2022_walk01.play();
 			//this.scene.GGJ2022_walk02.play();
 
