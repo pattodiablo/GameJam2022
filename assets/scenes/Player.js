@@ -31,7 +31,7 @@ class Player extends Phaser.GameObjects.Sprite {
 		this.bulletRackCapacity=10;
 		this.bulletRack=[];
 		this.isDeath = false;
-		this.setDepth(2);
+
 
 		this.cursors = this.scene.input.keyboard.addKeys(
 			{up:Phaser.Input.Keyboard.KeyCodes.W,
