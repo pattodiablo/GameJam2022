@@ -95,12 +95,16 @@ class Player extends Phaser.GameObjects.Sprite {
 			this.body.velocity.x=this.velocityPlayer;
 			this.flipX=false;
 			this.isWalking=true;
+			//this.scene.GGJ2022_walk01.play();
+			//this.scene.GGJ2022_walk02.play();
 
 		}else if (this.cursors.left.isDown) {
 
 			this.flipX=true;
 			this.body.velocity.x=-this.velocityPlayer;
 			this.isWalking=true;
+			//this.scene.GGJ2022_walk01.play();
+			//this.scene.GGJ2022_walk02.play();
 
 		}else{
 			this.body.velocity.x=0;

@@ -26,10 +26,7 @@ class SupaShotBtn extends Phaser.GameObjects.Sprite {
 
 	create(){
 		this.visible=false;
-		this.pwrup_activate_03 = this.scene.sound.add('pwrup_activate_03');
-	    this.pwrup_activate_03.loop = false;
-		this.scene.fxcontainer.push(this.pwrup_activate_03);
-
+		
 		this.isActive=true;
 		this.OriginalX = this.x;
 		this.OriginalY = this.y;
@@ -38,7 +35,7 @@ class SupaShotBtn extends Phaser.GameObjects.Sprite {
 		this.setInteractive().on('pointerdown', function(pointer, localX, localY, event){
 		
 			if(this.isActive){
-				this.pwrup_activate_03.play();
+				
 				this.isActive=false;
 				this.scene.player.wannaRoll = true;
 			}
