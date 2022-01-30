@@ -111,6 +111,35 @@
             "components": [],
             "x": 279,
             "y": 1397
+<<<<<<< HEAD
+=======
+        },
+        {
+            "prefabId": "cdd007db-866d-4fbd-bd97-b69248587a1d",
+            "id": "73109845-f9e2-4425-8d99-7645f015d62d",
+            "unlock": [
+                "x",
+                "y",
+                "isType2"
+            ],
+            "label": "enemyStar_1",
+            "isType2": true,
+            "components": [],
+            "x": 768,
+            "y": 1197
+        },
+        {
+            "prefabId": "e3123caa-31be-4c56-8e95-4cf917a9dff7",
+            "id": "eb939024-6737-4e4f-b1e2-24d1ee944234",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "explotion",
+            "components": [],
+            "x": 461,
+            "y": 1437
+>>>>>>> main
         }
     ],
     "plainObjects": [

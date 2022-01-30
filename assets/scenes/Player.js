@@ -51,10 +51,39 @@ class Player extends Phaser.GameObjects.Sprite {
 	}
 
 	deathProcess(){
+	
 
-		this.isDeath=true;
 		this.isWalking=false;
 		this.body.enable=false;
+
+		var destroyTimeline = this.scene.tweens.createTimeline();
+		destroyTimeline.add({
+			targets: this,
+			alpha: 0.3,
+			duration: 150,
+			ease: 'Linear',
+			yoyo: true,
+			repeat: 4,
+			callbackScope: this,
+			onComplete: function () {
+				console.log("tween complete");
+				this.isDeath=true;
+			}
+		});
+		destroyTimeline.play();
+
+		var timer = this.scene.time.addEvent({
+			delay: 500,                // ms
+			callback: function(){
+
+				const explotion = new Explotion(this.scene, this.x, this.y);
+				this.scene.add.existing(explotion);
+			},
+			//args: [],
+			callbackScope: this,
+			reapeat: -1
+		});
+
 
 		
 
@@ -66,12 +95,16 @@ class Player extends Phaser.GameObjects.Sprite {
 			this.body.velocity.x=this.velocityPlayer;
 			this.flipX=false;
 			this.isWalking=true;
+			//this.scene.GGJ2022_walk01.play();
+			//this.scene.GGJ2022_walk02.play();
 
 		}else if (this.cursors.left.isDown) {
 
 			this.flipX=true;
 			this.body.velocity.x=-this.velocityPlayer;
 			this.isWalking=true;
+			//this.scene.GGJ2022_walk01.play();
+			//this.scene.GGJ2022_walk02.play();
 
 		}else{
 			this.body.velocity.x=0;
@@ -95,7 +128,7 @@ class Player extends Phaser.GameObjects.Sprite {
 
 					}
 		}else{
-			this.play("deathPlayer",true);
+			this.play("almostDeath",true);
 
 		}
 	
