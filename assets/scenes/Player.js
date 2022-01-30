@@ -52,11 +52,30 @@ class Player extends Phaser.GameObjects.Sprite {
 
 	deathProcess(){
 
-		this.isDeath=true;
+
 		this.isWalking=false;
 		this.body.enable=false;
 
-		
+		var destroyTimeline = this.scene.tweens.createTimeline();
+		destroyTimeline.add({
+			targets: this,
+			alpha: 0.3,
+			duration: 150,
+			ease: 'Linear',
+			yoyo: true,
+			repeat: 3,
+			callbackScope: this,
+			onComplete: function () {
+			for (let i = 0; i < 20; i++) {
+				
+				const explotion = new Explotion(this.scene, this.x, this.y);
+				this.scene.add.existing(explotion);
+				
+			}
+				this.isDeath=true;
+			}
+		});
+		destroyTimeline.play();
 
 	}
 

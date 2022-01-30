@@ -139,6 +139,18 @@
             "components": [],
             "x": 768,
             "y": 1197
+        },
+        {
+            "prefabId": "e3123caa-31be-4c56-8e95-4cf917a9dff7",
+            "id": "eb939024-6737-4e4f-b1e2-24d1ee944234",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "explotion",
+            "components": [],
+            "x": 461,
+            "y": 1437
         }
     ],
     "plainObjects": [
