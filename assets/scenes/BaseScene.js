@@ -1192,12 +1192,14 @@ class BaseScene extends Phaser.Scene {
 		}
 		
 
-	
+	if(this.player.flipX){
 		this.distanceToShot = 85;
 		this.bulletOrigin.x=this.distanceToShot*Math.cos(this.brazoderecho.mouseAngle+0.3)+this.brazoderecho.x;
 		this.bulletOrigin.y=this.distanceToShot*Math.sin(this.brazoderecho.mouseAngle+0.3)+this.brazoderecho.y;
 	
-		console.log(this.bulletOrigin.y);
+	}
+		
+		
 	}
 	
 }
