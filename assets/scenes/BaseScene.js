@@ -691,7 +691,7 @@ class BaseScene extends Phaser.Scene {
 		if(bullet.isActive){
 			enemy.enemyLife--;
 			bullet.isActive = false;
-			enemy.samposhooter_damage_01.play();
+			
 		}
 		
 		if(enemy.enemyLife<=0){
@@ -708,7 +708,7 @@ class BaseScene extends Phaser.Scene {
 	
 			enemy.enemyLife--;
 		
-			enemy.samposhooter_damage_01.play();
+			
 		
 		
 		if(enemy.enemyLife<=0){
