@@ -111,6 +111,30 @@
             "x": 198,
             "y": 1370,
             "nestedPrefabs": []
+        },
+        {
+            "type": "Image",
+            "id": "5b7ba76f-6fbf-4540-bb5f-c68e4e6ee566",
+            "label": "howToPlay",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "howToPlay"
+            },
+            "x": 270,
+            "y": 850
+        },
+        {
+            "type": "Sprite",
+            "id": "41e4236c-0d6d-4998-9acd-9353656f8a99",
+            "label": "gameOver",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "gameOver"
+            },
+            "x": 1014,
+            "y": 1220
         }
     ],
     "plainObjects": [
@@ -131,7 +155,7 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 2
+        "version": 3
     },
     "lists": [
         {
