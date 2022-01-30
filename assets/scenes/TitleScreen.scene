@@ -36,6 +36,18 @@
             "y": 402,
             "scaleX": 0,
             "scaleY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "09584a55-79f9-4922-9d50-7b0675031e84",
+            "label": "titleBg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "title"
+            },
+            "x": 312,
+            "y": 231
         }
     ],
     "plainObjects": [],
@@ -43,6 +55,6 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 2
+        "version": 3
     }
 }

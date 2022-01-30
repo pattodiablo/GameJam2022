@@ -22,11 +22,15 @@ class TitleScreen extends Phaser.Scene {
 
 		// playBtn
 		const playBtn = this.add.image(161, 402, "playBtn");
-		playBtn.scaleX = 0;
-		playBtn.scaleY = 0;
+		playBtn.scaleX = 0.10;
+		playBtn.scaleY = 0.10;
+
+		// titleBg
+		const titleBg = this.add.sprite(312, 231, "title");
 
 		this.red = red;
 		this.playBtn = playBtn;
+		this.titleBg = titleBg;
 
 		this.events.emit("scene-awake");
 	}
@@ -35,6 +39,8 @@ class TitleScreen extends Phaser.Scene {
 	red;
 	/** @type {Phaser.GameObjects.Image} */
 	playBtn;
+	/** @type {Phaser.GameObjects.Sprite} */
+	titleBg;
 
 	/* START-USER-CODE */
 
@@ -48,7 +54,10 @@ class TitleScreen extends Phaser.Scene {
 		this.red.displayHeight=this.cameras.main.height;
 
 		this.playBtn.x=  this.cameras.main.centerX;
-		this.playBtn.y= this.cameras.main.centerY;
+		this.playBtn.y= this.cameras.main.centerY+200;
+
+		this.titleBg.x=  this.cameras.main.centerX;
+		this.titleBg.y= this.cameras.main.centerY;
 
 		this.input.keyboard.on("keydown_ENTER", this.enterPressed, this);
 		this.input.on("pointerdown", this.enterPressed, this);
@@ -181,7 +190,7 @@ class TitleScreen extends Phaser.Scene {
 			lifespan: { min: 1000, max: 4000 },
 			start: true
 		});
-	
+
 
 		this.particles3.setDepth(1);
 		this.playBtn.setDepth(2);
