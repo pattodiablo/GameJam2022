@@ -31,7 +31,6 @@ class Player extends Phaser.GameObjects.Sprite {
 		this.bulletRackCapacity=10;
 		this.bulletRack=[];
 		this.isDeath = false;
-		this.setDepth(2);
 
 		this.cursors = this.scene.input.keyboard.addKeys(
 			{up:Phaser.Input.Keyboard.KeyCodes.W,
@@ -96,8 +95,6 @@ class Player extends Phaser.GameObjects.Sprite {
 			this.body.velocity.x=this.velocityPlayer;
 			this.flipX=false;
 			this.isWalking=true;
-
-		
 			//this.scene.GGJ2022_walk01.play();
 			//this.scene.GGJ2022_walk02.play();
 
@@ -106,7 +103,6 @@ class Player extends Phaser.GameObjects.Sprite {
 			this.flipX=true;
 			this.body.velocity.x=-this.velocityPlayer;
 			this.isWalking=true;
-	
 			//this.scene.GGJ2022_walk01.play();
 			//this.scene.GGJ2022_walk02.play();
 

@@ -60,13 +60,6 @@
                 "key": "brazoizquierdo"
             },
             {
-                "url": [
-                    "assets/scenes/prefabs/BrazoIzquierdo.js"
-                ],
-                "type": "scripts",
-                "key": "BrazoIzquierdo"
-            },
-            {
                 "url": "assets/images/bullet.png",
                 "type": "image",
                 "key": "bullet"

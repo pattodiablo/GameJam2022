@@ -26,12 +26,10 @@ class BrazoDerecho extends Phaser.GameObjects.Container {
 			this.x=this.scene.player.x;
 			this.y=this.scene.player.y-10;
 
-			this.brazoizquierdo=this.scene.add.sprite(this.x,this.y,"brazoizquierdo");
-			this.brazoizquierdo.setOrigin(0,0);
-			this.brazoizquierdo.scaleX=-1;
-			this.brazoizquierdo.visible=false;
-			this.visible.true;
-		
+			this.brazoIzquierdo=this.scene.add.sprite(this.x,this.y,"brazoizquierdo");
+			this.brazoIzquierdo.setOrigin(0,0);
+			this.brazoIzquierdo.scaleX=-1;
+			this.brazoIzquierdo.visible=false;
 
 
 
@@ -46,19 +44,17 @@ class BrazoDerecho extends Phaser.GameObjects.Container {
 
 			if(this.scene.player.flipX){
 				this.visible=false;
-				this.brazoizquierdo.rotation=this.mouseAngle+Math.PI;
-				this.brazoizquierdo.visible=true;
-				
+				this.brazoIzquierdo.rotation=this.mouseAngle+Math.PI;
+				this.brazoIzquierdo.visible=true;
 			}else{
 				this.visible=true;
-				this.brazoizquierdo.visible=false;
+				this.brazoIzquierdo.visible=false;
 				this.rotation=this.mouseAngle;
-			
 			}
 			this.x=this.scene.player.x;
 			this.y=this.scene.player.y-30;
-			this.brazoizquierdo.x=this.scene.player.x;
-			this.brazoizquierdo.y=this.scene.player.y-30;
+			this.brazoIzquierdo.x=this.scene.player.x;
+			this.brazoIzquierdo.y=this.scene.player.y-30;
 
 		}
 	/* END-USER-CODE */

@@ -906,14 +906,12 @@ class BaseScene extends Phaser.Scene {
 		this.distanceToShot = 85;
 		this.bulletOrigin.x=this.distanceToShot*Math.cos(this.brazoderecho.mouseAngle+0.3)+this.brazoderecho.x;
 		this.bulletOrigin.y=this.distanceToShot*Math.sin(this.brazoderecho.mouseAngle+0.3)+this.brazoderecho.y;
-
 	
 	}else{
 
 		this.distanceToShot = 85;
 		this.bulletOrigin.x=this.distanceToShot*Math.cos((this.brazoderecho.mouseAngle-0.3)*-1)+this.brazoderecho.x;
 		this.bulletOrigin.y=this.distanceToShot*Math.sin((this.brazoderecho.mouseAngle-0.3))+this.brazoderecho.y;
-		
 
 	}
 		
