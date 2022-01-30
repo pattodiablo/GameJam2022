@@ -49,8 +49,6 @@ class NewLevel0 extends BaseScene {
 		const bulletOrigin = new BulletOrigin(this, 279, 1397);
 		this.add.existing(bulletOrigin);
 
-<<<<<<< HEAD
-=======
 		// enemyStar_1
 		const enemyStar_1 = new EnemyStar(this, 768, 1197);
 		this.add.existing(enemyStar_1);
@@ -59,7 +57,6 @@ class NewLevel0 extends BaseScene {
 		const explotion = new Explotion(this, 461, 1437);
 		this.add.existing(explotion);
 
->>>>>>> main
 		// lists
 		const doors = [];
 		const switches = [];
