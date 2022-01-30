@@ -27,22 +27,38 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 		this.image = this.scene.add.sprite(this.x, this.y, 'inkDot');
 		this.image.setBlendMode(Phaser.BlendModes.ADD);
 		this.enemyShadow=this.scene.add.sprite(this.x, this.y, 'enemy1').setBlendMode(Phaser.BlendModes.OVERLAY);
-		this.sprites.push(this.enemyShadow)
+		this.sprites.push(this.enemyShadow);
+
+		var floating = this.scene.tweens.createTimeline();
+		floating.add({
+			targets: this,
+			y: this.y + 20,
+			duration: 500,
+			ease: 'Linear',
+			repeat: -1,
+			yoyo:true
+		});
+
+		floating.play();
 	}
 
 
 	update ()
     {
        	this.angle++;
-		   this.sprites.forEach(enemyShadow => {
-			   enemyShadow.angle--;
-			   enemyShadow.x=this.x;
-		   });
-
-		   this.x--;
-	
 		
-	
+		this.sprites.forEach(enemyShadow => {
+			enemyShadow.angle--;
+			enemyShadow.x=this.x;
+			enemyShadow.y=this.y;
+		});
+
+		
+		if(this.x<=this.scene.player.x) 
+			this.x++;
+		else
+			this.x--;
+		
     }
 	/* END-USER-CODE */
 }
