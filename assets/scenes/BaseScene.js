@@ -33,21 +33,10 @@ class BaseScene extends Phaser.Scene {
 
 	create(){
 		
-		
-		this.input.on('pointerdown', function (pointer) {
+	
 
-			this.mouseAngle = Phaser.Math.Angle.Between(0, 0, this.brazoderecho.x+64, this.brazoderecho.y+20)
-			this.mouseAngleDeg = this.mouseAngle * (180/Math.PI);
-			this.ModuleX = Math.cos(this.mouseAngleDeg)*86;
-			this.ModuleY = Math.sin(this.mouseAngleDeg)*86;
-			
-			console.log(this.mouseAngleDeg);
-		
 
-			const bullet = new PlayerBullet(this,this.brazoderecho.x+this.ModuleX, this.brazoderecho.y+this.ModuleY);
-			this.add.existing(bullet);
-
-		}, this);
+	
 
 		//console.log("level key " + this.scene.key);
 		activeLeveles.push(this.scene.key);
@@ -1202,6 +1191,13 @@ class BaseScene extends Phaser.Scene {
 			this.launchMusic = false;
 		}
 		
+
+	
+		this.distanceToShot = 85;
+		this.bulletOrigin.x=this.distanceToShot*Math.cos(this.brazoderecho.mouseAngle+0.3)+this.brazoderecho.x;
+		this.bulletOrigin.y=this.distanceToShot*Math.sin(this.brazoderecho.mouseAngle+0.3)+this.brazoderecho.y;
+	
+		console.log(this.bulletOrigin.y);
 	}
 	
 }

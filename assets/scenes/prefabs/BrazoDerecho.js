@@ -13,10 +13,6 @@ class BrazoDerecho extends Phaser.GameObjects.Container {
 		brazoderecho.setOrigin(0, 0);
 		this.add(brazoderecho);
 
-		// bulletOrigin
-		const bulletOrigin = new BulletOrigin(scene, 82, 27);
-		this.add(bulletOrigin);
-
 		/* START-USER-CTR-CODE */
 		this.createEvent = this.scene.events.once(Phaser.Scenes.Events.UPDATE, this.create, this);
 		this.scene.events.on("update", () => this.update())

@@ -49,6 +49,10 @@ class NewLevel0 extends BaseScene {
 		const bullet = new PlayerBullet(this, 324, 1383);
 		this.add.existing(bullet);
 
+		// bulletOrigin
+		const bulletOrigin = new BulletOrigin(this, 279, 1397);
+		this.add.existing(bulletOrigin);
+
 		// lists
 		const doors = []
 		const switches = []
@@ -63,6 +67,7 @@ class NewLevel0 extends BaseScene {
 		this.layer = layer;
 		this.player = player;
 		this.brazoderecho = brazoderecho;
+		this.bulletOrigin = bulletOrigin;
 		this.mapa = mapa;
 		this.doors = doors;
 		this.switches = switches;
@@ -84,6 +89,8 @@ class NewLevel0 extends BaseScene {
 	player;
 	/** @type {BrazoDerecho} */
 	brazoderecho;
+	/** @type {BulletOrigin} */
+	bulletOrigin;
 	/** @type {Array<any>} */
 	doors;
 	/** @type {Array<any>} */
