@@ -1,36 +1,48 @@
 {
     "anims": [
         {
-            "key": "hit1",
+            "key": "hit3",
             "type": "frame",
             "frames": [
                 {
                     "key": "playerAnimations",
-                    "frame": "hit10000",
+                    "frame": "hit30000",
                     "duration": 0,
                     "keyframe": false
                 },
                 {
                     "key": "playerAnimations",
-                    "frame": "hit10001",
+                    "frame": "hit30001",
                     "duration": 0,
                     "keyframe": false
                 },
                 {
                     "key": "playerAnimations",
-                    "frame": "hit10002",
+                    "frame": "hit30002",
                     "duration": 0,
                     "keyframe": false
                 },
                 {
                     "key": "playerAnimations",
-                    "frame": "hit10003",
+                    "frame": "hit30003",
                     "duration": 0,
                     "keyframe": false
                 },
                 {
                     "key": "playerAnimations",
-                    "frame": "hit10004",
+                    "frame": "hit30004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit30005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit30006",
                     "duration": 0,
                     "keyframe": false
                 }
