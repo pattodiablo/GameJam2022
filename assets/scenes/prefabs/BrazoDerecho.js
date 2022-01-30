@@ -48,10 +48,12 @@ class BrazoDerecho extends Phaser.GameObjects.Container {
 				this.visible=false;
 				this.brazoizquierdo.rotation=this.mouseAngle+Math.PI;
 				this.brazoizquierdo.visible=true;
+				
 			}else{
 				this.visible=true;
 				this.brazoizquierdo.visible=false;
 				this.rotation=this.mouseAngle;
+			
 			}
 			this.x=this.scene.player.x;
 			this.y=this.scene.player.y-30;

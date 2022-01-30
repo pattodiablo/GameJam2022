@@ -45,6 +45,10 @@ class NewLevel0 extends BaseScene {
 		const bulletOrigin = new BulletOrigin(this, 279, 1397);
 		this.add.existing(bulletOrigin);
 
+		// brazoIzquierdo
+		const brazoIzquierdo = new BrazoIzquierdo(this, 208, 1358);
+		this.add.existing(brazoIzquierdo);
+
 		// player
 		const player = new Player(this, 206, 1407);
 		this.add.existing(player);
@@ -66,6 +70,7 @@ class NewLevel0 extends BaseScene {
 		this.tilespriteBG = tilespriteBG;
 		this.layer = layer;
 		this.bulletOrigin = bulletOrigin;
+		this.brazoIzquierdo = brazoIzquierdo;
 		this.player = player;
 		this.brazoderecho = brazoderecho;
 		this.mapa = mapa;
@@ -87,6 +92,8 @@ class NewLevel0 extends BaseScene {
 	layer;
 	/** @type {BulletOrigin} */
 	bulletOrigin;
+	/** @type {BrazoIzquierdo} */
+	brazoIzquierdo;
 	/** @type {Player} */
 	player;
 	/** @type {BrazoDerecho} */

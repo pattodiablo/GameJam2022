@@ -24,7 +24,7 @@ class BrazoIzquierdo extends Phaser.GameObjects.Container {
 		create(){
 
 			this.x=this.scene.player.x;
-			this.y=this.scene.player.y-100;
+			this.y=this.scene.player.y-10;
 
 			this.brazoderecho=this.scene.add.sprite(this.x,this.y,"brazoderecho");
 			this.brazoderecho.setOrigin(0,0);
@@ -47,15 +47,19 @@ class BrazoIzquierdo extends Phaser.GameObjects.Container {
 				this.visible=false;
 				this.brazoderecho.rotation=this.mouseAngle+Math.PI;
 				this.brazoderecho.visible=true;
+				
+			
 			}else{
 				this.visible=true;
 				this.brazoderecho.visible=false;
 				this.rotation=this.mouseAngle;
+				
+			
 			}
 			this.x=this.scene.player.x;
-			this.y=this.scene.player.y-30;
+			this.y=this.scene.player.y-40;
 			this.brazoderecho.x=this.scene.player.x;
-			this.brazoderecho.y=this.scene.player.y-30;
+			this.brazoderecho.y=this.scene.player.y-40;
 
 		}
 	/* END-USER-CODE */

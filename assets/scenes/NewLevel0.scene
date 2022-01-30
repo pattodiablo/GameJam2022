@@ -98,6 +98,20 @@
             "y": 1397
         },
         {
+            "prefabId": "c46816ea-b122-4964-8f11-f0e0434ab349",
+            "id": "2daca5fa-3be8-4ec2-97ed-17fd3d228a78",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "brazoIzquierdo",
+            "scope": "CLASS",
+            "components": [],
+            "x": 208,
+            "y": 1358,
+            "nestedPrefabs": []
+        },
+        {
             "prefabId": "b3cab0a0-a053-40a7-b9ef-95c9e2185fb1",
             "id": "ca802f58-eb79-4fc2-b79a-77cb1658f4c2",
             "unlock": [
