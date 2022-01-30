@@ -82,7 +82,9 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 	}
 	
 	touchBullet(enemy,bullet){
-		if(enemy.enemyLife>0){
+		if(enemy.scene.player.isRedFireActive == enemy.isType1){
+
+			if(enemy.enemyLife>0){
 			
 			enemy.enemyLife--;
 			enemy.hit3 = new hit3(enemy.scene, bullet.x, bullet.y);
@@ -94,6 +96,8 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 			enemy.destroy();
 		}
 		bullet.destroy();
+		}
+		
 
 	}
 

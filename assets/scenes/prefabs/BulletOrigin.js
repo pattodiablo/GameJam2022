@@ -26,6 +26,12 @@ class BulletOrigin extends Phaser.GameObjects.Sprite {
 
 	
 			const bullet = new PlayerBullet(this.scene,this.x, this.y);
+
+			if(!this.scene.player.isRedFireActive){
+
+				bullet.isRedBullet=false;
+			}
+
 			this.scene.add.existing(bullet);
 			//this.scene.GGJ2022_laser01.play();
 			this.scene.playerBullets.push(bullet);

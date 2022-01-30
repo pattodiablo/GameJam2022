@@ -31,14 +31,20 @@ class Player extends Phaser.GameObjects.Sprite {
 		this.bulletRackCapacity=10;
 		this.bulletRack=[];
 		this.isDeath = false;
-
+		this.isRedFireActive = true;
+		this.isSpaceBarPrssed = false;
 
 		this.cursors = this.scene.input.keyboard.addKeys(
-			{up:Phaser.Input.Keyboard.KeyCodes.W,
+			{
+			up:Phaser.Input.Keyboard.KeyCodes.W,
 			down:Phaser.Input.Keyboard.KeyCodes.S,
 			left:Phaser.Input.Keyboard.KeyCodes.A,
-			right:Phaser.Input.Keyboard.KeyCodes.D});
+			right:Phaser.Input.Keyboard.KeyCodes.D,
+			space:Phaser.Input.Keyboard.KeyCodes.SPACE
+			
+			});
 
+		
 		this.createBullets();
 
 	}
@@ -91,6 +97,19 @@ class Player extends Phaser.GameObjects.Sprite {
 	}
 
 	updatePlayer(){
+
+		if(this.cursors.space.isDown && !this.isSpaceBarPrssed){
+			this.isSpaceBarPrssed=true;
+			if(this.isRedFireActive){
+				this.isRedFireActive=false;
+			}else{
+				this.isRedFireActive=true;
+			}
+			console.log(this.isRedFireActive);
+		}
+		if(this.cursors.space.isUp){
+			this.isSpaceBarPrssed=false;
+		}
 		if (this.cursors.right.isDown) {
 
 			this.body.velocity.x=this.velocityPlayer;
