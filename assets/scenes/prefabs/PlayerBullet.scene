@@ -27,5 +27,17 @@
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 2
-    }
+    },
+    "prefabProperties": [
+        {
+            "name": "isRedBullet",
+            "label": "isRedBullet",
+            "tooltip": "isRedBullet",
+            "defValue": true,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
 }
