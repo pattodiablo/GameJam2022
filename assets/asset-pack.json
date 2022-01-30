@@ -43,118 +43,6 @@
                 "key": "bluelight"
             },
             {
-                "url": [
-                    "assets/audio/fx/bossguard_alert01.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_alert01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/bossguard_charge01.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_charge01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/bossguard_charge02.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_charge02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/bossguard_charge03.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_charge03"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/bossguard_destroy01.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_destroy01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/bossguard_destroy02.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_destroy02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/bossguard_destroy03.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_destroy03"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/bossguard_destroy04.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_destroy04"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/bossguard_fall01.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_fall01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/bossguard_fall02.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_fall02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/bossguard_fall03.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_fall03"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/bossguard_fall04.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_fall04"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/bossguard_hurt01.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_hurt01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/bossguard_hurt02.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_hurt02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/bossguard_shot01.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_shot01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/bossguard_shot02.mp3"
-                ],
-                "type": "audio",
-                "key": "bossguard_shot02"
-            },
-            {
                 "url": "assets/images/brazoderecho.png",
                 "type": "image",
                 "key": "brazoderecho"
@@ -241,20 +129,6 @@
                 "key": "DroneShot"
             },
             {
-                "url": [
-                    "assets/audio/fx/eggbomb_deploy_01.mp3"
-                ],
-                "type": "audio",
-                "key": "eggbomb_deploy_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/eggbomb_explotion_01.mp3"
-                ],
-                "type": "audio",
-                "key": "eggbomb_explotion_01"
-            },
-            {
                 "url": "assets/sprites/wall.png",
                 "type": "image",
                 "key": "emptyWall"
@@ -304,209 +178,6 @@
             },
             {
                 "url": [
-                    "assets/audio/fx/envi_button_01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_button_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_elevator_01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_elevator_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_error_01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_error_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_grabcard01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_grabcard01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_grabcard02.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_grabcard02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_leavepowerupstation_01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_leavepowerupstation_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_missile_warning_01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_missile_warning_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_monsterspawn01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_monsterspawn01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/Envi_PickupCoin_05_01.mp3"
-                ],
-                "type": "audio",
-                "key": "Envi_PickupCoin_05_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/Envi_PickupCoin_05_02.mp3"
-                ],
-                "type": "audio",
-                "key": "Envi_PickupCoin_05_02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/Envi_PickupCoin_05_03.mp3"
-                ],
-                "type": "audio",
-                "key": "Envi_PickupCoin_05_03"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_powerupstation_01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_powerupstation_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_proxyspike_01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_proxyspike_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_saw_01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_saw_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_sidedoor_01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_sidedoor_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_sidedoor_close_01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_sidedoor_close_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_sideswitch_01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_sideswitch_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_sideswitch_tier01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_sideswitch_tier01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_sideswitch_tier02.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_sideswitch_tier02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_sideswitch_tier03.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_sideswitch_tier03"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_sideswitch_tier04.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_sideswitch_tier04"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_slidewall_01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_slidewall_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_slingcharge_02.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_slingcharge_02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_slingshot_02.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_slingshot_02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/Envi_stomper_01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_stomper_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_success_03.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_success_03"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_switch_02.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_switch_02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_tollerror_01.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_tollerror_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/envi_tollerror_02.mp3"
-                ],
-                "type": "audio",
-                "key": "envi_tollerror_02"
-            },
-            {
-                "url": [
                     "assets/scenes/components/EventComponent.js",
                     "assets/scenes/components/Physics.js",
                     "assets/scenes/components/AnimationKillOnComplete.js",
@@ -534,97 +205,6 @@
                 "key": "Explotion"
             },
             {
-                "url": [
-                    "assets/audio/fx/finalboss_armhit_01.mp3"
-                ],
-                "type": "audio",
-                "key": "finalboss_armhit_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/finalboss_crystalcrack_01.mp3"
-                ],
-                "type": "audio",
-                "key": "finalboss_crystalcrack_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/finalboss_destroy_01.mp3"
-                ],
-                "type": "audio",
-                "key": "finalboss_destroy_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/finalboss_eyelaser_01.mp3"
-                ],
-                "type": "audio",
-                "key": "finalboss_eyelaser_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/finalboss_handstomp_01.mp3"
-                ],
-                "type": "audio",
-                "key": "finalboss_handstomp_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/finalboss_hurt_01.mp3"
-                ],
-                "type": "audio",
-                "key": "finalboss_hurt_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/finalboss_idle_01.mp3"
-                ],
-                "type": "audio",
-                "key": "finalboss_idle_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/finalboss_laugh_01.mp3"
-                ],
-                "type": "audio",
-                "key": "finalboss_laugh_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/finalboss_minedestroy_01.mp3"
-                ],
-                "type": "audio",
-                "key": "finalboss_minedestroy_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/finalboss_moltenrain_01.mp3"
-                ],
-                "type": "audio",
-                "key": "finalboss_moltenrain_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/finalboss_moltenrain_02.mp3"
-                ],
-                "type": "audio",
-                "key": "finalboss_moltenrain_02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/finalboss_spawn_01.mp3"
-                ],
-                "type": "audio",
-                "key": "finalboss_spawn_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/finalboss_upanddown_02.mp3"
-                ],
-                "type": "audio",
-                "key": "finalboss_upanddown_02"
-            },
-            {
                 "atlasURL": "assets/atlas/flares.json",
                 "textureURL": "assets/atlas/flares.png",
                 "type": "atlas",
@@ -646,6 +226,111 @@
                 "url": "assets/images/fxBtn.png",
                 "type": "image",
                 "key": "fxBtn"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/GGJ2022_destroy01.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_destroy01"
+            },
+            {
+                "url": [
+                    "assets/audio/music/GGJ2022_gameover01.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_gameover01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/GGJ2022_hurt01.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_hurt01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/GGJ2022_jump01.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_jump01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/GGJ2022_jump02.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_jump02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/GGJ2022_jump03.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_jump03"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/GGJ2022_laser01.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_laser01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/GGJ2022_laser02.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_laser02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/GGJ2022_monsterhurt01.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_monsterhurt01"
+            },
+            {
+                "url": [
+                    "assets/audio/music/GGJ2022_ost01.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_ost01"
+            },
+            {
+                "url": [
+                    "assets/audio/music/GGJ2022_ost02.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_ost02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/GGJ2022_switchweapon01.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_switchweapon01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/GGJ2022_switchweapon02.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_switchweapon02"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/GGJ2022_walk01.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_walk01"
+            },
+            {
+                "url": [
+                    "assets/audio/fx/GGJ2022_walk02.mp3"
+                ],
+                "type": "audio",
+                "key": "GGJ2022_walk02"
             },
             {
                 "url": "assets/images/gotoLevelWall.png",
@@ -857,27 +542,6 @@
                 "key": "noBtn"
             },
             {
-                "url": [
-                    "assets/audio/fx/piranha_bite_01.mp3"
-                ],
-                "type": "audio",
-                "key": "piranha_bite_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/piranha_bite_02.mp3"
-                ],
-                "type": "audio",
-                "key": "piranha_bite_02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/piranha_jump_01.mp3"
-                ],
-                "type": "audio",
-                "key": "piranha_jump_01"
-            },
-            {
                 "url": "assets/images/playBtn.png",
                 "type": "image",
                 "key": "playBtn"
@@ -944,27 +608,6 @@
                 "key": "ProxySpyke"
             },
             {
-                "url": [
-                    "assets/audio/fx/pwrup_activate_03.mp3"
-                ],
-                "type": "audio",
-                "key": "pwrup_activate_03"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/pwrup_arrowbite_charge_01.mp3"
-                ],
-                "type": "audio",
-                "key": "pwrup_arrowbite_charge_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/pwrup_arrowbite_shot_01.mp3"
-                ],
-                "type": "audio",
-                "key": "pwrup_arrowbite_shot_01"
-            },
-            {
                 "url": "assets/images/readyText.png",
                 "type": "image",
                 "key": "readyText"
@@ -1001,20 +644,6 @@
                 "key": "SampoBullet"
             },
             {
-                "url": [
-                    "assets/audio/fx/samposhooter_damage_01.mp3"
-                ],
-                "type": "audio",
-                "key": "samposhooter_damage_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/samposhooter_destroy_01.mp3"
-                ],
-                "type": "audio",
-                "key": "samposhooter_destroy_01"
-            },
-            {
                 "url": "assets/images/shadowGeneral.png",
                 "type": "image",
                 "key": "shadowGeneral"
@@ -1032,139 +661,6 @@
                 ],
                 "type": "scripts",
                 "key": "StarEarn"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_cannon_01.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_cannon_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_chargingpwup_01.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_chargingpwup_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_death_01.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_death_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_doublejump_04.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_doublejump_04"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_doublejump_05.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_doublejump_05"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_doublejump_06.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_doublejump_06"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_jetpack_01.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_jetpack_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_jetpack_02.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_jetpack_02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_landing_01.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_landing_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_pickupheart_01.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_pickupheart_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_powerup_01.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_powerup_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_shot_01.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_shot_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_spawn01.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_spawn01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_spinpwrup_01.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_spinpwrup_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_voicehurt_01.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_voicehurt_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_voicehurt_02.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_voicehurt_02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_voicejump_03.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_voicejump_03"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_voicejump_04.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_voicejump_04"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/supa_voicejump_05.mp3"
-                ],
-                "type": "audio",
-                "key": "supa_voicejump_05"
             },
             {
                 "url": [
@@ -1200,97 +696,6 @@
                 "key": "supaTitle"
             },
             {
-                "url": [
-                    "assets/audio/music/superbravo_gameplay_chip01.mp3"
-                ],
-                "type": "audio",
-                "key": "superbravo_gameplay_chip01"
-            },
-            {
-                "url": [
-                    "assets/audio/music/superbravo_gameplay_chip02.mp3"
-                ],
-                "type": "audio",
-                "key": "superbravo_gameplay_chip02"
-            },
-            {
-                "url": [
-                    "assets/audio/music/superbravo_gameplay_chip03.mp3"
-                ],
-                "type": "audio",
-                "key": "superbravo_gameplay_chip03"
-            },
-            {
-                "url": [
-                    "assets/audio/music/superbravo_gameplay_chip04.mp3"
-                ],
-                "type": "audio",
-                "key": "superbravo_gameplay_chip04"
-            },
-            {
-                "url": [
-                    "assets/audio/music/superbravo_gameplay_chip05.mp3"
-                ],
-                "type": "audio",
-                "key": "superbravo_gameplay_chip05"
-            },
-            {
-                "url": [
-                    "assets/audio/music/superbravo_gameplay_chip06.mp3"
-                ],
-                "type": "audio",
-                "key": "superbravo_gameplay_chip06"
-            },
-            {
-                "url": [
-                    "assets/audio/music/superbravo_gameplay_chip07.mp3"
-                ],
-                "type": "audio",
-                "key": "superbravo_gameplay_chip07"
-            },
-            {
-                "url": [
-                    "assets/audio/music/superbravo_gameplay_chip08.mp3"
-                ],
-                "type": "audio",
-                "key": "superbravo_gameplay_chip08"
-            },
-            {
-                "url": [
-                    "assets/audio/music/superbravo_gameplay_chip09.mp3"
-                ],
-                "type": "audio",
-                "key": "superbravo_gameplay_chip09"
-            },
-            {
-                "url": [
-                    "assets/audio/music/superbravo_gameplay_chip10.mp3"
-                ],
-                "type": "audio",
-                "key": "superbravo_gameplay_chip10"
-            },
-            {
-                "url": [
-                    "assets/audio/music/superbravo_gameplay_finalboss2.mp3"
-                ],
-                "type": "audio",
-                "key": "superbravo_gameplay_finalboss2"
-            },
-            {
-                "url": [
-                    "assets/audio/music/superbravo_gameplay_tutorial.mp3"
-                ],
-                "type": "audio",
-                "key": "superbravo_gameplay_tutorial"
-            },
-            {
-                "url": [
-                    "assets/audio/music/superbravo_ready_01.mp3"
-                ],
-                "type": "audio",
-                "key": "superbravo_ready_01"
-            },
-            {
                 "url": "assets/scenes/TitleScreen.js",
                 "type": "sceneFile",
                 "key": "TitleScreen"
@@ -1322,20 +727,6 @@
                 ],
                 "type": "scripts",
                 "key": "Warning"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/wdrone_lock_01.mp3"
-                ],
-                "type": "audio",
-                "key": "wdrone_lock_01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/wdrone_shot_01.mp3"
-                ],
-                "type": "audio",
-                "key": "wdrone_shot_01"
             },
             {
                 "url": "assets/images/yesBtn.png",

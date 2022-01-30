@@ -103,391 +103,73 @@ class BaseScene extends Phaser.Scene {
 		
 		
 		//MUSIC
-		this.superbravo_gameplay_chip01 = this.sound.add('superbravo_gameplay_chip01');
-		this.superbravo_gameplay_chip02 = this.sound.add('superbravo_gameplay_chip02');
-		this.superbravo_gameplay_chip03 = this.sound.add('superbravo_gameplay_chip03');
-		this.superbravo_gameplay_chip04 = this.sound.add('superbravo_gameplay_chip04');
-		this.superbravo_gameplay_chip05 = this.sound.add('superbravo_gameplay_chip05');
-		this.superbravo_gameplay_chip06 = this.sound.add('superbravo_gameplay_chip06');
-		this.superbravo_gameplay_chip07 = this.sound.add('superbravo_gameplay_chip07');
-		this.superbravo_gameplay_chip08 = this.sound.add('superbravo_gameplay_chip08');
-		this.superbravo_gameplay_chip09 = this.sound.add('superbravo_gameplay_chip09');
-		this.superbravo_gameplay_chip10 = this.sound.add('superbravo_gameplay_chip10');
-		this.superbravo_gameplay_tutorial = this.sound.add('superbravo_gameplay_tutorial');
-		this.superbravo_gameplay_finalboss2 = this.sound.add('superbravo_gameplay_finalboss2');
-		
-		this.supajukebox = [this.superbravo_gameplay_tutorial,this.superbravo_gameplay_chip01,this.superbravo_gameplay_chip04,this.superbravo_gameplay_chip08,this.superbravo_gameplay_chip09,this.superbravo_gameplay_chip02,this.superbravo_gameplay_chip03,this.superbravo_gameplay_chip10,this.superbravo_gameplay_chip06,this.superbravo_gameplay_finalboss2,this.superbravo_gameplay_chip05,this.superbravo_gameplay_chip07];
+		this.GGJ2022_gameover01 = this.sound.add('GGJ2022_gameover01');
+		this.GGJ2022_ost01 = this.sound.add('GGJ2022_ost01');
+		this.GGJ2022_ost02 = this.sound.add('GGJ2022_ost02');
+						
+		this.supajukebox = [this.GGJ2022_ost01,this.GGJ2022_ost02,this.GGJ2022_gameover01];
 
 
-		this.superbravo_gameplay_chip01.loop = true;
-		this.superbravo_gameplay_chip02.loop = true;
-		this.superbravo_gameplay_chip03.loop = true;
-		this.superbravo_gameplay_chip04.loop = true;
-		this.superbravo_gameplay_chip05.loop = true;
-		this.superbravo_gameplay_chip06.loop = true;
-		this.superbravo_gameplay_chip07.loop = true;
-		this.superbravo_gameplay_chip08.loop = true;
-		this.superbravo_gameplay_chip09.loop = true;
-		this.superbravo_gameplay_chip10.loop = true;
-		this.superbravo_gameplay_tutorial.loop = true;
-		this.superbravo_gameplay_finalboss2.loop = true;
+		this.GGJ2022_gameover01.loop = false;
+		this.GGJ2022_ost01.loop = true;
+		this.GGJ2022_ost02.loop = true;
 		
 		//______________________________________________________________________________________________________________________________________________________________
 		
 		//FX
 		this.fxcontainer=[];
 
-		this.superbravo_ready_01 = this.sound.add('superbravo_ready_01');
-		this.superbravo_ready_01.loop = false;
-		this.fxcontainer.push(this.superbravo_ready_01);
-
-
-		this.samposhooter_damage_01 = this.sound.add('samposhooter_damage_01');
-		this.samposhooter_damage_01.loop = false;
-		this.fxcontainer.push(this.samposhooter_damage_01);
-
-		
-
-		//FX SUPA
-		this.supa_voicejump_03 = this.sound.add('supa_voicejump_03');
-		this.supa_voicejump_03.loop = false;
-		this.fxcontainer.push(this.supa_voicejump_03);
-
-		this.supa_voicejump_04 = this.sound.add('supa_voicejump_04');
-		this.supa_voicejump_04.loop = false;
-		this.fxcontainer.push(this.supa_voicejump_04);
-
-		this.supa_voicejump_05 = this.sound.add('supa_voicejump_05');
-		this.supa_voicejump_05.loop = false;
-		this.fxcontainer.push(this.supa_voicejump_05);
-
-		this.supa_death_01 = this.sound.add('supa_death_01');
-		this.supa_death_01.loop = false;
-		this.fxcontainer.push(this.supa_death_01);
-
-		this.supa_spawn01 = this.sound.add('supa_spawn01');
-		this.supa_spawn01.loop = false;
-		this.fxcontainer.push(this.supa_spawn01);
-
-		this.supa_voicehurt_01 = this.sound.add('supa_voicehurt_01');
-		this.supa_voicehurt_01.loop = false;
-		this.fxcontainer.push(this.supa_voicehurt_01);
-
-		this.supa_voicehurt_02 = this.sound.add('supa_voicehurt_02');
-		this.supa_voicehurt_02.loop = false;
-		this.fxcontainer.push(this.supa_voicehurt_02);
-
-		this.supa_doublejump_04 = this.sound.add("supa_doublejump_04");
-		this.supa_doublejump_04.loop = false;
-		this.fxcontainer.push(this.supa_doublejump_04);
-
-		this.supa_doublejump_05 = this.sound.add("supa_doublejump_05");
-		this.supa_doublejump_05.loop = false;
-		this.fxcontainer.push(this.supa_doublejump_05);
-
-		this.supa_doublejump_06 = this.sound.add("supa_doublejump_06");
-		this.supa_doublejump_06.loop = false;
-		this.fxcontainer.push(this.supa_doublejump_06);
-
-		this.supa_pickupheart_01 = this.sound.add('supa_pickupheart_01');
-		this.supa_pickupheart_01.loop = false;
-		this.fxcontainer.push(this.supa_pickupheart_01);
-
-			//JETPACK
-		this.supa_jetpack_01 = this.sound.add("supa_jetpack_01");
-		this.supa_jetpack_01.loop = true;
-		this.fxcontainer.push(this.supa_jetpack_01);
-
-		this.supa_jetpack_02 = this.sound.add("supa_jetpack_02");
-		this.supa_jetpack_02.loop = true;
-		this.fxcontainer.push(this.supa_jetpack_02);
-
-		//FX VARIOS
-		this.envi_powerupstation_01 = this.sound.add('envi_powerupstation_01');
-		this.envi_powerupstation_01.loop = false;
-		this.fxcontainer.push(this.envi_powerupstation_01);
-
-		this.envi_slingshot_02 = this.sound.add('envi_slingshot_02');
-		this.envi_slingshot_02.loop = false;
-		this.fxcontainer.push(this.envi_slingshot_02);
-
-		this.supa_spinpwrup_01 = this.sound.add('supa_spinpwrup_01');
-		this.supa_spinpwrup_01.loop = false;
-		this.fxcontainer.push(this.supa_spinpwrup_01);
-
-		this.supa_shot_01 = this.sound.add('supa_shot_01');
-		this.supa_shot_01.loop = false;
-		this.fxcontainer.push(this.supa_shot_01);
-
-		this.envi_stomper_01 = this.sound.add('envi_stomper_01');
-		this.envi_stomper_01.loop = false;
-		this.fxcontainer.push(this.envi_stomper_01);
-
-		this.envi_saw_01 = this.sound.add('envi_saw_01');
-		this.envi_saw_01.loop = false;
-		this.fxcontainer.push(this.envi_saw_01);
-
-		this.envi_slidewall_01 = this.sound.add('envi_slidewall_01');
-		this.envi_slidewall_01.loop = false;
-		this.fxcontainer.push(this.envi_slidewall_01);
-
-		this.pwrup_arrowbite_charge_01 = this.sound.add('pwrup_arrowbite_charge_01');
-		this.pwrup_arrowbite_charge_01.loop = false;
-		this.fxcontainer.push(this.pwrup_arrowbite_charge_01);
-
-		this.pwrup_arrowbite_shot_01 = this.sound.add("pwrup_arrowbite_shot_01");
-		this.pwrup_arrowbite_shot_01.loop = false;
-		this.fxcontainer.push(this.pwrup_arrowbite_shot_01);
-
-		this.supa_cannon_01 = this.sound.add("supa_cannon_01");
-		this.supa_cannon_01.loop = false;
-		this.fxcontainer.push(this.supa_cannon_01);
-
-		this.wdrone_shot_01 = this.sound.add("wdrone_shot_01");
-		this.wdrone_shot_01.loop = false;
-		this.fxcontainer.push(this.wdrone_shot_01);
-
-		this.wdrone_lock_01 = this.sound.add("wdrone_lock_01");
-		this.wdrone_lock_01.loop = false;
-		this.fxcontainer.push(this.wdrone_lock_01);
-
-		//FX COINS
-		
-		this.Envi_PickupCoin_05_01 = this.sound.add("Envi_PickupCoin_05_01");
-		this.Envi_PickupCoin_05_01.loop = false;
-		this.fxcontainer.push(this.Envi_PickupCoin_05_01);
-
-		this.Envi_PickupCoin_05_02 = this.sound.add("Envi_PickupCoin_05_02");
-		this.Envi_PickupCoin_05_02.loop = false;
-		this.fxcontainer.push(this.Envi_PickupCoin_05_02);
-
-		this.Envi_PickupCoin_05_03 = this.sound.add("Envi_PickupCoin_05_03");
-		this.Envi_PickupCoin_05_03.loop = false;
-		this.fxcontainer.push(this.Envi_PickupCoin_05_03);
-
-		//FX OTHERS
-		
-		this.envi_proxyspike_01 = this.sound.add('envi_proxyspike_01');
-		this.envi_proxyspike_01.loop = false;
-		this.fxcontainer.push(this.envi_proxyspike_01);
-
-		this.envi_grabcard01 = this.sound.add('envi_grabcard01');
-		this.envi_grabcard01.loop = false;
-		this.fxcontainer.push(this.envi_grabcard01);
-
-		this.samposhooter_destroy_01 = this.sound.add('samposhooter_destroy_01');
-		this.samposhooter_destroy_01.loop = false;
-		this.fxcontainer.push(this.samposhooter_destroy_01);
-
-		this.envi_slingcharge_02 = this.sound.add('envi_slingcharge_02');
-		this.envi_slingcharge_02.loop = false;
-		this.fxcontainer.push(this.envi_slingcharge_02);
-
-		this.envi_leavepowerupstation_01 = this.sound.add('envi_leavepowerupstation_01');
-		this.envi_leavepowerupstation_01.loop = false;
-		this.fxcontainer.push(this.envi_leavepowerupstation_01);
-
-		this.envi_error_01 = this.sound.add('envi_error_01');
-		this.envi_error_01.loop = false;
-		this.fxcontainer.push(this.envi_error_01);
-
-		this.envi_success_03 = this.sound.add('envi_success_03');
-		this.envi_success_03.loop = false;
-		this.fxcontainer.push(this.envi_success_03);
-
-		this.envi_monsterspawn01 = this.sound.add('envi_monsterspawn01');
-		this.envi_monsterspawn01.loop = false;
-		this.fxcontainer.push(this.envi_monsterspawn01);
-
-		// cannon fx
-		this.pwrup_activate_03 = this.sound.add('pwrup_activate_03');
-	    this.pwrup_activate_03.loop = false;
-		this.fxcontainer.push(this.pwrup_activate_03);
-
-		//fx plataform 2
-		this.envi_elevator_01 = this.sound.add('envi_elevator_01');
-	    this.envi_elevator_01.loop = false;
-		this.fxcontainer.push(this.envi_elevator_01);
-
-		//fx toll
-		this.envi_sideswitch_01 = this.sound.add('envi_sideswitch_01');
-	    this.envi_sideswitch_01.loop = false;
-		this.fxcontainer.push(this.envi_sideswitch_01);
-
-		this.envi_sideswitch_tier01 = this.sound.add('envi_sideswitch_tier01');
-	    this.envi_sideswitch_tier01.loop = false;
-		this.fxcontainer.push(this.envi_sideswitch_tier01);
-
-		this.envi_sideswitch_tier02 = this.sound.add('envi_sideswitch_tier02');
-	    this.envi_sideswitch_tier02.loop = false;
-		this.fxcontainer.push(this.envi_sideswitch_tier02);
-
-		this.envi_sideswitch_tier03 = this.sound.add('envi_sideswitch_tier03');
-	    this.envi_sideswitch_tier03.loop = false;
-		this.fxcontainer.push(this.envi_sideswitch_tier03);
-
-		this.envi_sideswitch_tier04 = this.sound.add('envi_sideswitch_01');
-	    this.envi_sideswitch_tier04.loop = false;
-		this.fxcontainer.push(this.envi_sideswitch_tier04);
-
-		this.envi_tollerror_01 = this.sound.add('envi_tollerror_01');
-	    this.envi_tollerror_01.loop = false;
-		this.fxcontainer.push(this.envi_tollerror_01);
-
-		this.envi_tollerror_02 = this.sound.add('envi_tollerror_02');
-	    this.envi_tollerror_02.loop = false;
-		this.fxcontainer.push(this.envi_tollerror_02);
-
-		// egg bom
-		this.eggbomb_deploy_01 = this.sound.add('eggbomb_deploy_01');
-	    this.eggbomb_deploy_01.loop = false;
-		this.fxcontainer.push(this.eggbomb_deploy_01);
-
-		this.eggbomb_explotion_01 = this.sound.add('eggbomb_explotion_01');
-	    this.eggbomb_explotion_01.loop = false;
-		this.fxcontainer.push(this.eggbomb_explotion_01);
-
-		// missile
-		this.envi_missile_warning_01 = this.sound.add('envi_missile_warning_01');
-	    this.envi_missile_warning_01.loop = false;
-		this.fxcontainer.push(this.envi_missile_warning_01);
-
-		// swich puerta
-		this.envi_switch_02 = this.sound.add('envi_switch_02');
-		this.fxcontainer.push(this.envi_switch_02);
-
-		//BOSSES FX
-
-		this.bossguard_alert01 = this.sound.add('bossguard_alert01');
-		this.bossguard_alert01.loop = false;
-		this.fxcontainer.push(this.bossguard_alert01);
-
-		this.bossguard_charge01 = this.sound.add('bossguard_charge01');
-		this.bossguard_charge01.loop = false;
-		this.fxcontainer.push(this.bossguard_charge01);
-
-		this.bossguard_charge02 = this.sound.add('bossguard_charge02');
-		this.bossguard_charge02.loop = false;
-		this.fxcontainer.push(this.bossguard_charge02);
-
-		this.bossguard_charge03 = this.sound.add('bossguard_charge03');
-		this.bossguard_charge03.loop = false;
-		this.fxcontainer.push(this.bossguard_charge03);
-
-		this.bossguard_destroy01 = this.sound.add('bossguard_destroy01');
-		this.bossguard_destroy01.loop = false;
-		this.fxcontainer.push(this.bossguard_destroy01);
-
-		this.bossguard_destroy02 = this.sound.add('bossguard_destroy02');
-		this.bossguard_destroy02.loop = false;
-		this.fxcontainer.push(this.bossguard_destroy02);
-
-		this.bossguard_destroy03 = this.sound.add('bossguard_destroy03');
-		this.bossguard_destroy03.loop = false;
-		this.fxcontainer.push(this.bossguard_destroy03);
-
-		this.bossguard_destroy04 = this.sound.add('bossguard_destroy04');
-		this.bossguard_destroy04.loop = false;
-		this.fxcontainer.push(this.bossguard_destroy04);
-
-		this.bossguard_fall01 = this.sound.add('bossguard_fall01');
-		this.bossguard_fall01.loop = false;
-		this.fxcontainer.push(this.bossguard_fall01);
-
-		this.bossguard_fall02 = this.sound.add('bossguard_fall02');
-		this.bossguard_fall02.loop = false;
-		this.fxcontainer.push(this.bossguard_fall02);
-
-		this.bossguard_fall03 = this.sound.add('bossguard_fall03');
-		this.bossguard_fall03.loop = false;
-		this.fxcontainer.push(this.bossguard_fall03);
-
-		this.bossguard_fall04 = this.sound.add('bossguard_fall04');
-		this.bossguard_fall04.loop = false;
-		this.fxcontainer.push(this.bossguard_fall04);
-
-		this.bossguard_hurt01 = this.sound.add('bossguard_hurt01');
-		this.bossguard_hurt01.loop = false;
-		this.fxcontainer.push(this.bossguard_hurt01);
-
-		this.bossguard_hurt02 = this.sound.add('bossguard_hurt02');
-		this.bossguard_hurt02.loop = false;
-		this.fxcontainer.push(this.bossguard_hurt02);
-
-		this.bossguard_shot01 = this.sound.add('bossguard_shot01');
-		this.bossguard_shot01.loop = false;
-		this.fxcontainer.push(this.bossguard_shot01);
-
-		this.bossguard_shot02 = this.sound.add('bossguard_shot02');
-		this.bossguard_shot02.loop = false;
-		this.fxcontainer.push(this.bossguard_shot02);
-
-		// FX PIRANHA
-		this.piranha_bite_01 = this.sound.add('piranha_bite_01');
-		this.piranha_bite_01.loop = false;
-		this.fxcontainer.push(this.piranha_bite_01);
-
-		this.piranha_bite_02 = this.sound.add('piranha_bite_02');
-		this.piranha_bite_02.loop = false;
-		this.fxcontainer.push(this.piranha_bite_02);
-
-		this.piranha_jump_01 = this.sound.add('piranha_jump_01');
-		this.piranha_jump_01.loop = false;
-		this.fxcontainer.push(this.piranha_jump_01);
-
-		//FX FINALBOSS
-
-		this.finalboss_armhit_01 = this.sound.add('finalboss_armhit_01');
-		this.finalboss_armhit_01.loop = false;
-		this.fxcontainer.push(this.finalboss_armhit_01);
-
-		this.finalboss_destroy_01 = this.sound.add('finalboss_destroy_01');
-		this.finalboss_destroy_01.loop = false;
-		this.fxcontainer.push(this.finalboss_destroy_01);
-
-		this.finalboss_eyelaser_01 = this.sound.add('finalboss_eyelaser_01');
-		this.finalboss_eyelaser_01.loop = false;
-		this.fxcontainer.push(this.finalboss_eyelaser_01);
-
-		this.finalboss_handstomp_01 = this.sound.add('finalboss_handstomp_01');
-		this.finalboss_handstomp_01.loop = false;
-		this.fxcontainer.push(this.finalboss_handstomp_01);
-
-		this.finalboss_hurt_01 = this.sound.add('finalboss_hurt_01');
-		this.finalboss_hurt_01.loop = false;
-		this.fxcontainer.push(this.finalboss_hurt_01);
-
-		this.finalboss_idle_01 = this.sound.add('finalboss_idle_01');
-		this.finalboss_idle_01.loop = false;
-		this.fxcontainer.push(this.finalboss_idle_01);
-
-		this.finalboss_laugh_01 = this.sound.add('finalboss_laugh_01');
-		this.finalboss_laugh_01.loop = false;
-		this.fxcontainer.push(this.finalboss_laugh_01);
-
-		this.finalboss_minedestroy_01 = this.sound.add('finalboss_minedestroy_01');
-		this.finalboss_minedestroy_01.loop = false;
-		this.fxcontainer.push(this.finalboss_minedestroy_01);
-
-		this.finalboss_spawn_01 = this.sound.add('finalboss_spawn_01');
-		this.finalboss_spawn_01.loop = false;
-		this.fxcontainer.push(this.finalboss_spawn_01);
-
-		this.finalboss_upanddown_02 = this.sound.add('finalboss_upanddown_02');
-		this.finalboss_upanddown_02.loop = false;
-		this.fxcontainer.push(this.finalboss_upanddown_02);
-
-		this.finalboss_moltenrain_01 = this.sound.add('finalboss_moltenrain_01');
-		this.finalboss_moltenrain_01.loop = false;
-		this.fxcontainer.push(this.finalboss_moltenrain_01);
-
-		this.finalboss_moltenrain_02 = this.sound.add('finalboss_moltenrain_02');
-		this.finalboss_moltenrain_02.loop = false;
-		this.fxcontainer.push(this.finalboss_moltenrain_02);
-
-		this.finalboss_crystalcrack_01 = this.sound.add('finalboss_crystalcrack_01');
-		this.finalboss_crystalcrack_01.loop = false;
-		this.fxcontainer.push(this.finalboss_crystalcrack_01);
+		this.GGJ2022_destroy01 = this.sound.add('GGJ2022_destroy01');
+		this.GGJ2022_destroy01.loop = false;
+		this.fxcontainer.push(this.GGJ2022_destroy01);
+
+		this.GGJ2022_hurt01 = this.sound.add('GGJ2022_hurt01');
+		this.GGJ2022_hurt01.loop = false;
+		this.fxcontainer.push(this.GGJ2022_hurt01);
+
+		this.GGJ2022_jump01 = this.sound.add('GGJ2022_jump01');
+		this.GGJ2022_jump01.loop = false;
+		this.fxcontainer.push(this.GGJ2022_jump01);
+
+		this.GGJ2022_jump01 = this.sound.add('GGJ2022_jump01');
+		this.GGJ2022_jump01.loop = false;
+		this.fxcontainer.push(this.GGJ2022_jump01);
+
+		this.GGJ2022_jump02 = this.sound.add('GGJ2022_jump02');
+		this.GGJ2022_jump02.loop = false;
+		this.fxcontainer.push(this.GGJ2022_jump02);
+
+		this.GGJ2022_jump03 = this.sound.add('GGJ2022_jump03');
+		this.GGJ2022_jump03.loop = false;
+		this.fxcontainer.push(this.GGJ2022_jump03);
+
+		this.GGJ2022_laser01 = this.sound.add('GGJ2022_laser01');
+		this.GGJ2022_laser01.loop = false;
+		this.fxcontainer.push(this.GGJ2022_laser01);
+
+		this.GGJ2022_laser02 = this.sound.add('GGJ2022_laser02');
+		this.GGJ2022_laser02.loop = false;
+		this.fxcontainer.push(this.GGJ2022_laser02);
+
+		this.GGJ2022_monsterhurt01 = this.sound.add('GGJ2022_monsterhurt01');
+		this.GGJ2022_monsterhurt01.loop = false;
+		this.fxcontainer.push(this.GGJ2022_monsterhurt01);
+
+		this.GGJ2022_switchweapon01 = this.sound.add('GGJ2022_switchweapon01');
+		this.GGJ2022_switchweapon01.loop = false;
+		this.fxcontainer.push(this.GGJ2022_switchweapon01);
+
+		this.GGJ2022_switchweapon02 = this.sound.add('GGJ2022_switchweapon02');
+		this.GGJ2022_switchweapon02.loop = false;
+		this.fxcontainer.push(this.GGJ2022_switchweapon02);
+
+		this.GGJ2022_walk01 = this.sound.add('GGJ2022_walk01');
+		this.GGJ2022_walk01.loop = false;
+		this.fxcontainer.push(this.GGJ2022_walk01);
+
+		this.GGJ2022_walk02 = this.sound.add('GGJ2022_walk02');
+		this.GGJ2022_walk02.loop = false;
+		this.fxcontainer.push(this.GGJ2022_walk02);
 		
 
 		//check for key
