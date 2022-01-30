@@ -103,32 +103,37 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 	}
 	update ()
     {
-if(this.active){
-	if(this.isType1){
+	if(this.active){
 		this.angle++;
-
-		this.sprites.forEach(enemyShadow => {
-			enemyShadow.angle--;
-			enemyShadow.x=this.x;
-			enemyShadow.y=this.y;
-		});
-
-
+		if(this.x<=this.scene.player.x) {
+			this.x++;
+			
+			if(this.y<=this.scene.player.y){
+				this.y++;
+			}else{
+				this.y--;
+			} 
+		}else{
+			this.x--;
+			
+			if(this.y<=this.scene.player.y){
+				this.y++;
+			}else{
+				this.y--;
+			} 
+		} 
 		
+			
+
+		if(this.isType1){
+			
+		}
+		if(this.isType2){
+			
+			
+		}
+
 	}
-
-	if(this.isType2){
-
-		this.angle++;
-		
-	}
-
-	if(this.x<=this.scene.player.x)
-	this.x++;
-	else
-	this.x--;
-
-}
 
 		
 	
