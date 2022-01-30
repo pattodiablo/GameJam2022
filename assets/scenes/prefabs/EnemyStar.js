@@ -30,6 +30,7 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 
 	create(){
 
+		this.enemyLife=3;
 
 		if(this.isType1){
 			this.setTexture('enemy1');
@@ -77,6 +78,23 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 	initColliders(){
 
 		this.scene.physics.add.overlap(this, this.scene.player, this.touchPlayer);
+		this.scene.physics.add.overlap(this, this.scene.playerBullets, this.touchBullet);
+	}
+	
+	touchBullet(enemy,bullet){
+		if(enemy.enemyLife>0){
+			
+			enemy.enemyLife--;
+			enemy.hit3 = new hit3(enemy.scene, bullet.x, bullet.y);
+			enemy.scene.add.existing(enemy.hit3);
+		}else{
+
+			enemy.hit3 = new Explotion(enemy.scene, enemy.x, enemy.y);
+			enemy.scene.add.existing(enemy.hit3);
+			enemy.destroy();
+		}
+		bullet.destroy();
+
 	}
 
 	touchPlayer(enemy,player){
@@ -85,30 +103,35 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 	}
 	update ()
     {
-		if(this.isType1){
-			this.angle++;
+if(this.active){
+	if(this.isType1){
+		this.angle++;
+
+		this.sprites.forEach(enemyShadow => {
+			enemyShadow.angle--;
+			enemyShadow.x=this.x;
+			enemyShadow.y=this.y;
+		});
+
+
+		
+	}
+
+	if(this.isType2){
+
+		this.angle++;
+		
+	}
+
+	if(this.x<=this.scene.player.x)
+	this.x++;
+	else
+	this.x--;
+
+}
+
+		
 	
-			this.sprites.forEach(enemyShadow => {
-				enemyShadow.angle--;
-				enemyShadow.x=this.x;
-				enemyShadow.y=this.y;
-			});
-	
-	
-			if(this.x<=this.scene.player.x) 
-				this.x++;
-			else
-				this.x--;
-		}
-	
-		if(this.isType2){
-	
-			this.angle++;
-			if(this.x<=this.scene.player.x) 
-				this.x++;
-			else
-				this.x--;
-		}
 
     }
 	/* END-USER-CODE */

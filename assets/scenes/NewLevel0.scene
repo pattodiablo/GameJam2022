@@ -61,18 +61,6 @@
             ]
         },
         {
-            "prefabId": "cdd007db-866d-4fbd-bd97-b69248587a1d",
-            "id": "cb14b75e-c3c7-4a52-8d87-157c7171172a",
-            "unlock": [
-                "x",
-                "y"
-            ],
-            "label": "enemyStar",
-            "components": [],
-            "x": 636,
-            "y": 1344
-        },
-        {
             "prefabId": "5eb59c53-23e8-4ff1-8d81-afc9f441bcf9",
             "id": "a22a4ebe-07d1-4d20-80ae-b21427e9a2ff",
             "unlock": [
@@ -143,7 +131,7 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 3
+        "version": 2
     },
     "lists": [
         {

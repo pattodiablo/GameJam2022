@@ -37,6 +37,17 @@ class PlayerBullet extends Phaser.GameObjects.Image {
 		this.rotation=this.mouseAngle+Math.PI+0.3;
 
 	}
+
+	var destroyTimer = this.scene.time.addEvent({
+		delay: 1500,                // ms
+		callback: function(){
+
+			this.destroy();
+		},
+		//args: [],
+		callbackScope: this,
+		loop: true
+	});
 		
 	}
 

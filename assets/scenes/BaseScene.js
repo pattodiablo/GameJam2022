@@ -89,11 +89,12 @@ class BaseScene extends Phaser.Scene {
 				var yEnemy=0;
 				
 				const enemyStar = new EnemyStar(this, xEnemy, yEnemy);
-				this.maxY = this.cameras.main.scrollY+this.cameras.main.height-300;
+					this.maxY = this.cameras.main.scrollY+this.cameras.main.height-300;
 					this.minY = this.cameras.main.scrollY+100;
 					this.Yrandom = Math.floor(Math.random() * (this.maxY  - this.minY)) + this.minY;
 					enemyStar.y=this.Yrandom;
 				if(conseguirRandomStar<0.5){
+				
 					enemyStar.isType1=true;
 					
 					if(conseguirRandomLeffRight<0.5){
