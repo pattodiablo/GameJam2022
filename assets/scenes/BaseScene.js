@@ -409,37 +409,16 @@ class BaseScene extends Phaser.Scene {
 
 	enableMusicOnLoad(){
 		console.log("estoy entrando a music on load");
-		//console.log("music on load");
-		//if(this.scene.key=="niveles");
+	
 		const randomFx = Math.abs(Math.round(Math.random()*this.supajukebox.length-1));
-			//Math.random() * (max - min) + min;
-			//this.randomFx = Math.round((Math.random()*(7-6)+6));
+			
 		
-		if(this.scene.key=="NewLevel0" || this.scene.key=="NewLevel0A" || this.scene.key=="NewLevel0B" || this.scene.key=="NewLevel0C"|| this.scene.key=="NewLevel0D"){
-			this.randomFx = 0;
+		if(this.scene.key=="NewLevel0") {
+			this.randomFx = Math.round((Math.random()*(1-0)+0));
+		};
+
 					
-		}else if(this.scene.key=="NewLevel1" || this.scene.key=="NewLevel1A" || this.scene.key=="NewLevel1B" || this.scene.key=="NewLevel1C" || this.scene.key=="NewLevel1D" || this.scene.key=="NewLevel1E" || this.scene.key=="NewLevel1F" || this.scene.key=="NewLevel1X" || this.scene.key=="NewLevel1Y" || this.scene.key=="NewLevel2" || this.scene.key=="NewLevel2A" || this.scene.key=="NewLevel2B" || this.scene.key=="NewLevel2C" || this.scene.key=="NewLevel2D" || this.scene.key=="NewLevel2E" || this.scene.key=="NewLevel2F" || this.scene.key=="NewLevel2G"){
-			this.randomFx = 1;
-			
-
-		}else if(this.scene.key=="NewLevel3" || this.scene.key=="NewLevel3A" || this.scene.key=="NewLevel3B" || this.scene.key=="NewLevel3C" || this.scene.key=="NewLevel3D" || this.scene.key=="NewLevel3E" || this.scene.key=="NewLevel3F" || this.scene.key=="NewLevel3X" || this.scene.key=="NewLevel3Y" || this.scene.key=="NewLevel4" || this.scene.key=="NewLevel4A" || this.scene.key=="NewLevel4B" || this.scene.key=="NewLevel4C" || this.scene.key=="NewLevel4D"){
-			this.randomFx = Math.round((Math.random()*(4-3)+3));
-			
-
-		}else if(this.scene.key=="NewLevel5" || this.scene.key=="NewLevel5A" || this.scene.key=="NewLevel5B" || this.scene.key=="NewLevel5C" || this.scene.key=="NewLevel5X" || this.scene.key=="NewLevel6" || this.scene.key=="NewLevel6A" || this.scene.key=="NewLevel6B" || this.scene.key=="NewLevel6C" || this.scene.key=="NewLevel6D"){
-			this.randomFx = Math.round((Math.random()*(6-5)+5));
-			
 		
-		}else if(this.scene.key=="NewLevel7" || this.scene.key=="NewLevel7A" || this.scene.key=="NewLevel7B" || this.scene.key=="NewLevel7C" || this.scene.key=="NewLevel7X" || this.scene.key=="NewLevel8" || this.scene.key=="NewLevel8A" || this.scene.key=="NewLevel8B" || this.scene.key=="NewLevel8C" || this.scene.key=="NewLevel8D" || this.scene.key=="NewLevel8S"){
-			this.randomFx = Math.round((Math.random()*(8-7)+7));
-
-	    }else if(this.scene.key=="NewLevel10X"){
-			this.randomFx = 9;
-		
-		}else{
-			this.randomFx = Math.round((Math.random()*(8-7)+7));
-				
-		}
 	console.log("random fx " + this.randomFx);
 		this.supajukebox[this.randomFx].play();
 		
@@ -492,7 +471,7 @@ class BaseScene extends Phaser.Scene {
 			callbackScope: this,
 			onComplete: function () {
 				
-				this.superbravo_ready_01.play();
+				
 			}
 
 		});
