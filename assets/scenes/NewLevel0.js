@@ -57,6 +57,10 @@ class NewLevel0 extends BaseScene {
 		const enemyStar_1 = new EnemyStar(this, 768, 1197);
 		this.add.existing(enemyStar_1);
 
+		// explotion
+		const explotion = new Explotion(this, 461, 1437);
+		this.add.existing(explotion);
+
 		// lists
 		const doors = []
 		const switches = []
