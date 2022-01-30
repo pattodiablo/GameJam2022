@@ -14,14 +14,9 @@ class BrazoDerecho extends Phaser.GameObjects.Container {
 		this.add(brazoderecho);
 
 		// bulletOrigin
-		const bulletOrigin = scene.add.sprite(82, 27, "black");
+		const bulletOrigin = scene.add.image(82, 27, "black");
 		bulletOrigin.scaleX = 0.5;
 		bulletOrigin.scaleY = 0.5;
-		bulletOrigin.alpha = 0;
-		bulletOrigin.alphaTopLeft = 0;
-		bulletOrigin.alphaTopRight = 0;
-		bulletOrigin.alphaBottomLeft = 0;
-		bulletOrigin.alphaBottomRight = 0;
 		this.add(bulletOrigin);
 
 		this.bulletOrigin = bulletOrigin;
@@ -32,7 +27,7 @@ class BrazoDerecho extends Phaser.GameObjects.Container {
 		/* END-USER-CTR-CODE */
 	}
 
-	/** @type {Phaser.GameObjects.Sprite} */
+	/** @type {Phaser.GameObjects.Image} */
 	bulletOrigin;
 
 	/* START-USER-CODE */

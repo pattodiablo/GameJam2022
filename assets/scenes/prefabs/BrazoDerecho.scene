@@ -29,7 +29,7 @@
                     "originY": 0
                 },
                 {
-                    "type": "Sprite",
+                    "type": "Image",
                     "id": "19234b77-ec85-4168-97e2-656b3b9b28eb",
                     "label": "bulletOrigin",
                     "scope": "CLASS",
@@ -40,12 +40,7 @@
                     "x": 82,
                     "y": 27,
                     "scaleX": 0.5,
-                    "scaleY": 0.5,
-                    "alpha": 0,
-                    "alphaTopLeft": 0,
-                    "alphaTopRight": 0,
-                    "alphaBottomLeft": 0,
-                    "alphaBottomRight": 0
+                    "scaleY": 0.5
                 }
             ]
         }
