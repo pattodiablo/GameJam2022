@@ -92,7 +92,7 @@ class BaseScene extends Phaser.Scene {
 
 			if(this.scene.key=="NewLevel0"){
 		
-				this.tilespriteBG.x=0
+				this.tilespriteBG.x=0;
 				this.tilespriteBG.y=this.layer.height-743;
 			}else{
 				this.tilespriteBG.y=this.player.y+100;
