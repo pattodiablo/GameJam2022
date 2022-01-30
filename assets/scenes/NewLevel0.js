@@ -34,7 +34,7 @@ class NewLevel0 extends BaseScene {
 		const layer = mapa.createLayer("collide", ["level0"], 0, 0);
 
 		// brazoIzquierdo
-		const brazoIzquierdo = new BrazoIzquierdo(this, 208, 1334);
+		const brazoIzquierdo = new BrazoIzquierdo(this, 218, 1381);
 		this.add.existing(brazoIzquierdo);
 		brazoIzquierdo.angle = 0;
 
