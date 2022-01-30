@@ -83,8 +83,7 @@ class BaseScene extends Phaser.Scene {
 			callback: function(){
 				var conseguirRandomStar=Math.random();
 				var conseguirRandomLeffRight=Math.random();
-				//console.log("valor random "+conseguirRandomStar);
-				//console.log("valor random left right "+conseguirRandomLeffRight);
+		
 				var xEnemy=0;
 				var yEnemy=0;
 				
@@ -257,47 +256,10 @@ class BaseScene extends Phaser.Scene {
 	
 
 
-		// coinDisplay
-		const coinDisplay = this.add.sprite(40, 32, "coinDisplay");
-		
-		// text
-		const coinText = this.add.text(22, 36, "", {});
-		coinText.text = "0000";
-		coinText.setStyle({"fontFamily":"Arial","fontSize":"16px","fontStyle":"bold","align":"center", });
-		
-		// coinDisplay (components)
-		new FixedToCamera(coinDisplay);
-		coinDisplay.emit("components-awake");
-			
-		// text (components)
-		new FixedToCamera(coinText);
-		coinText.emit("components-awake");
-
-		// exitJetPack
-		const exitJetPack = new ExitJetPackBtn(this,  this.cameras.main.width-60,  this.cameras.main.width-60);
-		this.add.existing(exitJetPack);
-		exitJetPack.emit("components-awake");
-		this.exitJetPack =  exitJetPack;
-		this.exitJetPack.visible=false;
-		this.exitJetPack.depth=12;
-		this.coinText = coinText;
 
 
-		// lifepanel
-		const lifepanel = new LifePanel(this, this.cameras.main.centerX, 30);
-		this.add.existing(lifepanel);
-		new FixedToCamera(lifepanel);
-		this.lifepanel = lifepanel;
-		lifepanel.emit("components-awake");
-		
 
-		// fuelBarFrame
-		const fuelBarFrame = new FuelBar(this, this.cameras.main.centerX-80, 66);
-		this.add.existing(fuelBarFrame);
-		// fuelBarFrame (components)
-		new FixedToCamera(fuelBarFrame);
-		this.fuelBarFrame = fuelBarFrame;
-		fuelBarFrame.emit("components-awake");
+	
 
 		// readyText (components)
 		const readyText = this.add.sprite(this.cameras.main.centerX, this.cameras.main.centerY, "readyText");
@@ -316,27 +278,12 @@ class BaseScene extends Phaser.Scene {
 
 				// menuPanel
 
-		// hasCardIcon
-		const hasCardIcon = this.add.image(41, 87, "propsNew", "newCard instance 10000");	
-		// hasCardIcon (components)
-		new FixedToCamera(hasCardIcon);
-		this.hasCardIcon = hasCardIcon;
-
-		if(this.game.playerData.gotCard){
-			this.hasCardIcon.visible=true;
-		}else{
-			this.hasCardIcon.visible=false;
-		}
-
 		
 
 		this.checkSoundStatus();
 		this.initLevel();
 
-		
-		this.coinText.text = this.game.playerData.coins;
-		
-		console.log("vces mori: "+ this.game.playerData.timesDead);
+
 	
 	
 	
@@ -826,7 +773,7 @@ class BaseScene extends Phaser.Scene {
 
 		this.player.willEnterdoor = false;	
 		this.player.body.enable = true;
-		this.lifepanel.calcularBarrasEncendidas();
+	//	this.lifepanel.calcularBarrasEncendidas();
 		//console.log(this.scene.key);
 		this.game.playerData.level = this.scene.key;
 
