@@ -154,6 +154,7 @@ class BaseScene extends Phaser.Scene {
 		this.GGJ2022_gameover01 = this.sound.add('GGJ2022_gameover01');
 		this.GGJ2022_ost01 = this.sound.add('GGJ2022_ost01');
 		this.GGJ2022_ost02 = this.sound.add('GGJ2022_ost02');
+		//this.GGJ2022_ost03 = this.sound.add('GGJ2022_ost03');
 						
 		this.supajukebox = [this.GGJ2022_ost01,this.GGJ2022_ost02,this.GGJ2022_gameover01];
 
@@ -161,6 +162,7 @@ class BaseScene extends Phaser.Scene {
 		this.GGJ2022_gameover01.loop = false;
 		this.GGJ2022_ost01.loop = true;
 		this.GGJ2022_ost02.loop = true;
+		//this.GGJ2022_ost03.loop = true;
 		
 		//______________________________________________________________________________________________________________________________________________________________
 		
