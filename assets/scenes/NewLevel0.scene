@@ -98,22 +98,6 @@
             "y": 1397
         },
         {
-            "prefabId": "c46816ea-b122-4964-8f11-f0e0434ab349",
-            "id": "370f8aea-af44-4f36-a331-c640541c2d77",
-            "unlock": [
-                "x",
-                "y",
-                "angle"
-            ],
-            "label": "brazoIzquierdo",
-            "scope": "CLASS",
-            "components": [],
-            "x": 218,
-            "y": 1381,
-            "angle": 0,
-            "nestedPrefabs": []
-        },
-        {
             "prefabId": "b3cab0a0-a053-40a7-b9ef-95c9e2185fb1",
             "id": "ca802f58-eb79-4fc2-b79a-77cb1658f4c2",
             "unlock": [

@@ -24,13 +24,14 @@ class BrazoIzquierdo extends Phaser.GameObjects.Container {
 		create(){
 
 			this.x=this.scene.player.x;
-			this.y=this.scene.player.y-10;
+			this.y=this.scene.player.y-100;
 
 			this.brazoderecho=this.scene.add.sprite(this.x,this.y,"brazoderecho");
 			this.brazoderecho.setOrigin(0,0);
 			this.brazoderecho.scaleX=-1;
 			this.brazoderecho.visible=false;
-
+			this.visible=true;
+		
 
 
 
