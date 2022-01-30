@@ -38,15 +38,16 @@
             "scaleY": 0
         },
         {
-            "type": "Image",
+            "type": "Sprite",
             "id": "09584a55-79f9-4922-9d50-7b0675031e84",
-            "label": "title",
+            "label": "titleBg",
+            "scope": "CLASS",
             "components": [],
             "texture": {
                 "key": "title"
             },
-            "x": 107,
-            "y": 174
+            "x": 312,
+            "y": 231
         }
     ],
     "plainObjects": [],
