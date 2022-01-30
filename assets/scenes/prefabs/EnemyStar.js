@@ -58,9 +58,7 @@ class EnemyStar extends Phaser.GameObjects.Sprite {
 			this.x++;
 		else
 			this.x--;
-	    
 		
-	
     }
 	/* END-USER-CODE */
 }
