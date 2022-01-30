@@ -75,6 +75,7 @@ class Player extends Phaser.GameObjects.Sprite {
 			onComplete: function () {
 				console.log("tween complete");
 				this.isDeath=true;
+				this.scene.GGJ2022_hurt01.play();
 			}
 		});
 		destroyTimeline.play();
@@ -100,6 +101,7 @@ class Player extends Phaser.GameObjects.Sprite {
 
 		if(this.cursors.space.isDown && !this.isSpaceBarPrssed){
 			this.isSpaceBarPrssed=true;
+			this.scene.GGJ2022_switchweapon01.play();
 			if(this.isRedFireActive){
 				this.isRedFireActive=false;
 			}else{
@@ -117,7 +119,7 @@ class Player extends Phaser.GameObjects.Sprite {
 			this.isWalking=true;
 
 		
-			//this.scene.GGJ2022_walk01.play();
+			this.scene.GGJ2022_walk01.play();
 			//this.scene.GGJ2022_walk02.play();
 
 		}else if (this.cursors.left.isDown) {
@@ -126,7 +128,7 @@ class Player extends Phaser.GameObjects.Sprite {
 			this.body.velocity.x=-this.velocityPlayer;
 			this.isWalking=true;
 	
-			//this.scene.GGJ2022_walk01.play();
+			this.scene.GGJ2022_walk01.play();
 			//this.scene.GGJ2022_walk02.play();
 
 		}else{
